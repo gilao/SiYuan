@@ -1,0 +1,11 @@
+{
+  "name": "腾讯云服务器",
+  "sort": 5,
+  "icon": "1f47e",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 15
+}

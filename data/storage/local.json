@@ -1,0 +1,40 @@
+{
+  "local-bazaar": {
+    "icon": "0",
+    "plugin": "2",
+    "template": "0",
+    "theme": "0",
+    "widget": "0"
+  },
+  "local-codelang": "sh",
+  "local-dailynoteid": "20230723223139-9nm07uk",
+  "local-docinfo": {
+    "id": "20230724231427-0aye9a8"
+  },
+  "local-plugintopunpin": [],
+  "local-searchkeys": {
+    "col": "",
+    "colTab": "",
+    "keys": [
+      "#嵌入式#",
+      " **",
+      "#oldboy#",
+      "#​31333741#",
+      "#31333741#",
+      "#g' -e \"s#",
+      "#三剑客#",
+      "",
+      "**",
+      "#C语言代码#"
+    ],
+    "layout": 0,
+    "layoutTab": 0,
+    "replaceKeys": [
+      "**",
+      ""
+    ],
+    "row": "",
+    "rowTab": ""
+  },
+  "local-zoom": 1
+}

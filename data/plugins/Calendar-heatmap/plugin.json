@@ -1,0 +1,18 @@
+{
+  "name": "Calendar-heatmap",
+  "author": "svtardust",
+  "url": "https://github.com/svtardust/Calendar-heatmap",
+  "version": "1.0.12",
+  "minAppVersion": "2.8.10",
+  "backends": ["windows", "linux","docker","darwin"],
+  "frontends": ["desktop","browser-desktop","desktop-window","browser-mobile"],
+  "displayName": {
+    "default": "日历热力图"
+  },
+  "description": {
+    "default": "日历热力图插件,可统计当年每日创建的多少内容块"
+  },
+  "readme": {
+    "default": "README.md"
+  }
+}

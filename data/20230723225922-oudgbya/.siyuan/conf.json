@@ -1,0 +1,11 @@
+{
+  "name": "公众号",
+  "sort": 13,
+  "icon": "1f35e",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 6
+}
