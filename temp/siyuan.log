@@ -1,0 +1,865 @@
+I 2023/07/23 14:34:40 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/23 14:34:40 runtime.go:74: kernel is booting:
+    * ver [2.9.5]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [21416]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/23 14:34:41 conf.go:110: initialized the specified language [zh_CN]
+I 2023/07/23 14:34:41 runtime.go:128: use network proxy [system]
+I 2023/07/23 14:34:41 serve.go:114: kernel [pid=21416] http server [127.0.0.1:56347] is booting
+I 2023/07/23 14:34:41 database.go:88: the database structure is changed, rebuilding database...
+I 2023/07/23 14:34:41 database.go:108: reinitialized database [E:\波哥\思源\temp\siyuan.db]
+I 2023/07/23 14:34:41 conf.go:710: database size [4.1 kB], tree/block count [0/0]
+I 2023/07/23 14:34:41 working.go:153: kernel booted
+I 2023/07/23 14:34:41 box.go:79: auto stat [trees=0, blocks=0, dataSize=37 kB, assetsSize=0 B]
+I 2023/07/23 14:34:41 disk.go:33: disk usage [total=255 GB, used=104 GB, free=150 GB]
+I 2023/07/23 14:34:42 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/07/23 14:34:42 index.go:206: resolved refs [26] in [64ms]
+I 2023/07/23 14:34:42 pandoc.go:155: initialized built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/23 14:34:42 conf.go:918: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/23 14:34:43 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+W 2023/07/23 14:34:49 blocktree.go:496: save block tree [size=665 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.76s]
+I 2023/07/23 14:34:57 updater.go:168: downloading install package [https://release.b3log.org/siyuan/siyuan-2.9.6-win.exe]
+I 2023/07/23 14:42:05 updater.go:186: downloaded install package [https://release.b3log.org/siyuan/siyuan-2.9.6-win.exe] to [E:\波哥\思源\temp\install\siyuan-2.9.6-win.exe]
+I 2023/07/23 19:08:13 box.go:79: auto stat [trees=60, blocks=2430, dataSize=3.4 MB, assetsSize=2.0 MB]
+I 2023/07/23 19:08:13 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/23 19:18:28 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/23 19:18:28 conf.go:497: the new version install pkg is ready [E:\波哥\思源\temp\install\siyuan-2.9.6-win.exe], waiting for the user's next instruction
+I 2023/07/23 19:18:32 conf.go:476: exiting kernel [force=true, execInstallPkg=1]
+I 2023/07/23 19:18:32 database.go:1134: closed database
+I 2023/07/23 19:18:32 conf.go:858: cleared workspace temp
+I 2023/07/23 19:18:33 conf.go:522: exited kernel
+I 2023/07/23 19:18:33 sync.go:653: sync websocket closed
+I 2023/07/23 21:30:51 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/23 21:30:51 runtime.go:74: kernel is booting:
+    * ver [2.9.5]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [28724]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/23 21:30:51 runtime.go:128: use network proxy [system]
+I 2023/07/23 21:30:51 serve.go:114: kernel [pid=28724] http server [127.0.0.1:59009] is booting
+I 2023/07/23 21:30:51 blocktree.go:446: read block tree [665 kB] to [E:\波哥\思源\temp\blocktree], elapsed [0.01s]
+I 2023/07/23 21:30:51 conf.go:710: database size [4.6 MB], tree/block count [60/2430]
+I 2023/07/23 21:30:51 working.go:153: kernel booted
+I 2023/07/23 21:30:51 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/23 21:30:51 conf.go:918: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/23 21:30:51 box.go:79: auto stat [trees=60, blocks=2430, dataSize=3.4 MB, assetsSize=2.0 MB]
+I 2023/07/23 21:30:51 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/23 21:30:51 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/07/23 21:30:53 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+W 2023/07/23 21:31:00 blocktree.go:496: save block tree [size=665 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.76s]
+W 2023/07/23 21:31:44 blocktree.go:496: save block tree [size=256 B] to [E:\波哥\思源\temp\blocktree], elapsed [3.84s]
+I 2023/07/23 21:33:14 index.go:133: rebuilt database for notebook [20230723213314-7wwmtox] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/23 21:33:15 index.go:206: resolved refs [0] in [1ms]
+E 2023/07/23 21:33:40 span.go:103: sql query failed: near "r": syntax error
+E 2023/07/23 21:33:40 span.go:103: sql query failed: near "ru": syntax error
+E 2023/07/23 21:33:40 span.go:103: sql query failed: near "ru": syntax error
+E 2023/07/23 21:33:40 span.go:103: sql query failed: near "ru": syntax error
+E 2023/07/23 21:33:40 span.go:103: sql query failed: near "ru": syntax error
+E 2023/07/23 21:37:32 span.go:103: sql query failed: near "m": syntax error
+E 2023/07/23 21:37:33 span.go:103: sql query failed: near "ma": syntax error
+E 2023/07/23 21:37:40 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/23 21:37:40 span.go:103: sql query failed: near "ya": syntax error
+E 2023/07/23 21:37:41 span.go:103: sql query failed: near "yan": syntax error
+E 2023/07/23 21:37:42 span.go:103: sql query failed: near "m": syntax error
+E 2023/07/23 21:37:42 span.go:103: sql query failed: near "ma": syntax error
+E 2023/07/23 21:37:47 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/23 21:37:47 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/23 21:37:48 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/23 21:38:01 span.go:103: sql query failed: near "k": syntax error
+E 2023/07/23 21:38:01 span.go:103: sql query failed: near "ko": syntax error
+E 2023/07/23 21:38:01 span.go:103: sql query failed: near "kou": syntax error
+I 2023/07/23 21:40:34 index.go:133: rebuilt database for notebook [20230723214033-y8h4tud] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/23 21:40:34 index.go:206: resolved refs [0] in [2ms]
+E 2023/07/23 21:41:47 span.go:103: sql query failed: near "a": syntax error
+E 2023/07/23 21:41:47 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/23 21:41:47 span.go:103: sql query failed: near "ch": syntax error
+E 2023/07/23 21:41:47 span.go:103: sql query failed: near "che": syntax error
+E 2023/07/23 21:41:47 span.go:103: sql query failed: near "chen": syntax error
+E 2023/07/23 21:41:47 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/07/23 21:47:23 span.go:103: sql query failed: near "a": syntax error
+E 2023/07/23 21:47:23 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/23 21:47:23 span.go:103: sql query failed: near "ch": syntax error
+E 2023/07/23 21:47:23 span.go:103: sql query failed: near "che": syntax error
+E 2023/07/23 21:47:23 span.go:103: sql query failed: near "chen": syntax error
+E 2023/07/23 21:47:23 span.go:103: sql query failed: near "cheng": syntax error
+I 2023/07/23 21:49:08 index.go:133: rebuilt database for notebook [20230723214908-zfr1jw5] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/23 21:49:08 index.go:206: resolved refs [0] in [2ms]
+E 2023/07/23 21:51:10 span.go:103: sql query failed: near "s": syntax error
+E 2023/07/23 21:51:10 span.go:103: sql query failed: near "sh": syntax error
+E 2023/07/23 21:51:10 span.go:103: sql query failed: near "shu": syntax error
+E 2023/07/23 21:51:11 span.go:103: sql query failed: near "d": syntax error
+E 2023/07/23 21:51:11 span.go:103: sql query failed: near "da": syntax error
+E 2023/07/23 21:51:11 span.go:103: sql query failed: near "dan": syntax error
+E 2023/07/23 21:51:11 span.go:103: sql query failed: near "dang": syntax error
+E 2023/07/23 21:51:17 span.go:103: sql query failed: near "i技术文档": syntax error
+E 2023/07/23 21:51:19 span.go:103: sql query failed: near "y技术文档": syntax error
+E 2023/07/23 21:51:20 span.go:103: sql query failed: near "ya技术文档": syntax error
+E 2023/07/23 21:51:20 span.go:103: sql query failed: near "yan技术文档": syntax error
+I 2023/07/23 21:52:22 index.go:133: rebuilt database for notebook [20230723215222-r0fqhhm] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/23 21:52:22 index.go:206: resolved refs [0] in [3ms]
+E 2023/07/23 22:10:29 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/23 22:10:29 span.go:103: sql query failed: near "ta": syntax error
+E 2023/07/23 22:10:29 span.go:103: sql query failed: near "tai": syntax error
+E 2023/07/23 22:10:31 span.go:103: sql query failed: near "h": syntax error
+E 2023/07/23 22:10:31 span.go:103: sql query failed: near "hu": syntax error
+E 2023/07/23 22:10:31 span.go:103: sql query failed: near "hua": syntax error
+E 2023/07/23 22:11:01 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/23 22:11:02 span.go:103: sql query failed: near "m": syntax error
+E 2023/07/23 22:11:02 span.go:103: sql query failed: near "ma": syntax error
+E 2023/07/23 22:11:12 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/23 22:11:12 span.go:103: sql query failed: near "ta": syntax error
+E 2023/07/23 22:11:12 span.go:103: sql query failed: near "tai": syntax error
+E 2023/07/23 22:11:15 span.go:103: sql query failed: near "h": syntax error
+E 2023/07/23 22:11:15 span.go:103: sql query failed: near "ha": syntax error
+E 2023/07/23 22:11:15 span.go:103: sql query failed: near "hai": syntax error
+E 2023/07/23 22:11:17 span.go:103: sql query failed: near "h": syntax error
+E 2023/07/23 22:11:17 span.go:103: sql query failed: near "ha": syntax error
+E 2023/07/23 22:11:17 span.go:103: sql query failed: near "hai": syntax error
+E 2023/07/23 22:11:17 span.go:103: sql query failed: near "ha": syntax error
+E 2023/07/23 22:11:18 span.go:103: sql query failed: near "h": syntax error
+E 2023/07/23 22:11:18 span.go:103: sql query failed: near "hu": syntax error
+E 2023/07/23 22:11:18 span.go:103: sql query failed: near "hua": syntax error
+E 2023/07/23 22:11:20 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/23 22:11:20 span.go:103: sql query failed: near "ti": syntax error
+E 2023/07/23 22:11:25 span.go:103: sql query failed: near "f": syntax error
+E 2023/07/23 22:11:25 span.go:103: sql query failed: near "fa": syntax error
+I 2023/07/23 22:14:06 index.go:133: rebuilt database for notebook [20230723221406-h9posk4] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/23 22:14:06 index.go:206: resolved refs [0] in [4ms]
+I 2023/07/23 22:31:39 index.go:133: rebuilt database for notebook [20230723223139-9nm07uk] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/23 22:31:39 index.go:206: resolved refs [0] in [6ms]
+I 2023/07/23 22:36:43 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/23 22:36:43 conf.go:497: the new version install pkg is ready [E:\波哥\思源\temp\install\siyuan-2.9.6-win.exe], waiting for the user's next instruction
+I 2023/07/23 22:36:46 conf.go:476: exiting kernel [force=true, execInstallPkg=2]
+I 2023/07/23 22:36:47 updater.go:41: installing the new version [E:\波哥\思源\temp\install\siyuan-2.9.6-win.exe]
+I 2023/07/23 22:36:47 database.go:1134: closed database
+I 2023/07/23 22:36:47 conf.go:858: cleared workspace temp
+I 2023/07/23 22:36:50 conf.go:522: exited kernel
+I 2023/07/23 22:36:50 sync.go:653: sync websocket closed
+I 2023/07/23 22:37:16 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/23 22:37:16 runtime.go:74: kernel is booting:
+    * ver [2.9.6]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [31588]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/23 22:37:16 conf.go:232: upgraded from version [2.9.5] to [2.9.6]
+I 2023/07/23 22:37:16 runtime.go:128: use network proxy [system]
+I 2023/07/23 22:37:16 serve.go:114: kernel [pid=31588] http server [127.0.0.1:60253] is booting
+I 2023/07/23 22:37:16 blocktree.go:446: read block tree [54 kB] to [E:\波哥\思源\temp\blocktree], elapsed [0.01s]
+I 2023/07/23 22:37:16 conf.go:710: database size [5.2 MB], tree/block count [14/231]
+I 2023/07/23 22:37:16 working.go:153: kernel booted
+I 2023/07/23 22:37:16 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/23 22:37:16 conf.go:918: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/23 22:37:16 box.go:79: auto stat [trees=14, blocks=231, dataSize=76 MB, assetsSize=60 MB]
+I 2023/07/23 22:37:16 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/23 22:37:18 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/07/23 22:59:22 index.go:133: rebuilt database for notebook [20230723225922-oudgbya] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/23 22:59:22 index.go:206: resolved refs [0] in [8ms]
+E 2023/07/23 23:06:15 span.go:103: sql query failed: near "r": syntax error
+E 2023/07/23 23:06:15 span.go:103: sql query failed: near "r": syntax error
+E 2023/07/23 23:08:29 span.go:103: sql query failed: near "p": syntax error
+E 2023/07/23 23:08:30 span.go:103: sql query failed: near "pi": syntax error
+E 2023/07/23 23:08:30 span.go:103: sql query failed: near "pin": syntax error
+E 2023/07/23 23:08:30 span.go:103: sql query failed: near "ping": syntax error
+E 2023/07/23 23:08:30 span.go:103: sql query failed: near "ping": syntax error
+E 2023/07/23 23:08:30 span.go:103: sql query failed: near "ping": syntax error
+E 2023/07/23 23:08:31 span.go:103: sql query failed: near "ping": syntax error
+E 2023/07/23 23:08:31 span.go:103: sql query failed: near "ping": syntax error
+E 2023/07/23 23:08:31 span.go:103: sql query failed: near "pin": syntax error
+E 2023/07/23 23:08:32 span.go:103: sql query failed: near "pi": syntax error
+E 2023/07/23 23:08:32 span.go:103: sql query failed: near "p": syntax error
+E 2023/07/23 23:08:32 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/23 23:08:32 span.go:103: sql query failed: near "bi": syntax error
+E 2023/07/23 23:08:32 span.go:103: sql query failed: near "bin": syntax error
+E 2023/07/23 23:08:33 span.go:103: sql query failed: near "bing": syntax error
+E 2023/07/23 23:08:34 span.go:103: sql query failed: near "bing": syntax error
+E 2023/07/23 23:08:34 span.go:103: sql query failed: near "bing": syntax error
+E 2023/07/23 23:08:36 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/23 23:08:36 span.go:103: sql query failed: near "ji": syntax error
+E 2023/07/23 23:08:46 span.go:103: sql query failed: near "g": syntax error
+E 2023/07/23 23:08:46 span.go:103: sql query failed: near "go": syntax error
+E 2023/07/23 23:08:47 span.go:103: sql query failed: near "gou": syntax error
+E 2023/07/23 23:08:49 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/23 23:08:49 span.go:103: sql query failed: near "ji": syntax error
+E 2023/07/23 23:54:52 span.go:103: sql query failed: near "w": syntax error
+E 2023/07/23 23:54:52 span.go:103: sql query failed: near "wa": syntax error
+E 2023/07/23 23:54:52 span.go:103: sql query failed: near "wan": syntax error
+E 2023/07/23 23:54:52 span.go:103: sql query failed: near "wan": syntax error
+E 2023/07/23 23:54:52 span.go:103: sql query failed: near "wan": syntax error
+E 2023/07/23 23:54:53 span.go:103: sql query failed: near "wan": syntax error
+E 2023/07/23 23:54:53 span.go:103: sql query failed: near "wan": syntax error
+E 2023/07/23 23:54:53 span.go:103: sql query failed: near "wan": syntax error
+E 2023/07/23 23:54:59 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/23 23:54:59 span.go:103: sql query failed: near "ya": syntax error
+E 2023/07/23 23:54:59 span.go:103: sql query failed: near "yao": syntax error
+E 2023/07/23 23:55:00 span.go:103: sql query failed: near "x": syntax error
+E 2023/07/23 23:55:00 span.go:103: sql query failed: near "xu": syntax error
+E 2023/07/23 23:55:04 span.go:103: sql query failed: near "x": syntax error
+E 2023/07/23 23:55:05 span.go:103: sql query failed: near "xi": syntax error
+E 2023/07/23 23:56:01 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/23 23:56:01 span.go:103: sql query failed: near "ya": syntax error
+E 2023/07/23 23:56:01 span.go:103: sql query failed: near "yao": syntax error
+E 2023/07/23 23:56:02 span.go:103: sql query failed: near "x": syntax error
+E 2023/07/23 23:56:02 span.go:103: sql query failed: near "xi": syntax error
+E 2023/07/24 00:04:17 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/24 00:04:17 span.go:103: sql query failed: near "ch": syntax error
+E 2023/07/24 00:04:17 span.go:103: sql query failed: near "cha": syntax error
+E 2023/07/24 00:04:17 span.go:103: sql query failed: near "chan": syntax error
+E 2023/07/24 00:04:17 span.go:103: sql query failed: near "chang": syntax error
+E 2023/07/24 00:04:18 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 00:04:18 span.go:103: sql query failed: near "ji": syntax error
+E 2023/07/24 00:04:18 span.go:103: sql query failed: near "jie": syntax error
+E 2023/07/24 00:04:47 span.go:103: sql query failed: near "a": syntax error
+E 2023/07/24 00:04:49 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/24 00:04:49 span.go:103: sql query failed: near "ya": syntax error
+E 2023/07/24 00:04:49 span.go:103: sql query failed: near "yao": syntax error
+E 2023/07/24 00:04:51 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/24 00:04:51 span.go:103: sql query failed: near "ya": syntax error
+E 2023/07/24 00:04:51 span.go:103: sql query failed: near "yao": syntax error
+E 2023/07/24 00:04:52 span.go:103: sql query failed: near "ya": syntax error
+E 2023/07/24 00:04:52 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/24 00:04:53 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/24 00:04:53 span.go:103: sql query failed: near "ya": syntax error
+E 2023/07/24 00:04:53 span.go:103: sql query failed: near "yao": syntax error
+E 2023/07/24 00:04:58 span.go:103: sql query failed: near "w": syntax error
+E 2023/07/24 00:04:58 span.go:103: sql query failed: near "wu": syntax error
+E 2023/07/24 00:04:59 span.go:103: sql query failed: near "w": syntax error
+E 2023/07/24 00:05:00 span.go:103: sql query failed: near "we": syntax error
+E 2023/07/24 00:05:00 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:01 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:01 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:01 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:01 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:01 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:10 span.go:103: sql query failed: near "w": syntax error
+E 2023/07/24 00:05:10 span.go:103: sql query failed: near "we": syntax error
+E 2023/07/24 00:05:11 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:11 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:11 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:11 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:12 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:05:12 span.go:103: sql query failed: near "wei": syntax error
+E 2023/07/24 00:07:55 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 00:07:55 span.go:103: sql query failed: near "li": syntax error
+E 2023/07/24 00:09:38 span.go:103: sql query failed: near "s": syntax error
+E 2023/07/24 00:09:38 span.go:103: sql query failed: near "su": syntax error
+E 2023/07/24 00:09:38 span.go:103: sql query failed: near "sua": syntax error
+E 2023/07/24 00:09:39 span.go:103: sql query failed: near "suan": syntax error
+E 2023/07/24 00:09:39 span.go:103: sql query failed: near "suan": syntax error
+E 2023/07/24 00:09:39 span.go:103: sql query failed: near "suan": syntax error
+E 2023/07/24 00:09:40 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 00:09:40 span.go:103: sql query failed: near "lu": syntax error
+E 2023/07/24 00:09:41 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:09:41 span.go:103: sql query failed: near "a": syntax error
+E 2023/07/24 00:09:41 span.go:103: sql query failed: near "s": syntax error
+E 2023/07/24 00:09:41 span.go:103: sql query failed: near "sh": syntax error
+E 2023/07/24 00:09:41 span.go:103: sql query failed: near "shi": syntax error
+E 2023/07/24 00:09:42 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/24 00:09:42 span.go:103: sql query failed: near "ti": syntax error
+E 2023/07/24 00:09:47 span.go:103: sql query failed: near "s": syntax error
+E 2023/07/24 00:09:47 span.go:103: sql query failed: near "su": syntax error
+E 2023/07/24 00:09:47 span.go:103: sql query failed: near "sua": syntax error
+E 2023/07/24 00:09:48 span.go:103: sql query failed: near "suan": syntax error
+E 2023/07/24 00:09:48 span.go:103: sql query failed: near "suan": syntax error
+E 2023/07/24 00:09:48 span.go:103: sql query failed: near "suan": syntax error
+E 2023/07/24 00:09:51 span.go:103: sql query failed: near "go": syntax error
+E 2023/07/24 00:09:51 span.go:103: sql query failed: near "gou": syntax error
+E 2023/07/24 00:09:51 span.go:103: sql query failed: near "gou": syntax error
+E 2023/07/24 00:09:52 span.go:103: sql query failed: near "gou": syntax error
+E 2023/07/24 00:09:52 span.go:103: sql query failed: near "go": syntax error
+E 2023/07/24 00:09:52 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 00:09:53 span.go:103: sql query failed: near "lu": syntax error
+E 2023/07/24 00:09:53 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:09:54 span.go:103: sql query failed: near "s": syntax error
+E 2023/07/24 00:09:54 span.go:103: sql query failed: near "sh": syntax error
+E 2023/07/24 00:09:54 span.go:103: sql query failed: near "sho": syntax error
+E 2023/07/24 00:09:54 span.go:103: sql query failed: near "shou": syntax error
+E 2023/07/24 00:12:40 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 00:12:40 span.go:103: sql query failed: near "lu": syntax error
+E 2023/07/24 00:12:40 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:12:41 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:12:41 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:12:41 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:12:42 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:12:42 span.go:103: sql query failed: near "luo": syntax error
+I 2023/07/24 00:31:23 index.go:133: rebuilt database for notebook [20230724003122-2iu5oz8] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 00:31:23 index.go:206: resolved refs [0] in [12ms]
+E 2023/07/24 00:32:21 span.go:103: sql query failed: near "o": syntax error
+E 2023/07/24 00:32:24 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/24 00:32:24 span.go:103: sql query failed: near "to": syntax error
+E 2023/07/24 00:32:24 span.go:103: sql query failed: near "ton": syntax error
+E 2023/07/24 00:32:24 span.go:103: sql query failed: near "tong": syntax error
+E 2023/07/24 00:32:26 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 00:32:26 span.go:103: sql query failed: near "li": syntax error
+I 2023/07/24 00:33:03 index.go:133: rebuilt database for notebook [20230724003303-2ryafyu] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 00:33:04 index.go:206: resolved refs [0] in [14ms]
+W 2023/07/24 00:34:44 blocktree.go:500: save block tree [size=372 kB] to [E:\波哥\思源\temp\blocktree], elapsed [2.02s]
+I 2023/07/24 00:37:14 index.go:133: rebuilt database for notebook [20230724003714-sgzbig6] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 00:37:14 index.go:206: resolved refs [0] in [18ms]
+I 2023/07/24 00:37:16 box.go:79: auto stat [trees=65, blocks=1522, dataSize=78 MB, assetsSize=62 MB]
+I 2023/07/24 00:37:16 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/24 00:38:55 index.go:133: rebuilt database for notebook [20230724003855-a19d28t] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 00:38:55 index.go:206: resolved refs [0] in [19ms]
+E 2023/07/24 00:39:29 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/24 00:39:29 span.go:103: sql query failed: near "bi": syntax error
+E 2023/07/24 00:39:29 span.go:103: sql query failed: near "bia": syntax error
+E 2023/07/24 00:39:30 span.go:103: sql query failed: near "biao": syntax error
+I 2023/07/24 00:40:22 index.go:133: rebuilt database for notebook [20230724004022-mqbeihl] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 00:40:22 index.go:206: resolved refs [0] in [19ms]
+E 2023/07/24 00:41:17 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 00:41:17 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 00:41:17 span.go:103: sql query failed: near "jai": syntax error
+E 2023/07/24 00:41:17 span.go:103: sql query failed: near "jain": syntax error
+E 2023/07/24 00:41:18 span.go:103: sql query failed: near "z": syntax error
+E 2023/07/24 00:41:18 span.go:103: sql query failed: near "za": syntax error
+E 2023/07/24 00:41:19 span.go:103: sql query failed: near "za": syntax error
+E 2023/07/24 00:41:19 span.go:103: sql query failed: near "za": syntax error
+E 2023/07/24 00:41:23 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:23 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:23 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:23 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:23 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:24 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:24 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:24 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:24 span.go:103: sql query failed: near "gu": syntax error
+E 2023/07/24 00:41:25 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 00:41:25 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 00:41:25 span.go:103: sql query failed: near "jai": syntax error
+E 2023/07/24 00:41:25 span.go:103: sql query failed: near "jain": syntax error
+E 2023/07/24 00:41:26 span.go:103: sql query failed: near "jain": syntax error
+E 2023/07/24 00:41:26 span.go:103: sql query failed: near "jain": syntax error
+E 2023/07/24 00:41:26 span.go:103: sql query failed: near "jain": syntax error
+E 2023/07/24 00:41:27 span.go:103: sql query failed: near "jain": syntax error
+E 2023/07/24 00:41:27 span.go:103: sql query failed: near "jain": syntax error
+E 2023/07/24 00:41:27 span.go:103: sql query failed: near "jain": syntax error
+I 2023/07/24 00:50:48 index.go:133: rebuilt database for notebook [20230724005048-lhpjk51] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 00:50:48 index.go:206: resolved refs [0] in [19ms]
+E 2023/07/24 00:52:20 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 00:52:20 span.go:103: sql query failed: near "lu": syntax error
+E 2023/07/24 00:52:21 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:52:22 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/24 00:52:22 span.go:103: sql query failed: near "ba": syntax error
+E 2023/07/24 00:52:23 span.go:103: sql query failed: near "bao": syntax error
+E 2023/07/24 00:52:30 span.go:103: sql query failed: near "n": syntax error
+E 2023/07/24 00:52:31 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 00:52:31 span.go:103: sql query failed: near "lu": syntax error
+E 2023/07/24 00:52:31 span.go:103: sql query failed: near "luo": syntax error
+E 2023/07/24 00:52:33 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/24 00:52:33 span.go:103: sql query failed: near "ba": syntax error
+E 2023/07/24 00:52:33 span.go:103: sql query failed: near "bao": syntax error
+I 2023/07/24 00:53:06 index.go:133: rebuilt database for notebook [20230724005306-r67j7m1] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 00:53:06 index.go:206: resolved refs [0] in [20ms]
+I 2023/07/24 00:53:47 database.go:108: reinitialized database [E:\波哥\思源\temp\siyuan.db]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230724003855-a19d28t] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230724005048-lhpjk51] in [0.00s], tree [count=2, size=18 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230724004022-mqbeihl] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230724003714-sgzbig6] in [0.00s], tree [count=1, size=4.9 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230723223139-9nm07uk] in [0.00s], tree [count=5, size=2.8 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230724003122-2iu5oz8] in [0.00s], tree [count=1, size=1.5 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230724003303-2ryafyu] in [0.01s], tree [count=27, size=181 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230723213314-7wwmtox] in [0.00s], tree [count=3, size=31 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230723214033-y8h4tud] in [0.00s], tree [count=4, size=27 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230723214908-zfr1jw5] in [0.00s], tree [count=1, size=8.5 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230723215222-r0fqhhm] in [0.00s], tree [count=1, size=21 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230723221406-h9posk4] in [0.00s], tree [count=17, size=115 kB]
+I 2023/07/24 00:53:47 index.go:133: rebuilt database for notebook [20230723225922-oudgbya] in [0.00s], tree [count=6, size=116 kB]
+W 2023/07/24 00:53:51 blocktree.go:500: save block tree [size=461 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.77s]
+I 2023/07/24 00:53:51 index.go:206: resolved refs [0] in [20ms]
+I 2023/07/24 00:54:58 database.go:108: reinitialized database [E:\波哥\思源\temp\siyuan.db]
+I 2023/07/24 00:54:58 index.go:133: rebuilt database for notebook [20230724003855-a19d28t] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:54:58 index.go:133: rebuilt database for notebook [20230724005048-lhpjk51] in [0.00s], tree [count=2, size=18 kB]
+I 2023/07/24 00:54:58 index.go:133: rebuilt database for notebook [20230724004022-mqbeihl] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:54:58 index.go:133: rebuilt database for notebook [20230724003714-sgzbig6] in [0.00s], tree [count=1, size=4.9 kB]
+I 2023/07/24 00:54:58 index.go:133: rebuilt database for notebook [20230723223139-9nm07uk] in [0.00s], tree [count=5, size=2.8 kB]
+I 2023/07/24 00:54:58 index.go:133: rebuilt database for notebook [20230724003122-2iu5oz8] in [0.00s], tree [count=1, size=1.5 kB]
+I 2023/07/24 00:54:58 index.go:133: rebuilt database for notebook [20230724003303-2ryafyu] in [0.01s], tree [count=27, size=181 kB]
+I 2023/07/24 00:54:59 index.go:133: rebuilt database for notebook [20230723213314-7wwmtox] in [0.00s], tree [count=3, size=31 kB]
+I 2023/07/24 00:54:59 index.go:133: rebuilt database for notebook [20230723214033-y8h4tud] in [0.00s], tree [count=4, size=27 kB]
+I 2023/07/24 00:54:59 index.go:133: rebuilt database for notebook [20230723214908-zfr1jw5] in [0.00s], tree [count=1, size=8.5 kB]
+I 2023/07/24 00:54:59 index.go:133: rebuilt database for notebook [20230723215222-r0fqhhm] in [0.00s], tree [count=1, size=21 kB]
+I 2023/07/24 00:54:59 index.go:133: rebuilt database for notebook [20230723221406-h9posk4] in [0.00s], tree [count=17, size=115 kB]
+I 2023/07/24 00:54:59 index.go:133: rebuilt database for notebook [20230723225922-oudgbya] in [0.00s], tree [count=6, size=116 kB]
+W 2023/07/24 00:55:02 blocktree.go:500: save block tree [size=461 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.62s]
+I 2023/07/24 00:55:02 index.go:206: resolved refs [0] in [19ms]
+I 2023/07/24 00:56:01 database.go:108: reinitialized database [E:\波哥\思源\temp\siyuan.db]
+I 2023/07/24 00:56:01 index.go:133: rebuilt database for notebook [20230723214033-y8h4tud] in [0.00s], tree [count=4, size=27 kB]
+I 2023/07/24 00:56:01 index.go:133: rebuilt database for notebook [20230724003122-2iu5oz8] in [0.00s], tree [count=1, size=1.5 kB]
+I 2023/07/24 00:56:01 index.go:133: rebuilt database for notebook [20230723213314-7wwmtox] in [0.00s], tree [count=3, size=31 kB]
+I 2023/07/24 00:56:01 index.go:133: rebuilt database for notebook [20230723214908-zfr1jw5] in [0.00s], tree [count=1, size=8.5 kB]
+I 2023/07/24 00:56:01 index.go:133: rebuilt database for notebook [20230723215222-r0fqhhm] in [0.00s], tree [count=1, size=21 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230723225922-oudgbya] in [0.00s], tree [count=6, size=116 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230723221406-h9posk4] in [0.00s], tree [count=17, size=115 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230724003303-2ryafyu] in [0.01s], tree [count=27, size=181 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230723223139-9nm07uk] in [0.00s], tree [count=5, size=2.8 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230724003855-a19d28t] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230724004022-mqbeihl] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230724003714-sgzbig6] in [0.00s], tree [count=1, size=4.9 kB]
+I 2023/07/24 00:56:02 index.go:133: rebuilt database for notebook [20230724005048-lhpjk51] in [0.00s], tree [count=2, size=18 kB]
+W 2023/07/24 00:56:05 blocktree.go:500: save block tree [size=461 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.76s]
+I 2023/07/24 00:56:05 index.go:206: resolved refs [0] in [20ms]
+I 2023/07/24 00:58:43 database.go:108: reinitialized database [E:\波哥\思源\temp\siyuan.db]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230723214033-y8h4tud] in [0.00s], tree [count=4, size=27 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230724003122-2iu5oz8] in [0.00s], tree [count=1, size=1.5 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230723213314-7wwmtox] in [0.00s], tree [count=3, size=31 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230723214908-zfr1jw5] in [0.00s], tree [count=1, size=8.5 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230723215222-r0fqhhm] in [0.00s], tree [count=1, size=21 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230723225922-oudgbya] in [0.00s], tree [count=6, size=116 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230723221406-h9posk4] in [0.00s], tree [count=17, size=115 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230724003303-2ryafyu] in [0.01s], tree [count=27, size=181 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230723223139-9nm07uk] in [0.00s], tree [count=4, size=1.2 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230724003855-a19d28t] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230724004022-mqbeihl] in [0.00s], tree [count=1, size=18 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230724003714-sgzbig6] in [0.00s], tree [count=1, size=4.9 kB]
+I 2023/07/24 00:58:43 index.go:133: rebuilt database for notebook [20230724005048-lhpjk51] in [0.00s], tree [count=2, size=18 kB]
+W 2023/07/24 00:58:47 blocktree.go:500: save block tree [size=460 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.78s]
+I 2023/07/24 00:58:47 index.go:206: resolved refs [0] in [20ms]
+I 2023/07/24 01:01:27 index.go:133: rebuilt database for notebook [20230724010127-g52b2kx] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 01:01:27 index.go:206: resolved refs [0] in [20ms]
+W 2023/07/24 01:01:55 blocktree.go:500: save block tree [size=415 kB] to [E:\波哥\思源\temp\blocktree], elapsed [2.35s]
+I 2023/07/24 01:03:27 index.go:133: rebuilt database for notebook [20230724010327-43g5rlx] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 01:03:27 index.go:206: resolved refs [0] in [23ms]
+E 2023/07/24 01:05:22 span.go:103: sql query failed: near "z": syntax error
+E 2023/07/24 01:05:22 span.go:103: sql query failed: near "ze": syntax error
+E 2023/07/24 01:05:23 span.go:103: sql query failed: near "z": syntax error
+E 2023/07/24 01:05:24 span.go:103: sql query failed: near "g": syntax error
+E 2023/07/24 01:05:25 span.go:103: sql query failed: near "z": syntax error
+E 2023/07/24 01:05:25 span.go:103: sql query failed: near "ze": syntax error
+E 2023/07/24 01:05:26 span.go:103: sql query failed: near "a": syntax error
+E 2023/07/24 01:05:26 span.go:103: sql query failed: near "d": syntax error
+E 2023/07/24 01:05:26 span.go:103: sql query failed: near "da": syntax error
+E 2023/07/24 01:05:27 span.go:103: sql query failed: near "da": syntax error
+E 2023/07/24 01:05:27 span.go:103: sql query failed: near "da": syntax error
+E 2023/07/24 01:05:27 span.go:103: sql query failed: near "da": syntax error
+E 2023/07/24 01:11:24 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/24 01:11:24 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/24 01:11:25 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/24 01:11:26 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 01:11:26 span.go:103: sql query failed: near "ji": syntax error
+E 2023/07/24 01:11:26 span.go:103: sql query failed: near "jia": syntax error
+E 2023/07/24 01:11:26 span.go:103: sql query failed: near "jian": syntax error
+E 2023/07/24 01:11:27 span.go:103: sql query failed: near "jian": syntax error
+E 2023/07/24 01:11:27 span.go:103: sql query failed: near "jian": syntax error
+E 2023/07/24 01:11:40 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 01:11:40 span.go:103: sql query failed: near "ji": syntax error
+E 2023/07/24 01:11:41 span.go:103: sql query failed: near "jia": syntax error
+E 2023/07/24 01:11:41 span.go:103: sql query failed: near "jian": syntax error
+E 2023/07/24 01:11:41 span.go:103: sql query failed: near "jian": syntax error
+E 2023/07/24 01:11:41 span.go:103: sql query failed: near "jian": syntax error
+I 2023/07/24 01:14:08 index.go:133: rebuilt database for notebook [20230724011408-0f3y5i1] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 01:14:09 index.go:206: resolved refs [0] in [24ms]
+I 2023/07/24 01:15:55 index.go:133: rebuilt database for notebook [20230724011555-12aln0y] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 01:15:55 index.go:206: resolved refs [0] in [24ms]
+E 2023/07/24 01:16:29 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/24 01:16:29 span.go:103: sql query failed: near "ce": syntax error
+E 2023/07/24 01:16:29 span.go:103: sql query failed: near "ce": syntax error
+E 2023/07/24 01:16:30 span.go:103: sql query failed: near "ce": syntax error
+E 2023/07/24 01:16:31 span.go:103: sql query failed: near "r": syntax error
+E 2023/07/24 01:16:33 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 01:16:33 span.go:103: sql query failed: near "ji": syntax error
+E 2023/07/24 01:16:33 span.go:103: sql query failed: near "jia": syntax error
+E 2023/07/24 01:16:33 span.go:103: sql query failed: near "jian": syntax error
+E 2023/07/24 01:16:35 span.go:103: sql query failed: near "w": syntax error
+E 2023/07/24 01:16:35 span.go:103: sql query failed: near "wu": syntax error
+E 2023/07/24 01:20:56 span.go:103: sql query failed: near "m": syntax error
+E 2023/07/24 01:20:57 span.go:103: sql query failed: near "ma": syntax error
+I 2023/07/24 01:25:26 index.go:133: rebuilt database for notebook [20230724012526-f36nu2n] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 01:25:26 index.go:206: resolved refs [0] in [26ms]
+E 2023/07/24 01:26:29 span.go:103: sql query failed: near "x": syntax error
+E 2023/07/24 01:26:29 span.go:103: sql query failed: near "xi": syntax error
+E 2023/07/24 01:26:29 span.go:103: sql query failed: near "xi": syntax error
+E 2023/07/24 01:26:29 span.go:103: sql query failed: near "xi": syntax error
+E 2023/07/24 01:26:29 span.go:103: sql query failed: near "xi": syntax error
+E 2023/07/24 01:26:29 span.go:103: sql query failed: near "xi": syntax error
+E 2023/07/24 01:26:50 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/24 01:26:51 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/24 01:26:51 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/24 01:26:51 span.go:103: sql query failed: near "c": syntax error
+E 2023/07/24 01:27:00 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/24 01:27:00 span.go:103: sql query failed: near "ti": syntax error
+E 2023/07/24 01:27:01 span.go:103: sql query failed: near "j": syntax error
+E 2023/07/24 01:27:01 span.go:103: sql query failed: near "ju": syntax error
+E 2023/07/24 01:27:02 span.go:103: sql query failed: near "jue": syntax error
+W 2023/07/24 01:29:31 blocktree.go:500: save block tree [size=467 kB] to [E:\波哥\思源\temp\blocktree], elapsed [2.43s]
+W 2023/07/24 01:32:50 blocktree.go:500: save block tree [size=706 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.09s]
+W 2023/07/24 01:34:18 blocktree.go:500: save block tree [size=706 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.29s]
+W 2023/07/24 01:34:27 blocktree.go:500: save block tree [size=709 kB] to [E:\波哥\思源\temp\blocktree], elapsed [3.13s]
+E 2023/07/24 01:35:46 span.go:103: sql query failed: near "z": syntax error
+E 2023/07/24 01:35:46 span.go:103: sql query failed: near "zh": syntax error
+E 2023/07/24 01:35:46 span.go:103: sql query failed: near "zhu": syntax error
+E 2023/07/24 01:35:46 span.go:103: sql query failed: near "zhua": syntax error
+E 2023/07/24 01:35:46 span.go:103: sql query failed: near "zhuan": syntax error
+E 2023/07/24 01:35:46 span.go:103: sql query failed: near "zhuang": syntax error
+E 2023/07/24 01:44:44 span.go:103: sql query failed: near "ni": syntax error
+E 2023/07/24 01:44:44 span.go:103: sql query failed: near "ni": syntax error
+E 2023/07/24 01:44:44 span.go:103: sql query failed: near "ni": syntax error
+E 2023/07/24 01:44:44 span.go:103: sql query failed: near "ni": syntax error
+E 2023/07/24 01:44:48 span.go:103: sql query failed: near "a": syntax error
+E 2023/07/24 01:44:48 span.go:103: sql query failed: near "s": syntax error
+E 2023/07/24 01:44:48 span.go:103: sql query failed: near "sh": syntax error
+E 2023/07/24 01:44:49 span.go:103: sql query failed: near "shi": syntax error
+E 2023/07/24 01:44:49 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/24 01:44:49 span.go:103: sql query failed: near "ti": syntax error
+E 2023/07/24 02:00:41 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/24 02:00:42 span.go:103: sql query failed: near "t": syntax error
+E 2023/07/24 02:00:42 span.go:103: sql query failed: near "t": syntax error
+I 2023/07/24 02:07:22 index.go:133: rebuilt database for notebook [20230724020722-qopm3x4] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 02:07:23 index.go:206: resolved refs [0] in [25ms]
+W 2023/07/24 02:10:30 blocktree.go:500: save block tree [size=863 kB] to [E:\波哥\思源\temp\blocktree], elapsed [2.87s]
+W 2023/07/24 02:12:24 blocktree.go:500: save block tree [size=863 kB] to [E:\波哥\思源\temp\blocktree], elapsed [2.76s]
+W 2023/07/24 02:12:32 blocktree.go:500: save block tree [size=865 kB] to [E:\波哥\思源\temp\blocktree], elapsed [2.73s]
+I 2023/07/24 02:37:16 box.go:79: auto stat [trees=121, blocks=4361, dataSize=79 MB, assetsSize=63 MB]
+I 2023/07/24 02:37:16 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/24 05:58:21 box.go:79: auto stat [trees=121, blocks=4361, dataSize=79 MB, assetsSize=63 MB]
+I 2023/07/24 05:58:21 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/24 18:01:31 box.go:79: auto stat [trees=121, blocks=4361, dataSize=79 MB, assetsSize=63 MB]
+I 2023/07/24 18:01:31 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+E 2023/07/24 18:01:35 liandi.go:503: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+E 2023/07/24 18:01:35 rhy.go:48: get version info failed: Get "https://siyuan-sync.b3logfile.com/apis/siyuan/version?ver=2.9.6": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+E 2023/07/24 18:01:35 updater.go:223: get announcement failed: Get "https://siyuan-sync.b3logfile.com/apis/siyuan/version?ver=2.9.6": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+I 2023/07/24 19:06:21 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/24 19:06:21 database.go:1134: closed database
+I 2023/07/24 19:06:21 conf.go:858: cleared workspace temp
+I 2023/07/24 19:06:21 conf.go:522: exited kernel
+I 2023/07/24 19:06:21 sync.go:653: sync websocket closed
+I 2023/07/24 19:07:44 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/24 19:07:44 runtime.go:74: kernel is booting:
+    * ver [2.9.6]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [33428]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/24 19:07:44 runtime.go:128: use network proxy [system]
+I 2023/07/24 19:07:44 serve.go:114: kernel [pid=33428] http server [127.0.0.1:51883] is booting
+I 2023/07/24 19:07:44 blocktree.go:446: read block tree [1.1 MB] to [E:\波哥\思源\temp\blocktree], elapsed [0.02s]
+I 2023/07/24 19:07:44 conf.go:710: database size [8.9 MB], tree/block count [121/4361]
+I 2023/07/24 19:07:44 working.go:153: kernel booted
+I 2023/07/24 19:07:44 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/24 19:07:44 conf.go:918: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/24 19:07:44 box.go:79: auto stat [trees=121, blocks=4361, dataSize=79 MB, assetsSize=63 MB]
+I 2023/07/24 19:07:44 disk.go:33: disk usage [total=255 GB, used=106 GB, free=149 GB]
+I 2023/07/24 21:07:44 box.go:79: auto stat [trees=123, blocks=4365, dataSize=85 MB, assetsSize=68 MB]
+I 2023/07/24 21:07:44 disk.go:33: disk usage [total=255 GB, used=106 GB, free=149 GB]
+I 2023/07/24 21:55:32 index.go:133: rebuilt database for notebook [20230724215531-wv1ayj3] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 21:55:32 index.go:206: resolved refs [0] in [33ms]
+I 2023/07/24 22:02:59 index.go:133: rebuilt database for notebook [20230724220259-tton0li] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 22:02:59 index.go:206: resolved refs [0] in [34ms]
+E 2023/07/24 22:04:37 span.go:103: sql query failed: near "b": syntax error
+E 2023/07/24 22:04:37 span.go:103: sql query failed: near "be": syntax error
+E 2023/07/24 22:04:37 span.go:103: sql query failed: near "ben": syntax error
+I 2023/07/24 22:06:41 index.go:133: rebuilt database for notebook [20230724220641-3lu39fe] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 22:06:41 index.go:206: resolved refs [0] in [36ms]
+E 2023/07/24 22:07:27 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 22:07:28 span.go:103: sql query failed: near "la": syntax error
+E 2023/07/24 22:07:31 span.go:103: sql query failed: near "d": syntax error
+E 2023/07/24 22:07:31 span.go:103: sql query failed: near "du": syntax error
+E 2023/07/24 22:07:31 span.go:103: sql query failed: near "du": syntax error
+E 2023/07/24 22:07:32 span.go:103: sql query failed: near "dump": syntax error
+W 2023/07/24 22:10:11 blocktree.go:500: save block tree [size=892 kB] to [E:\波哥\思源\temp\blocktree], elapsed [2.79s]
+I 2023/07/24 22:13:44 index.go:133: rebuilt database for notebook [20230724221344-nrbgwsy] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 22:13:44 index.go:206: resolved refs [0] in [35ms]
+E 2023/07/24 23:07:03 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 23:07:03 span.go:103: sql query failed: near "li": syntax error
+E 2023/07/24 23:07:03 span.go:103: sql query failed: near "lin": syntax error
+E 2023/07/24 23:07:03 span.go:103: sql query failed: near "ling": syntax error
+E 2023/07/24 23:07:04 span.go:103: sql query failed: near "lin": syntax error
+E 2023/07/24 23:07:04 span.go:103: sql query failed: near "li": syntax error
+E 2023/07/24 23:07:04 span.go:103: sql query failed: near "l": syntax error
+E 2023/07/24 23:07:11 span.go:103: sql query failed: near "m": syntax error
+E 2023/07/24 23:07:11 span.go:103: sql query failed: near "mi": syntax error
+E 2023/07/24 23:07:12 span.go:103: sql query failed: near "min": syntax error
+E 2023/07/24 23:07:12 span.go:103: sql query failed: near "ming": syntax error
+E 2023/07/24 23:07:12 span.go:103: sql query failed: near "ming": syntax error
+E 2023/07/24 23:07:12 span.go:103: sql query failed: near "ming": syntax error
+E 2023/07/24 23:07:12 span.go:103: sql query failed: near "ming": syntax error
+E 2023/07/24 23:07:12 span.go:103: sql query failed: near "ming": syntax error
+I 2023/07/24 23:07:44 box.go:79: auto stat [trees=138, blocks=5032, dataSize=73 MB, assetsSize=55 MB]
+I 2023/07/24 23:07:44 disk.go:33: disk usage [total=255 GB, used=104 GB, free=151 GB]
+I 2023/07/24 23:14:51 index.go:133: rebuilt database for notebook [20230724231451-d96yieh] in [0.00s], tree [count=0, size=0 B]
+I 2023/07/24 23:14:51 index.go:206: resolved refs [0] in [34ms]
+E 2023/07/24 23:19:33 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/24 23:19:33 span.go:103: sql query failed: near "yo": syntax error
+E 2023/07/24 23:19:33 span.go:103: sql query failed: near "yon": syntax error
+E 2023/07/24 23:19:33 span.go:103: sql query failed: near "yong": syntax error
+E 2023/07/24 23:19:34 span.go:103: sql query failed: near "y": syntax error
+E 2023/07/24 23:19:34 span.go:103: sql query failed: near "yu": syntax error
+E 2023/07/24 23:19:35 span.go:103: sql query failed: near "y": syntax error
+W 2023/07/24 23:20:11 blocktree.go:500: save block tree [size=2.4 MB] to [E:\波哥\思源\temp\blocktree], elapsed [2.20s]
+W 2023/07/24 23:23:18 blocktree.go:500: save block tree [size=2.6 MB] to [E:\波哥\思源\temp\blocktree], elapsed [2.18s]
+W 2023/07/24 23:27:26 blocktree.go:500: save block tree [size=3.3 MB] to [E:\波哥\思源\temp\blocktree], elapsed [2.67s]
+W 2023/07/24 23:27:56 blocktree.go:500: save block tree [size=3.9 MB] to [E:\波哥\思源\temp\blocktree], elapsed [3.33s]
+W 2023/07/24 23:29:00 blocktree.go:500: save block tree [size=3.1 MB] to [E:\波哥\思源\temp\blocktree], elapsed [2.54s]
+W 2023/07/24 23:29:24 blocktree.go:500: save block tree [size=2.3 MB] to [E:\波哥\思源\temp\blocktree], elapsed [2.08s]
+W 2023/07/24 23:29:38 blocktree.go:500: save block tree [size=3.5 MB] to [E:\波哥\思源\temp\blocktree], elapsed [3.14s]
+W 2023/07/24 23:29:50 blocktree.go:500: save block tree [size=2.7 MB] to [E:\波哥\思源\temp\blocktree], elapsed [2.08s]
+I 2023/07/25 00:01:17 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/25 00:01:17 database.go:1134: closed database
+I 2023/07/25 00:01:17 conf.go:858: cleared workspace temp
+I 2023/07/25 00:01:17 conf.go:522: exited kernel
+I 2023/07/25 00:01:17 sync.go:653: sync websocket closed
+I 2023/07/25 00:02:46 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/25 00:02:46 runtime.go:74: kernel is booting:
+    * ver [2.9.6]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [12256]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/25 00:02:46 runtime.go:128: use network proxy [system]
+I 2023/07/25 00:02:46 serve.go:114: kernel [pid=12256] http server [127.0.0.1:63260] is booting
+I 2023/07/25 00:02:46 blocktree.go:446: read block tree [4.1 MB] to [E:\波哥\思源\temp\blocktree], elapsed [0.02s]
+I 2023/07/25 00:02:46 conf.go:710: database size [32 MB], tree/block count [273/16546]
+I 2023/07/25 00:02:46 working.go:153: kernel booted
+I 2023/07/25 00:02:46 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/25 00:02:46 conf.go:918: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/25 00:02:47 box.go:79: auto stat [trees=273, blocks=16546, dataSize=78 MB, assetsSize=55 MB]
+I 2023/07/25 00:02:47 disk.go:33: disk usage [total=255 GB, used=104 GB, free=151 GB]
+I 2023/07/25 00:02:48 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/07/25 00:02:56 runtime.go:402: [E:\波哥\思源备份\data] third party sync status [同步被挂起]
+E 2023/07/25 00:03:08 runtime.go:402: [E:\波哥\思源备份\data] third party sync status [同步被挂起]
+I 2023/07/25 00:03:17 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/25 00:03:17 database.go:1134: closed database
+I 2023/07/25 00:03:17 conf.go:858: cleared workspace temp
+I 2023/07/25 00:03:18 conf.go:522: exited kernel
+I 2023/07/25 00:03:18 sync.go:653: sync websocket closed
+I 2023/07/26 22:06:01 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/26 22:06:01 runtime.go:74: kernel is booting:
+    * ver [2.9.6]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [6520]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/26 22:06:02 runtime.go:128: use network proxy [system]
+I 2023/07/26 22:06:02 serve.go:114: kernel [pid=6520] http server [127.0.0.1:60471] is booting
+I 2023/07/26 22:06:02 blocktree.go:446: read block tree [4.1 MB] to [E:\波哥\思源\temp\blocktree], elapsed [0.05s]
+I 2023/07/26 22:06:02 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/26 22:06:02 conf.go:918: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/26 22:06:02 conf.go:710: database size [32 MB], tree/block count [273/16546]
+I 2023/07/26 22:06:02 working.go:153: kernel booted
+I 2023/07/26 22:06:02 box.go:79: auto stat [trees=273, blocks=16546, dataSize=78 MB, assetsSize=55 MB]
+I 2023/07/26 22:06:02 disk.go:33: disk usage [total=255 GB, used=104 GB, free=151 GB]
+I 2023/07/26 22:06:04 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/07/26 22:09:02 updater.go:168: downloading install package [https://release.b3log.org/siyuan/siyuan-2.9.7-win.exe]
+I 2023/07/26 22:11:07 updater.go:186: downloaded install package [https://release.b3log.org/siyuan/siyuan-2.9.7-win.exe] to [E:\波哥\思源\temp\install\siyuan-2.9.7-win.exe]
+E 2023/07/26 22:16:55 runtime.go:402: [E:\波哥\思源备份\data] third party sync status [同步被挂起]
+I 2023/07/26 22:19:36 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/26 22:19:36 conf.go:497: the new version install pkg is ready [E:\波哥\思源\temp\install\siyuan-2.9.7-win.exe], waiting for the user's next instruction
+I 2023/07/26 22:19:40 conf.go:476: exiting kernel [force=true, execInstallPkg=1]
+I 2023/07/26 22:19:40 database.go:1134: closed database
+I 2023/07/26 22:19:40 conf.go:858: cleared workspace temp
+I 2023/07/26 22:19:41 conf.go:522: exited kernel
+I 2023/07/26 22:19:41 sync.go:653: sync websocket closed
+I 2023/07/26 22:22:11 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/26 22:22:11 runtime.go:74: kernel is booting:
+    * ver [2.9.6]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [21856]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/26 22:22:11 runtime.go:128: use network proxy [system]
+I 2023/07/26 22:22:11 serve.go:114: kernel [pid=21856] http server [127.0.0.1:64197] is booting
+I 2023/07/26 22:22:11 blocktree.go:446: read block tree [4.1 MB] to [E:\波哥\思源\temp\blocktree], elapsed [0.02s]
+I 2023/07/26 22:22:11 conf.go:710: database size [32 MB], tree/block count [273/16546]
+I 2023/07/26 22:22:11 working.go:153: kernel booted
+I 2023/07/26 22:22:11 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/26 22:22:11 conf.go:918: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/26 22:22:11 box.go:79: auto stat [trees=273, blocks=16546, dataSize=78 MB, assetsSize=55 MB]
+I 2023/07/26 22:22:11 disk.go:33: disk usage [total=255 GB, used=104 GB, free=150 GB]
+I 2023/07/26 22:22:13 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/07/26 22:22:39 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/26 22:22:41 conf.go:497: the new version install pkg is ready [E:\波哥\思源\temp\install\siyuan-2.9.7-win.exe], waiting for the user's next instruction
+I 2023/07/26 22:22:45 conf.go:476: exiting kernel [force=true, execInstallPkg=2]
+I 2023/07/26 22:22:46 updater.go:41: installing the new version [E:\波哥\思源\temp\install\siyuan-2.9.7-win.exe]
+I 2023/07/26 22:22:46 database.go:1134: closed database
+I 2023/07/26 22:22:46 conf.go:858: cleared workspace temp
+I 2023/07/26 22:24:59 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/26 22:24:59 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [26028]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源]
+I 2023/07/26 22:24:59 conf.go:232: upgraded from version [2.9.6] to [2.9.7]
+I 2023/07/26 22:24:59 runtime.go:128: use network proxy [system]
+I 2023/07/26 22:24:59 serve.go:114: kernel [pid=26028] http server [127.0.0.1:64453] is booting
+I 2023/07/26 22:24:59 blocktree.go:446: read block tree [4.1 MB] to [E:\波哥\思源\temp\blocktree], elapsed [0.02s]
+I 2023/07/26 22:24:59 conf.go:710: database size [32 MB], tree/block count [273/16546]
+I 2023/07/26 22:24:59 working.go:153: kernel booted
+I 2023/07/26 22:24:59 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/26 22:24:59 conf.go:927: pandoc initialized, set pandoc bin to [E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/26 22:24:59 box.go:79: auto stat [trees=273, blocks=16546, dataSize=78 MB, assetsSize=55 MB]
+I 2023/07/26 22:24:59 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/26 22:26:04 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/26 22:26:04 database.go:1134: closed database
+I 2023/07/26 22:26:04 conf.go:867: cleared workspace temp
+I 2023/07/26 22:26:04 conf.go:522: exited kernel
+I 2023/07/26 22:26:04 sync.go:660: sync websocket closed
+I 2023/07/26 22:26:34 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/07/26 22:26:34 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [1476]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源备份]
+I 2023/07/26 22:26:34 conf.go:392: user has disabled [Google Analytics]
+I 2023/07/26 22:26:34 runtime.go:128: use network proxy [system]
+I 2023/07/26 22:26:34 serve.go:114: kernel [pid=1476] http server [127.0.0.1:64543] is booting
+I 2023/07/26 22:26:34 blocktree.go:446: read block tree [4.1 MB] to [E:\波哥\思源备份\temp\blocktree], elapsed [0.02s]
+I 2023/07/26 22:26:34 conf.go:710: database size [32 MB], tree/block count [273/16546]
+I 2023/07/26 22:26:34 working.go:153: kernel booted
+I 2023/07/26 22:26:34 pandoc.go:115: custom pandoc [ver=3.1.1, bin=E:\波哥\思源\temp\pandoc\bin\pandoc.exe]
+I 2023/07/26 22:26:35 box.go:79: auto stat [trees=273, blocks=16546, dataSize=79 MB, assetsSize=55 MB]
+I 2023/07/26 22:26:35 disk.go:33: disk usage [total=255 GB, used=105 GB, free=150 GB]
+I 2023/07/26 22:26:35 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+W 2023/07/26 22:26:43 blocktree.go:500: save block tree [size=4.8 MB] to [E:\波哥\思源备份\temp\blocktree], elapsed [2.98s]
+I 2023/07/26 22:26:43 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/07/26 22:26:43 database.go:1134: closed database
+I 2023/07/26 22:26:43 conf.go:867: cleared workspace temp
+I 2023/07/26 22:26:44 conf.go:522: exited kernel
+I 2023/07/26 22:26:44 sync.go:660: sync websocket closed
