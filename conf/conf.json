@@ -641,10 +641,10 @@
     "isMicrosoftStore": false,
     "isInsider": false,
     "homeDir": "C:\\Users\\郝晓波",
-    "workspaceDir": "E:\\波哥\\思源",
+    "workspaceDir": "E:\\波哥\\思源备份",
     "appDir": "D:\\siyuan\\resources",
-    "confDir": "E:\\波哥\\思源\\conf",
-    "dataDir": "E:\\波哥\\思源\\data",
+    "confDir": "E:\\波哥\\思源备份\\conf",
+    "dataDir": "E:\\波哥\\思源备份\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1221,9 +1221,9 @@
     "cTreeCount": 500,
     "blockCount": 20205,
     "cBlockCount": 30000,
-    "dataSize": 79737371,
+    "dataSize": 83075326,
     "cDataSize": 104857600,
-    "assetsSize": 54619033,
+    "assetsSize": 56666268,
     "cAssetsSize": 104857600
   },
   "api": {
