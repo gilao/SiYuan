@@ -1288,3 +1288,55 @@ I 2023/08/11 10:44:33 database.go:1195: closed database
 I 2023/08/11 10:44:33 conf.go:867: cleared workspace temp
 I 2023/08/11 10:44:34 conf.go:522: exited kernel
 I 2023/08/11 10:44:34 sync.go:660: sync websocket closed
+I 2023/08/11 10:46:59 working.go:116: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/11 10:46:59 runtime.go:74: kernel is booting:
+    * ver [2.9.9]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [5168]
+    * runtime mode [prod]
+    * working directory [D:\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/08/11 10:46:59 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/11 10:46:59 runtime.go:128: use network proxy [system]
+I 2023/08/11 10:46:59 serve.go:119: kernel [pid=5168] http server [127.0.0.1:63396] is booting
+I 2023/08/11 10:46:59 blocktree.go:446: read block tree [5.8 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.06s]
+I 2023/08/11 10:46:59 conf.go:710: database size [41 MB], tree/block count [382/22667]
+I 2023/08/11 10:46:59 working.go:154: kernel booted
+I 2023/08/11 10:46:59 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/11 10:46:59 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/11 10:47:00 box.go:79: auto stat [trees=318, blocks=20209, dataSize=95 MB, assetsSize=70 MB]
+I 2023/08/11 10:47:00 disk.go:33: disk usage [total=55 GB, used=17 GB, free=38 GB]
+I 2023/08/11 10:47:00 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=64, size=1.3 MB]
+I 2023/08/11 10:47:01 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/08/11 10:47:01 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+E 2023/08/11 10:47:30 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+E 2023/08/11 10:47:39 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+I 2023/08/11 11:11:46 index.go:133: rebuilt database for notebook [20230811111146-bkcyjf4] in [0.00s], tree [count=0, size=0 B]
+I 2023/08/11 11:11:46 index.go:206: resolved refs [29] in [55ms]
+E 2023/08/11 11:18:12 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+I 2023/08/11 13:25:43 box.go:79: auto stat [trees=383, blocks=22688, dataSize=88 MB, assetsSize=62 MB]
+I 2023/08/11 13:25:43 disk.go:33: disk usage [total=55 GB, used=17 GB, free=38 GB]
+I 2023/08/11 14:21:17 index.go:133: rebuilt database for notebook [20230811142117-2g3m2ee] in [0.00s], tree [count=0, size=0 B]
+I 2023/08/11 14:21:18 index.go:206: resolved refs [29] in [149ms]
+I 2023/08/11 15:25:43 box.go:79: auto stat [trees=384, blocks=22729, dataSize=88 MB, assetsSize=62 MB]
+I 2023/08/11 15:25:43 disk.go:33: disk usage [total=55 GB, used=18 GB, free=37 GB]
+I 2023/08/11 15:45:03 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/08/11 15:45:03 database.go:1195: closed database
+I 2023/08/11 15:45:03 conf.go:867: cleared workspace temp
+I 2023/08/11 15:45:04 conf.go:522: exited kernel
+I 2023/08/11 15:45:04 sync.go:660: sync websocket closed
