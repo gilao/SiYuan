@@ -1,0 +1,28 @@
+.fn__flex-1:has(>#notionToolbar){
+	overflow: visible;
+}
+#notionToolbar{
+	
+}
+/*#notionToolbar,#notionToolplus{
+	position:relative;
+}
+#notionToolbar{
+	top:calc(50% - 100px);
+	margin-left:1px;
+}
+#notionToolplus{
+	top:calc(50% - 8px);
+	margin-left:1px;
+}*/
+#notionToolbar div,#notionToolplus div{
+	height:26px;
+	width:26px!important;
+	background-size:22px 22px;
+}
+
+
+
+#notionToolbar div:hover,#notionToolplus div:hover{
+	background-color: var(--b3-toolbar-item-hover);
+}

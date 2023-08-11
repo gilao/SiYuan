@@ -1,0 +1,146 @@
+/* ————————————————————顶栏———————————————————— */
+.toolbar{
+	height:40px;
+}
+.toolbar__window{
+	height:40px;
+}
+/*.toolbar:after{
+	content: '';
+	position: absolute;
+	top:40px;
+	height: 1px;
+	right:10px;
+	left:10px;
+	background-color: var(--b3-border-color);
+	z-index:-99;
+}*/
+
+/*#notionToolbar{
+	transform:translateY(0px);
+}*/
+
+.toolbar__item:not(.toolbar__item--close){
+	margin: 5px 0px;
+	border-radius:6px;
+	padding: 1px;
+	height: 26px;
+}
+.toolbar__window .toolbar__item:not(.toolbar__item--close){
+	padding: 3px;
+	margin: 7px 4px 7px 0px  
+}
+.toolbar__item svg,.toolbar__window .toolbar__item svg{
+	padding: 5px;
+	height: 14px;
+	width: 14px;	
+}
+
+.toolbar__item:not(.toolbar__item--disabled) svg,.toolbar__window .toolbar__item:not(.toolbar__item--disabled) svg{
+	color: var(--b3-theme-on-background);
+}
+
+.toolbar__item:not(.toolbar__item--disabled):not(.toolbar__item--close):hover, .toolbar__item--active {
+	background-color: var(--b3-toolbar-item-hover);
+}
+#minWindow svg, #restoreWindow svg, #maxWindow svg{
+	width: 11px!important;
+	padding: 5px 6px;
+}
+
+ #restoreWindow, #maxWindow{
+	margin:0;
+}
+.toolbar__window #restoreWindow, .toolbar__window #maxWindow{
+	margin: 7px 4px 7px 0px 
+}
+.toolbar__item--win{
+	height:unset;
+}
+#closeWindow svg{
+	width: 11px!important;
+	padding: 5px 8px;
+	border-radius:5px;
+}
+
+.toolbar__item--close{
+	padding: 8px 8px 8px 0px;
+	height: 40px;
+}
+.toolbar__window .toolbar__item--close{
+	padding: 9px;
+	height: 40px;
+}
+#closeWindow:hover{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#closeWindow:hover svg{
+	color: var(--b3-toolbar-closeWindow-svg);
+	background-color: var(--b3-toolbar-closeWindow-hover);
+}
+
+
+
+
+
+#barSync{
+	margin-left:5px;
+}
+
+#barWorkspace {
+	height:24px;
+	border-radius:6px;
+	padding:0 3px 0 7px;
+	margin:0px 3px 0 2px;
+	background-color:#e16259;
+	/*background: #e16259 linear-gradient(to bottom right, rgba(0,255,0,0), #c54238);*/
+	/*background-image: linear-gradient(to bottom right , #7A88FF, #7AFFAF);*/
+	box-shadow: 0 4px 9px rgba(0,0,0,.05), 0 1.5px 2.8px rgba(0,0,0,.07), 0 0.3px 0.7px rgba(0,0,0,.12);
+}
+#barWorkspace:hover,#barReadonly.toolbar__item--active:hover{
+	background-color: #b3180d!important;
+
+}
+#barWorkspace .toolbar__text{
+	line-height:24px;
+	color:var(--b3-theme-background);
+	text-align:center;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+#barWorkspace .toolbar__svg{
+	padding:5px;
+	color:var(--b3-theme-background);
+}
+
+
+
+/*只读按钮适配*/
+#barReadonly.toolbar__item--active{
+	padding:1px 54px 5px 3px;
+	background-color:#e16259;
+	box-shadow: 0 4px 9px rgba(0,0,0,.05), 0 1.5px 2.8px rgba(0,0,0,.07), 0 0.3px 0.7px rgba(0,0,0,.12);
+}
+#barReadonly.toolbar__item--active svg{
+	color:var(--b3-theme-background);
+}
+#barReadonly.toolbar__item--active:before{
+	content: "退出只读";
+	opacity:1;
+	height:22px;
+	width:50px;
+	transform:unset;
+	right:0px;
+	top:2px;
+	margin-right:unset;
+	border-bottom-color:transparent;
+	margin-top:-1px;
+	font-weight: 600;
+	font-size:0.8em;
+	color:var(--b3-theme-background);
+}
+#barReadonly.toolbar__item--active:hover{
+	background-color: var(--b3-toolbar-item-hover);
+}
