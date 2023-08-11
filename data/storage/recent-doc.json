@@ -1,5 +1,50 @@
 [
   {
+    "rootID": "20230724010138-2o2gznh",
+    "icon": "",
+    "title": "README"
+  },
+  {
+    "rootID": "20230811102434-mrnb5sj",
+    "icon": "1f511",
+    "title": "2023-08-11"
+  },
+  {
+    "rootID": "20230724005832-f8wovuo",
+    "icon": "1f4eb",
+    "title": "2023"
+  },
+  {
+    "rootID": "20230724005832-csqi448",
+    "icon": "1f41c",
+    "title": "daily note"
+  },
+  {
+    "rootID": "20230724190940-ndhea07",
+    "icon": "1f3c4-200d-2642-fe0f",
+    "title": "2023-07-23"
+  },
+  {
+    "rootID": "20230724005832-ny9awp5",
+    "icon": "1f530",
+    "title": "07"
+  },
+  {
+    "rootID": "20230724005832-9kebu65",
+    "icon": "26f9-fe0f-200d-2640-fe0f",
+    "title": "2023-07-24"
+  },
+  {
+    "rootID": "20230811102434-cb71z4p",
+    "icon": "1f9fe",
+    "title": "08"
+  },
+  {
+    "rootID": "20230724190942-njs24bm",
+    "icon": "1f962",
+    "title": "2023-07-25"
+  },
+  {
     "rootID": "20230727014431-hz8mtja",
     "icon": "1f3bb",
     "title": "Go 限流的常见方法"
@@ -113,50 +158,5 @@
     "rootID": "20230727001004-989eda5",
     "icon": "1f3a1",
     "title": "21. 十进制、二进制、八进制、十六进制的转换"
-  },
-  {
-    "rootID": "20230727000851-ov0327b",
-    "icon": "1f68f",
-    "title": "02. 数据类型转换"
-  },
-  {
-    "rootID": "20230727000850-orphcpy",
-    "icon": "",
-    "title": "20. GO 内存管理"
-  },
-  {
-    "rootID": "20230727000954-9fb4o6u",
-    "icon": "",
-    "title": "19. Golang的运行调度GMP模型"
-  },
-  {
-    "rootID": "20230727000956-9q4bpd1",
-    "icon": "",
-    "title": "18. 匿名函数"
-  },
-  {
-    "rootID": "20230727000904-ldqxvhu",
-    "icon": "",
-    "title": "17. Go 内存泄漏"
-  },
-  {
-    "rootID": "20230727000206-ocrknzy",
-    "icon": "",
-    "title": "16 Go内存分配和垃圾回收机制-"
-  },
-  {
-    "rootID": "20230727000930-xaqxra7",
-    "icon": "",
-    "title": "15 函数声明之方法"
-  },
-  {
-    "rootID": "20230727000903-2pv66a9",
-    "icon": "1f4ae",
-    "title": "13. 并发安全和锁"
-  },
-  {
-    "rootID": "20230727000943-b1nin6r",
-    "icon": "1f4c9",
-    "title": "12. Select 多路复用"
   }
 ]

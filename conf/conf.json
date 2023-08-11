@@ -1,27 +1,33 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 1,
+    "mode": 0,
     "modeOS": false,
     "darkThemes": [
-      "midnight"
+      "Rem Craft",
+      "Savor",
+      "midnight",
+      "mini-vlook"
     ],
     "lightThemes": [
-      "daylight"
+      "Rem Craft",
+      "Savor",
+      "daylight",
+      "mini-vlook"
     ],
     "themeDark": "midnight",
-    "themeLight": "daylight",
-    "themeVer": "1.0.2",
+    "themeLight": "mini-vlook",
+    "themeVer": "2.9.9",
     "icons": [
       "ant",
       "material"
     ],
     "icon": "material",
-    "iconVer": "1.21.1",
+    "iconVer": "1.22.0",
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
-    "themeJS": false,
+    "themeJS": true,
     "closeButtonBehavior": 0,
     "hideStatusBar": false
   },
@@ -77,6 +83,7 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f993",
       "1f98a",
       "1f30d",
       "1f990",
@@ -110,7 +117,6 @@
       "1f951",
       "1f40a",
       "1f41d",
-      "1f993",
       "1f42d",
       "1f42f",
       "1f981",
@@ -148,7 +154,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "E:\\波哥\\思源\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "E:\\SiYuan\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages"
   },
@@ -240,184 +246,49 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20230727000958-rg54vl5",
+                        "blockId": "20230811102434-mrnb5sj",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20230724231451-d96yieh",
-                        "rootId": "20230727000958-rg54vl5",
+                        "notebookId": "20230723223139-9nm07uk",
+                        "rootId": "20230811102434-mrnb5sj",
                         "scrollAttr": {
-                          "endId": "20230727000967-75s9djy",
+                          "endId": "20230811102434-it4zyt9",
                           "focusEnd": 0,
-                          "focusId": "20230727000959-qrye10r",
+                          "focusId": "20230811102434-it4zyt9",
                           "focusStart": 0,
-                          "rootId": "20230727000958-rg54vl5",
+                          "rootId": "20230811102434-mrnb5sj",
                           "scrollTop": 0,
-                          "startId": "20230727000959-qrye10r"
+                          "startId": "20230811102434-it4zyt9"
                         }
                       },
-                      "docIcon": "1f9fa",
+                      "docIcon": "1f511",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "35. 面向对象和面向过程"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230727000524-71bzdpm",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230724231451-d96yieh",
-                        "rootId": "20230727000524-71bzdpm",
-                        "scrollAttr": {
-                          "endId": "20230727000667-f39qiq0",
-                          "focusEnd": 0,
-                          "focusId": "20230727000525-hsm4d3r",
-                          "focusStart": 0,
-                          "rootId": "20230727000524-71bzdpm",
-                          "scrollTop": 700,
-                          "startId": "20230727000525-hsm4d3r"
-                        }
-                      },
-                      "docIcon": "1f43b-200d-2744-fe0f",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Go 语言的进阶路线"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230727000855-n2juxpr",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230724231451-d96yieh",
-                        "rootId": "20230727000855-n2juxpr",
-                        "scrollAttr": {
-                          "endId": "20230727000857-kxo4ain",
-                          "focusEnd": 0,
-                          "focusId": "20230727000856-lxumf8i",
-                          "focusStart": 0,
-                          "rootId": "20230727000855-n2juxpr",
-                          "scrollTop": 0,
-                          "startId": "20230727000856-lxumf8i"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Need"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230727001005-29ccbtg",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230724231451-d96yieh",
-                        "rootId": "20230727001005-29ccbtg",
-                        "scrollAttr": {
-                          "endId": "20230727001007-xrqp17e",
-                          "focusEnd": 0,
-                          "focusId": "20230727001006-rj8b1yi",
-                          "focusStart": 0,
-                          "rootId": "20230727001005-29ccbtg",
-                          "scrollTop": 0,
-                          "startId": "20230727001006-rj8b1yi"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "README"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230727013646-3sa3pss",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230727013545-ousf4dr",
-                        "rootId": "20230727013646-3sa3pss",
-                        "scrollAttr": {
-                          "endId": "20230727013652-y6pa0ee",
-                          "focusEnd": 13,
-                          "focusId": "20230727013652-agibj11",
-                          "focusStart": 13,
-                          "rootId": "20230727013646-3sa3pss",
-                          "scrollTop": 0,
-                          "startId": "20230727013652-f5dis9f"
-                        }
-                      },
-                      "docIcon": "26bd",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "高并发系统设计的15个锦囊"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230727014138-x7jox0f",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230727013545-ousf4dr",
-                        "rootId": "20230727014138-x7jox0f",
-                        "scrollAttr": {
-                          "endId": "20230727014142-p5rrntb",
-                          "focusEnd": 0,
-                          "focusId": "20230727014142-zae9q0x",
-                          "focusStart": 0,
-                          "rootId": "20230727014138-x7jox0f",
-                          "scrollTop": 0,
-                          "startId": "20230727014142-zae9q0x"
-                        }
-                      },
-                      "docIcon": "1f3a2",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "高并发下Kafka的解决方案和常见问题"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230727014354-ww7h61x",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230727013545-ousf4dr",
-                        "rootId": "20230727014354-ww7h61x",
-                        "scrollAttr": {
-                          "endId": "20230727014357-1rs62tf",
-                          "focusEnd": 0,
-                          "focusId": "20230727014357-i7aa86d",
-                          "focusStart": 0,
-                          "rootId": "20230727014354-ww7h61x",
-                          "scrollTop": 0,
-                          "startId": "20230727014357-i7aa86d"
-                        }
-                      },
-                      "docIcon": "1fa74",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "限流的实现"
+                      "title": "2023-08-11"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "",
-                        "blockId": "20230727014431-hz8mtja",
+                        "blockId": "20230724010138-2o2gznh",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20230727013545-ousf4dr",
-                        "rootId": "20230727014431-hz8mtja",
+                        "notebookId": "20230724010127-g52b2kx",
+                        "rootId": "20230724010138-2o2gznh",
                         "scrollAttr": {
-                          "endId": "20230727014435-txq5xg4",
-                          "rootId": "20230727014431-hz8mtja",
+                          "endId": "20230724010140-12y3wg3",
+                          "focusEnd": 0,
+                          "focusId": "20230724010139-e7j0p44",
+                          "focusStart": 0,
+                          "rootId": "20230724010138-2o2gznh",
                           "scrollTop": 0,
-                          "startId": "20230727014431-pio6ufo"
+                          "startId": "20230724010139-e7j0p44"
                         }
                       },
-                      "docIcon": "1f3bb",
+                      "docIcon": "1f6cd",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Go 限流的常见方法"
+                      "title": "README"
                     }
                   ],
                   "height": "",
@@ -617,34 +488,33 @@
       "pin": true
     }
   },
-  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35ef2c9031273b6a9bedf76f05ff261dbfb55761eb8341d93e8341c11e993da76fb7496bea3f6356d7dae90b443afade59b83beaae1590484c5bc5a80af14627b1c5456c117bed5c8e8be2ab3cdbac6b6223552fac9e20afe88cbc467da4aa74ff61b4959204718131f87796da71001893c0a7ea2b26ba4e2e964c10ddb89453a85a0905c1dfbd63af265a5b6288dc44eea0c6263456ca1027d70a789730243191010a35a9c0f14504aef6e48f2cd58af7f16201145dca83bfb1cb238bc89b1eea59b557fe28a367953f97f0a94b0b8ddc493ff7e33face441d7d37f18bc4738858ad5cab4321f0c28166d4c7c92fca85fe45de8254097f8bcafa09b1a0279447a31ece3cee8b16a14c51d784492ee1a6589e17cd378dc6b4a6c7c5bf15d504c4cccef7dea5287ea39211ceda231ef0bbe9debe0e7459979e9164d00b9050a2f1d13a974a34fc11eff3a09d65d9e12049d966ae30002b140073d761fba267c6efe1e295df013e64dfe78d33c661a033bb6d786f7fbaea362408d45e65dbb2ff47d939306c62ad09ed7c7d33161a08384aa0eea3bed20d03aac71685c833c50cd7cae34ce2f8f97488318685c2cc403514548e9e1987246982366709c0ae55328c1784d3618340c9f052418442bd3ce46c1b1f90d60d32ae5f55172cf2fe0a787cd7cf45fe18729b707668e9fa2342415b0c1d49834ebca75eeb7c01dbd3196888b226010811d78876fc54717445103cae31c757fb528aaeec3a114c78a691ac4c13121ad4db2614153061fbe7a66e5dc8023644695d1a15f55d8d123bebb72fc8112a1941f04fc31ed3507b8c27f979c6be384dcbf3a2d4b8d9dbb01797a4e7a1aed3b9f4543da77973eb1d346f74adab49c595fe674fb94d746b5e7c27bfc7237b1abc4e8eb4610c3ec8be7523eae6d20f93c05c96f59dd408898da8a5919e528098c0ca6541f1b07e400fec179ac67f942481d2c879f6de57036522bb0fcd5afb2faba6ffe29c77303e66ccc4327393e9ec19145515ce8fe091f747d1fbc82c66a32d297488070fb577bfe1e4e8d76f8f37e5be98558f4aa8b8d0cbf48588f627e4c4cec3882ddcde4260ce770141e51ec8845c9c2cee0d5452d605b5a0649672ae8e55c21eeccb0d83fa12d877fee36164c5783c2b9db0f5796fbfb6d5b0435aee6ad16b58871ab01e4d2944ff09ac4ccdbaf32b0c45e6cd1e7fc4d70fdc885903a6be837946a06415f8373f5df69435714b852a88e2618fad2fe84bd90705b01fa2a5ea4f188e1c4199c49d25d026f25b88a4b1f37de3950247c8bde10b5a7c7a32919795a18eb3d6ad54ec22e32981a403e13d99fc6a2c2e69dd08415f5487511d6d3618ef5d9e4c7a30031ed8305d958dc7f8c4b45d7dcbd18bda186de4cb710189e222fcc9787b68b79672b69eb610e591e2be9b9df6b13b682c4095bfd1e2f8c1eeb1ee8bf301c3c31860019be6c54f53d43d1723eb8878a81e95f618be971ced2b203a0e63aec146ed5dd011c9cfa783aa26e8eb3e988e4867aa0217a043ea66f2e0489bbacbc72554cf17b0bd71a836f230ad30aa11ee7e2dbe56f1e787bb01ae3bb0e4c083c8e156d52498f115966b8230df211a7a567580435ad62ef716ce9e019b9fedd4888a68cad3025fe616cee9a7a00a3ec7e9d808189369ee3e8998cac6abddffd360e9721c422d7537d700816cf4e67c97541f22cfdf99a987d68cde8c3aa23daba2681481c02f650f4b384c0d5ee485b3403666abc67497a7886e1bfc3ba9cd3d7a9cc8c26fb40142ddc6538b21ee79b1dbfd9853e472c6",
+  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35e495e3120fc54d152f4baa17e51f0d87c460d32ec404a7f22872d76e7110aa26d00ec02d6830ad0ebf628aa663cfcbe2e3b1c9cb82c02be0ac76d42c68c4a0a24cf7d5561e81ac589f7de77bfdd0853f8c9e8bcbac6612fd94b5146e114e01aa54ac11706b67792a61542bb474030552a46dbfb44258408921ccc90068cd03401922483925e86678d3ac85d565c56cd03c4ebe14e88e5030cfece2baca8bf44520a31c45d6ef7a34011c9b483a7f105c4201e0919caf90daebe347a19f48bea030a6bd93bddb29b46866f0bf806b1281143f3615e70ef82d6bfc602ea2d540c380fff05d0feefc47012b8a0e65bc48b68567542f465b4e2d794d56ff72cb08b100e5e61f5a17395da26a6bfc87b800c6de150b806531c15142a97c9b7b4ff6aa291333db65a96192a340f9b7d89b5d7b513d138f9a87bc5c9f38afed61686059327abcd12a49b1efc4f09e543c3cada970c441d1230a02559764c69f9e722ed7a98b2cc3a4fe9764277485cd547a78f3b2a6ded3889d6c8115b130f686872e3a6a65c40eb218f807885fbd59402f4234ce87c5960f60d69f30a9649996f8d24dd4226a934e12acc255bffe8b1e686e26131cd4f863e6d01bed224f52b6f16158dea892ec353cdb18f6bc41487f14c62901d018b1f4076e2dd8548fc6686120254d7391c0400f6179147b6113e3c2b6e02945e19f4d99b5cb57888c43873a4c478efd2d674c0b6bfadc57c3d3cdb471877fbd1694faada581d088af74817e995b08e5ef745cbb5bb7e1d712c5b61309272df5de0dcbc91006f3fca82bba8b3bdfa887a70e7faa31fa746495cd68cdfa46365335c2d032d9785757cc9a79dff22993e842d46409490561f6e3460dbc8343e95e642207e2bf90825b6f3c67c09970ef68b24c18c58189c1427b515dc990727af74dc8ba05b7d9a5e2018be9b25af964f251ff13827327bbb757e98c91aee9d0513ca4044a52a06a9a6851d6f1058513ccf1c1f2accb787e6ef5dbb7c78611b6a928a92b99d2db2eca9146dccf3ab75531852a144039d79bf157fe2199d476b4d326aaa4e91186ee7422d1bacb6a04f12a886544b706c1df76bc0052478a4e0d5edbd95162e95aea90a1b7b3c1d3db90840eb8088c07c9abcfec9bca065dbb45e5be53e7e9e9695c1fa089596b75af7978c03b6d2dc8b4738d5e61def958aba5ba69743090f05bf7f2115b1fbfeb32ee4d025015c23f93c6145b63d682ba87f57ed6ed4e56e95889736232d14aaa2ab779a90766b7f7059e40f0a5c1de7ad3763f52d4928567f5bdcf6afe6d34cccacb9029fc70342406e491e22214a0dffa7f50f2fc15783f82263d52b7e1ec08793bb5149c703bccd199ffb26a25779e119c3cbcab7e1a6c58303b7ad3a5385e034e4764f047766d2ea2d372e9d365ecdf6c7f14fb8dd6338da75c527a1eac5489780a0ab42e1121a02c3300e80cb23e3e534b4bc362723e09bbde4a5e9413d0d8021d672abd01a3d0d6ff07656c9356fcec6a10b5a0d91e661a143aad96bc6a1377b27d539ee83df1205febdfb1bbdc2920bab24589aa3619e0111294bf263264d6e1b0c0617c299f54f957e93dc2343ac466d96f2ba3141c4d33e5777b551cb6f6e4f529305f78c68b768692eae0a8188c2148dce4c4306c57ca725f4041efd2da92920b4d29a998a6bb92197383446dd5c5cb556fa2e985ebb4475a7dfb9f6ee00c7ea3ded8e3d1d1956e741b7ca1552e7ba77990536a8e9478f91bdd6d95504c7a961f09c76e6cb123f3b47c683289ae448753b30e7ff820c143c30ba2c1651",
   "account": {
     "displayTitle": true,
     "displayVIP": true
   },
   "readonly": false,
   "localIPs": [
-    "10.197.73.12",
-    "192.168.0.108",
-    "192.168.45.1",
-    "192.168.249.1",
+    "172.17.203.92",
+    "192.168.166.1",
+    "192.168.159.1",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "6b1bdd28-007a-4941-9bd4-27c9b9503b69",
-    "name": "LAPTOP-3SJPKUOC",
-    "kernelVersion": "2.9.7",
+    "id": "d57cad99-90c9-4c49-a5c7-07a89a4fc500",
+    "name": "DESKTOP-KMPG2RJ",
+    "kernelVersion": "2.9.9",
     "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Home China",
+    "osPlatform": "Microsoft Windows 10 Pro",
     "container": "std",
     "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\郝晓波",
-    "workspaceDir": "E:\\波哥\\思源备份",
-    "appDir": "D:\\siyuan\\resources",
-    "confDir": "E:\\波哥\\思源备份\\conf",
-    "dataDir": "E:\\波哥\\思源备份\\data",
+    "homeDir": "C:\\Users\\HP",
+    "workspaceDir": "E:\\SiYuan",
+    "appDir": "D:\\SiYuan\\resources",
+    "confDir": "E:\\SiYuan\\conf",
+    "dataDir": "E:\\SiYuan\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1217,13 +1087,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 316,
+    "treeCount": 376,
     "cTreeCount": 500,
-    "blockCount": 20205,
+    "blockCount": 22635,
     "cBlockCount": 30000,
-    "dataSize": 83075326,
+    "dataSize": 83176643,
     "cDataSize": 104857600,
-    "assetsSize": 56666268,
+    "assetsSize": 56667673,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1233,6 +1103,6 @@
     "key": null
   },
   "openHelp": false,
-  "showChangelog": false,
+  "showChangelog": true,
   "cloudRegion": 0
 }
