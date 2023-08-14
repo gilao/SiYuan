@@ -1,0 +1,11 @@
+
+
+.protyle-wysiwyg [data-node-id].hr>div:after {
+    position: absolute;
+    content: " ";
+    height: 1px;
+    background-color: #68cecf91;
+    width: calc(100% - 1px);
+    left: 0;
+    top: 13px;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Tsundoku",
+  "author": "Achuan-2",
+  "url": "https://github.com/Achuan-2/siyuan-themes-tsundoku",
+  "version": "1.7.8",
+  "displayName": {
+    "default": "Tsundoku",
+    "zh_CN": "積読"
+  },
+  "description": {
+    "default": "Tsundoku is acquiring reading materials but letting them pile up in one's home without reading them",
+    "zh_CN": "谈恋爱最忌只感动自己，学习最忌只记不做，愿大家渐进式记笔记，渐进式生活，渐进式进步！"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "i18n": [
+    "en_US",
+    "zh_CN"
+  ],
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      "https://afdian.net/a/achuan-2"
+    ]
+  },
+  "modes": [
+    "light",
+    "dark"
+  ]
+}

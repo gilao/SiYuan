@@ -1,0 +1,30 @@
+/* 使代码块、嵌入块、超级块在拖拽移动和合并操作中能正常显示提示色条 */
+/* 加大拖放合并块提示色条的大小以让其更容易识别 */
+.dragover__top{
+    box-shadow: 0px -10px 0 var(--b3-theme-primary-lighter) !important;
+}
+.dragover__right{
+    box-shadow: 10px 0 0 var(--b3-theme-primary-lighter) !important;
+}
+.dragover__bottom{
+    box-shadow: 0px 10px 0 var(--b3-theme-primary-lighter) !important;
+}
+.dragover__left{
+    box-shadow: -10px 0 0 var(--b3-theme-primary-lighter) !important;
+}
+
+/* 修复文档树中笔记本拖动无拖动条的问题 */
+.file-tree .dragover__bottom{
+    box-shadow: inset 0px -4px 0 var(--b3-theme-primary-lighter) !important;
+}
+.file-tree .dragover__top{
+    box-shadow: inset 0px 4px 0 var(--b3-theme-primary-lighter) !important;
+}
+
+.b3-list.b3-list--background:has(:first-child.b3-list-item.dragover__bottom[data-type="navigation-root"]){
+    box-shadow: 0px 4px 0 var(--b3-theme-primary-lighter) !important;
+}
+
+.b3-list.b3-list--background:has(:first-child.b3-list-item.dragover__top[data-type="navigation-root"]){
+    box-shadow: 0px -4px 0 var(--b3-theme-primary-lighter) !important;
+}

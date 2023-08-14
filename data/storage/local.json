@@ -38,5 +38,6 @@
     "row": "",
     "rowTab": ""
   },
-  "local-zoom": 1
+  "local-zoom": 1,
+  "tsundoku-color-href": "/appearance/themes/Tsundoku/style/theme/Tsundoku_light.css"
 }

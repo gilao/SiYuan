@@ -1,0 +1,126 @@
+/*** ———————————————修改设置了底色/背景色的文字部分的样式————————————————— ***/
+
+/* 为不同底色/背景色区域设置一部分相同的样式 */
+
+[style*="background-color: var(--b3-font-background"] {
+    /* padding: 0px 2px 1px 2px !important; */
+    /* margin: 3px 3px 0px 2px !important;
+    border-radius: 5px !important; */
+    font-size: 0.95em !important;
+    vertical-align:1% !important;
+    text-shadow:none !important;
+}
+
+
+
+/* 针对不同底色，修改其字色和底色 */
+[style*="background-color: var(--b3-font-background1);"] {
+    background-color: hsl(358deg 51% 72% / 55%) !important;
+}
+
+[style*="background-color: var(--b3-font-background2);"] {
+    background-color: #ff8d8da8 !important;
+}
+
+[style*="background-color: var(--b3-font-background3);"] {
+    background-color: hsl(0deg 54% 62% / 92%) !important;
+    color: #f0dde4;
+}
+
+[style*="background-color: var(--b3-font-background4);"] {
+    background-color: hsl(86deg 57% 70% / 54%) !important;
+}
+
+[style*="background-color: var(--b3-font-background5);"] {
+    background-color: rgb(185 227 130 / 65%) !important;
+    color: #dae2b9;
+}
+
+[style*="background-color: var(--b3-font-background6);"] {
+    background-color: hwb(83deg 24% 33%) !important;
+    color: hsl(78deg 51% 89%);
+}
+
+[style*="background-color: var(--b3-font-background7);"] {
+    background-color: rgb(139 194 215 / 65%) !important;
+}
+
+[style*="background-color: var(--b3-font-background8);"] {
+    background-color: hsl(190deg 56% 65% / 70%) !important;
+}
+
+[style*="background-color: var(--b3-font-background9);"] {
+    color: hsl(211deg 93% 92%);
+    background-color: rgb(97 171 204) !important;
+}
+
+[style*="background-color: var(--b3-font-background10);"] {
+    background-color: hsl(264deg 46% 73% / 60%) !important;
+}
+
+[style*="background-color: var(--b3-font-background11);"] {
+    background-color: hsl(264deg 58% 66% / 75%) !important;
+}
+
+[style*="background-color: var(--b3-font-background12);"] {
+    background-color: hsl(264deg 53% 65%) !important;
+    color: hsl(299deg 37% 90%);
+}
+
+/* 设置第13个背景色为挖空\填空效果 */
+[style*="background-color: var(--b3-font-background13);"] {
+
+}
+/* 当鼠标放在隐藏文字上方时显示文字 */
+[style*="background-color: var(--b3-font-background13);"]:hover {
+    color: inherit !important;
+}
+
+
+
+
+.color__square[data-type="backgroundColor"]:hover{
+    scale: 120%;
+    border: none;
+}
+
+
+.color__square[style*="background-color:var(--b3-font-background1)"]{
+    background-color: hsl(358deg 51% 72%) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background2)"]{
+    background-color: #ff8d8d !important;
+}
+.color__square[style*="background-color:var(--b3-font-background3)"]{
+    background-color: hsl(0deg 97% 69%) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background4)"]{
+    background-color: #b5cf94 !important;
+}
+.color__square[style*="background-color:var(--b3-font-background5)"]{
+    background-color: hsl(86deg 64% 70%) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background6)"]{
+    background-color: hsl(86deg 64% 70%) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background7)"]{
+    background-color: rgb(139 194 215) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background8)"]{
+    background-color: rgb(123, 201, 217) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background9)"]{
+    background-color: rgb(98 206 255) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background10)"]{
+    background-color: hsl(264deg 68% 73%) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background11)"]{
+    background-color: hsl(274deg 57% 69%) !important;
+}
+.color__square[style*="background-color:var(--b3-font-background12)"]{
+    background-color: rgb(190, 106, 255) !important;
+}
+.color__square[style*="background-color=var(--b3-font-background13)"]{
+    background-color: hsl(358deg 51% 72%) !important;
+}
