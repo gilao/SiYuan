@@ -270,7 +270,6 @@
                       "title": "大模型启动脚本"
                     },
                     {
-                      "active": true,
                       "children": {
                         "action": "",
                         "blockId": "20230811102434-mrnb5sj",
@@ -281,7 +280,7 @@
                         "scrollAttr": {
                           "endId": "20230811111135-cnrs94i",
                           "focusEnd": 0,
-                          "focusId": "20230811111135-cnrs94i",
+                          "focusId": "20230811104720-9qayql8",
                           "focusStart": 0,
                           "rootId": "20230811102434-mrnb5sj",
                           "scrollTop": 0,
@@ -292,6 +291,53 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "2023-08-11"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20230815085800-941b9sl",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230723223139-9nm07uk",
+                        "rootId": "20230815085800-941b9sl",
+                        "scrollAttr": {
+                          "endId": "20230815085800-dv9bwei",
+                          "focusEnd": 0,
+                          "focusId": "20230815085800-dv9bwei",
+                          "focusStart": 0,
+                          "rootId": "20230815085800-941b9sl",
+                          "scrollTop": 0,
+                          "startId": "20230815085800-dv9bwei"
+                        }
+                      },
+                      "docIcon": "2199",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2023-08-15"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230814085241-705xxfc",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230723223139-9nm07uk",
+                        "rootId": "20230814085241-705xxfc",
+                        "scrollAttr": {
+                          "endId": "20230814085241-6wkie5c",
+                          "focusEnd": 0,
+                          "focusId": "20230814085241-6wkie5c",
+                          "focusStart": 0,
+                          "rootId": "20230814085241-705xxfc",
+                          "scrollTop": 0,
+                          "startId": "20230814085241-6wkie5c"
+                        }
+                      },
+                      "docIcon": "1f4bb",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2023-08-14"
                     }
                   ],
                   "height": "",
@@ -1092,7 +1138,7 @@
   "stat": {
     "treeCount": 390,
     "cTreeCount": 500,
-    "blockCount": 22996,
+    "blockCount": 22990,
     "cBlockCount": 30000,
     "dataSize": 87746894,
     "cDataSize": 104857600,
