@@ -17,7 +17,7 @@
       "mini-vlook"
     ],
     "themeDark": "Tsundoku",
-    "themeLight": "daylight",
+    "themeLight": "mini-vlook",
     "themeVer": "1.7.8",
     "icons": [
       "Lucide-icon",
@@ -160,7 +160,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "E:\\SiYuan\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "E:\\波哥\\思源备份\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages"
   },
@@ -250,8 +250,117 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20230811142333-scjxi1d",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230811142117-2g3m2ee",
+                        "rootId": "20230811142333-scjxi1d",
+                        "scrollAttr": {
+                          "endId": "20230815144503-ob0qwlj",
+                          "focusEnd": 0,
+                          "focusId": "20230815092458-5gievca",
+                          "focusStart": 0,
+                          "rootId": "20230811142333-scjxi1d",
+                          "scrollTop": 6256.66650390625,
+                          "startId": "20230815092458-vrn317x"
+                        }
+                      },
+                      "docIcon": "2615",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "大模型启动脚本"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230815085800-941b9sl",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230723223139-9nm07uk",
+                        "rootId": "20230815085800-941b9sl",
+                        "scrollAttr": {
+                          "endId": "20230815152026-2doo21m",
+                          "focusEnd": 6,
+                          "focusId": "20230815151842-rt348jr",
+                          "focusStart": 6,
+                          "rootId": "20230815085800-941b9sl",
+                          "scrollTop": 0,
+                          "startId": "20230815085800-dv9bwei"
+                        }
+                      },
+                      "docIcon": "2199",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2023-08-15"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230815144533-6m40zis",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230814084818-hog5ds9",
+                        "rootId": "20230815144533-6m40zis",
+                        "scrollAttr": {
+                          "endId": "20230815205127-b4qtvoc",
+                          "rootId": "20230815144533-6m40zis",
+                          "scrollTop": 0,
+                          "startId": "20230815144533-ybtrdcw"
+                        }
+                      },
+                      "docIcon": "1f509",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2023-08-15"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230814084927-urix30f",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230814084818-hog5ds9",
+                        "rootId": "20230814084927-urix30f",
+                        "scrollAttr": {
+                          "endId": "20230814084927-x2myxnv",
+                          "focusEnd": 0,
+                          "focusId": "20230814084927-x2myxnv",
+                          "focusStart": 0,
+                          "rootId": "20230814084927-urix30f",
+                          "scrollTop": 0,
+                          "startId": "20230814084927-x2myxnv"
+                        }
+                      },
+                      "docIcon": "1f993",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Go 语言分布式深度学习模型服务框架调研文档"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230815143622-shj65o6",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230814084818-hog5ds9",
+                        "rootId": "20230815143622-shj65o6",
+                        "scrollAttr": {
+                          "endId": "20230815143712-himeani",
+                          "focusEnd": 0,
+                          "focusId": "20230815143641-yimnhxo",
+                          "focusStart": 0,
+                          "rootId": "20230815143622-shj65o6",
+                          "scrollTop": 0,
+                          "startId": "20230815143641-yimnhxo"
+                        }
+                      },
+                      "docIcon": "1f4de",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "基于python \u0026 go 的程序实现"
                     }
                   ],
                   "height": "",
@@ -439,33 +548,33 @@
       "pin": true
     }
   },
-  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35e0fda90b4aca63500751f77e98515db7c50b32491d0a8a20c5aa3945f1f63a67b84d0b62651cec4f6da6686f4516acfd09661971943b615014fddbedc5af7e47eaa1dcaf0c1de93aef0e1480b31ed764779a534224dc32bb6321ff165b397a31d2bb6238a7e0b409a024bd6292307631d12b8c6fe1e17e1904ef1993faa4fba087201db5303038a5dec71c9645d8267c15e2e66e18534e16f97a5663fb8865c3e3adc509d194e5343ed17acc7f9ed47ac229aa794b3ba5b393fd0756a3ec30334f3b420954c6dc2d69c0d44bdf8b044cceb9146e9d4785a7fcde134dfd736e4d0cfa3374efbb38f117b9c89e9b8ac1953d545b90d9cfabc0c79daccbcd18997f9356c19eb8c35e7fae0f70666c4f3d8d3b222817291f643f9ff753f035ccd03fc137bcabec6a85f684a15230eb13504634015bc8981e3585a07142f24512e59bea4e6f6c2638c51d502bd48f763f933b942099e9272888c85f1076985c070920f902a0d33eb4205dcdf202b0e77c1210d41745cacda8604046feabbcd3966ab6c32419ab47ae8d9fa4bdc6c000ab9e926fb6d080a136810f9fd6ef9b910473048f8775470b5e3ae3580bcf44f4d0bc9b4555f87fc8215f4271c12a4e5be2f8c3011b6c7d22d9d0f84265d491ce24f40e52f5c951709066b4c3a9d988947b2ea25e27904e297cf27c5f86e45efb4993b0b7fd274825d8e17c8b01300f547f60e75076ef089525a16fb07a3d53e3d917aa16f1f6aa63eb67c700458c9de2eb9d07d017d566a7031c496f6182fb4f9d84b6b6e79dccdac3a7b0dce1f6ae02a77f2beafa7e5be649bf313d761e319358816cd3fa4ae04e29c802c2f2d9baa74268d737bf3ade15923846b7097538b0d69820833407c4e4eb2ed759567349dfd22b4dd8e8e54a1217bf6cfa64810d6550e98f620c979db5cd647963829565c2f7e6ab818cdcb2657be1f3e133aa0a93d3e95bdd6a4f2c36379af55e391a62420126fc9f6a7b0e0885e5a5467dec0c15ffca566cf073bbd36edb80b23b5691ad3e0c972780993e4f81d58c1b77d87053ee4842f0509c4d88dc6e4df5f56682c9995fe4f965ee2de2f6ecd5a28fda1619654fe73af3d3b6970fddb06f5d95dd42ed902db92d1e442f66e3e6f6f30973654f72655ab89d9964444e47a9be5bcfd3a6e71b9af7f779a68ecf4249301f359bc33d71636fe064ac64c14d2d9928f27b78cc86aabfb69cbc9d06ea97585b333104d749c3f0d3f72cbe45dda55786434f2532701da278aa93b69ebd7648d846f0dafbf6c0817c834d18e855f47d1f2419b8d0aa24403f0a24fb58cb8c25fbcff125135cb4ba6fbd47133584c7fb932a26f31360ccd6b5555502053c4dd75f5f1712bd98ce7366722e3f6a772996acf1e31ddf53403ee859a3dbb383d93243b95fd44189de6b0fb231a468e63407d9056cd0632fa23e768d714abfb08fc828f1d01a25cb1c6ced9a2e6d3c4faaece541fa8389849008b8dc31ce55736b39c57597f8717ded09254566612eb7429128e2f252f4e18cc10f39e26d2ed6cdecec98091c856cd77826a4a5ada4ca3fefe90f5e3c54bcfaab8bc9e67597e6ff6d26a069a934877bb647dcaeda96ccc8533701f9eefc1ce59182028fef1081e1f48fa91839201d9ee2fd92f0493ee1240f90a679f88a33cb78ed285be6933b7eb15cc24f76669322de8a049136a2a3f3eb839e3eb8b2a2e06ca6991d4cd31c75c9dacf13972c4249967b6b0df96ef64dc74f50ec5a1823fa74d98a0b61e2e7f9eb0e90421e99492870538e5707db24606ce9bd4ad039095",
+  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35e605fa6ca5b92671bed1535e7a05c4c8e7b4fc460084ccee577c9030c1839717368beb012d63b3bca546b0aa175165cf4a728902ea7357e8e487b6251832202b76ebcb466de066a72355f893b72a58abdc76f2dd2c3f00905a206378fae54220c40f6691df79d6aff7d3fc3ab669154149d227ec6897d168598d4e030f05fe32639dc3ee3baf3ecc624090a0fa5f00d5f10e66f98dd098523daff2516474318bed4f51ee75292948c2635f8b09885d92192cd9714f427036e050cfa3c80fc38ff8a9c64557dd7cabd478aabeaf5a8b62b204469e20c5e720ecc1a5b4f47e70601b75fd33b7d34d45be822a427364cdc7d0c4c862d9d20c363439783eac58ab98072fb5652020ec9b69ddb281e306609ab6d46d58095ff84f98e416a18f02d7a250f55568e3f57d4855bdc1a66acb88b37f3a7aa5e219279cd113f832c1b19add87fc75eb770433d6e9dc8f19de1bf361b0c74f884cb79df7f9f71583bea455eecef2eb83a88c24729ad2f249fff6b0ef0cc4948d76e6a644e9241161f03c63b33b863f4fa2acd5ef31bbb1f9fe15362284da7b5d6e00e97ff86e470b718d68e6994802943c80dd99021b66b1dad9549ac5a6a3c98df4bd69db3f2b9237da10a1de14be2eca8f40efc20444201b4b670430e1ee83aa9121d139b4507a881ffc97ee042378f86ef066682e15f494318bcbb232505aed78741f87dc85c7a08cac55677c181db1ee7afec422bcfb5b8ac444bd6a9b24f527d246ffd9caa8c8e590343aad15f9e5b145d1e0d3e6589ac8aa04d34957ca96204eeaa2fffb6ade1ad4e3067366fda7340febd26eb396f13a171ca20373b4b08eb7376870ea7bd2e6c408ce1b9a90af3580ee870c3a007cc91adcfd490ae6a8c4a9ef808bd5343057a1eb35a3591fde95d702759cac9e2f105a68c2dad5cf901371d125a4692b0d89cfb55d4dc1d304b616807a50761a700b998569b8c92ede74c23e3395c1d411e774576082dcff2f33e882e6e445e9eb8f006bde10c05c7e657e918cf6ffbde0d40dc963ad36b7ccb0cff6e2e4ea18da90446f7278e1bd545abdcc05d017e19659f109bba53d37c49586e30e26399da6654cea4725bfcac5b6a7fc2c23ab456f253219a977ae262d54f41fb7c8ba7c64920ad17727fcf11865964002b9a1516ed2213226dec82413a66e0a5fcf2b668a5ca8984452930fa8c5075a3c133f0da0eac7bbdff027c9b8b90db4ff401355b244166ceadfdc718b7b9ac59efede402ee86151fe3db577b90bdad830061651279aad2795425bd56298dc2fc57debf2e0af44ca0281518b1b530e5d706e5c62e6268eec67a12fd29abbad8245cb8d47838253f624d986180307606201302ea3152f57ef3e735fd4d2b141c2deded8a02728333569c4496f6b441f9c804a6409cbd753b55c0be40a483b80856a793972563c1552accb6b6e282144b47335f4b358b6df44434b56d37afb45a2a65e319ac8cdd2a0274de7086b2f7af853a923548416249934a82a54a8b13e80f7ceb363e68ed55e56588dda7b589f3f653de9e3e0f484ccb14236939f3a09329c82be7286bc5ac47df0ac0f68a07d3e343ac81fdc4897f686d7bc528978ebd278163bb6c89abf0bef595336ba957976c9bf3e25d160f4a4b16c6523ebf3bec0f322a97ee59bff55370e007aaed6c315651945a9171e9bffa3327ee219f71b4bc964fc5174dc669853e096936a7d81b5b65fe802310d4268c5bd8c981a2e8a5fed1368343467722e6e784594f30e9083c8b3268c9c1dd1cf24893c635e5934a92252e524923daf387",
   "account": {
     "displayTitle": true,
     "displayVIP": true
   },
   "readonly": false,
   "localIPs": [
-    "172.17.203.92",
-    "192.168.166.1",
-    "192.168.159.1",
+    "192.168.1.7",
+    "192.168.45.1",
+    "192.168.249.1",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "d57cad99-90c9-4c49-a5c7-07a89a4fc500",
-    "name": "DESKTOP-KMPG2RJ",
-    "kernelVersion": "2.9.9",
+    "id": "6b1bdd28-007a-4941-9bd4-27c9b9503b69",
+    "name": "LAPTOP-3SJPKUOC",
+    "kernelVersion": "2.9.7",
     "os": "windows",
-    "osPlatform": "Microsoft Windows 10 Pro",
+    "osPlatform": "Microsoft Windows 11 Home China",
     "container": "std",
     "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\HP",
-    "workspaceDir": "E:\\SiYuan",
-    "appDir": "D:\\SiYuan\\resources",
-    "confDir": "E:\\SiYuan\\conf",
-    "dataDir": "E:\\SiYuan\\data",
+    "homeDir": "C:\\Users\\郝晓波",
+    "workspaceDir": "E:\\波哥\\思源备份",
+    "appDir": "D:\\siyuan\\resources",
+    "confDir": "E:\\波哥\\思源备份\\conf",
+    "dataDir": "E:\\波哥\\思源备份\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1038,11 +1147,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 393,
+    "treeCount": 390,
     "cTreeCount": 500,
-    "blockCount": 23174,
+    "blockCount": 23150,
     "cBlockCount": 30000,
-    "dataSize": 86499325,
+    "dataSize": 86488617,
     "cDataSize": 104857600,
     "assetsSize": 61090451,
     "cAssetsSize": 104857600
@@ -1054,6 +1163,6 @@
     "key": null
   },
   "openHelp": false,
-  "showChangelog": true,
+  "showChangelog": false,
   "cloudRegion": 0
 }

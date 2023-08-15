@@ -2142,3 +2142,86 @@ I 2023/08/15 16:15:34 database.go:1195: closed database
 I 2023/08/15 16:15:34 conf.go:867: cleared workspace temp
 I 2023/08/15 16:15:34 conf.go:522: exited kernel
 I 2023/08/15 16:15:34 sync.go:660: sync websocket closed
+I 2023/08/15 20:50:34 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/15 20:50:34 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [18284]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源备份]
+I 2023/08/15 20:50:34 conf.go:235: downgraded from version [2.9.9] to [2.9.7]
+I 2023/08/15 20:50:34 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/15 20:50:34 runtime.go:128: use network proxy [system]
+I 2023/08/15 20:50:34 serve.go:114: kernel [pid=18284] http server [127.0.0.1:57510] is booting
+I 2023/08/15 20:50:34 blocktree.go:446: read block tree [5.9 MB] to [E:\波哥\思源备份\temp\blocktree], elapsed [0.04s]
+I 2023/08/15 20:50:34 conf.go:710: database size [45 MB], tree/block count [393/23175]
+I 2023/08/15 20:50:34 working.go:153: kernel booted
+I 2023/08/15 20:50:34 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源备份\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 20:50:34 conf.go:927: pandoc initialized, set pandoc bin to [E:\波哥\思源备份\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 20:50:34 box.go:79: auto stat [trees=393, blocks=23175, dataSize=86 MB, assetsSize=61 MB]
+I 2023/08/15 20:50:34 disk.go:33: disk usage [total=255 GB, used=112 GB, free=143 GB]
+I 2023/08/15 20:50:34 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/08/15 20:50:36 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+W 2023/08/15 20:50:42 blocktree.go:500: save block tree [size=5.9 MB] to [E:\波哥\思源备份\temp\blocktree], elapsed [3.55s]
+I 2023/08/15 20:51:31 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/08/15 20:51:31 database.go:1134: closed database
+I 2023/08/15 20:51:31 conf.go:867: cleared workspace temp
+I 2023/08/15 20:51:32 conf.go:522: exited kernel
+I 2023/08/15 20:51:32 sync.go:660: sync websocket closed
+I 2023/08/15 20:51:43 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/15 20:51:43 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [26116]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\波哥\思源备份]
+I 2023/08/15 20:51:43 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/15 20:51:43 runtime.go:128: use network proxy [system]
+I 2023/08/15 20:51:43 serve.go:114: kernel [pid=26116] http server [127.0.0.1:57575] is booting
+I 2023/08/15 20:51:44 blocktree.go:446: read block tree [5.9 MB] to [E:\波哥\思源备份\temp\blocktree], elapsed [0.02s]
+I 2023/08/15 20:51:44 conf.go:710: database size [45 MB], tree/block count [390/23150]
+I 2023/08/15 20:51:44 working.go:153: kernel booted
+I 2023/08/15 20:51:44 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\波哥\思源备份\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 20:51:44 conf.go:927: pandoc initialized, set pandoc bin to [E:\波哥\思源备份\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 20:51:44 box.go:79: auto stat [trees=390, blocks=23150, dataSize=86 MB, assetsSize=61 MB]
+I 2023/08/15 20:51:44 disk.go:33: disk usage [total=255 GB, used=112 GB, free=143 GB]
+I 2023/08/15 20:51:44 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/08/15 20:51:46 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+W 2023/08/15 20:51:52 blocktree.go:500: save block tree [size=5.9 MB] to [E:\波哥\思源备份\temp\blocktree], elapsed [3.43s]
+I 2023/08/15 20:52:13 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/08/15 20:52:13 database.go:1134: closed database
+I 2023/08/15 20:52:13 conf.go:867: cleared workspace temp
+I 2023/08/15 20:52:14 conf.go:522: exited kernel
+I 2023/08/15 20:52:14 sync.go:660: sync websocket closed
