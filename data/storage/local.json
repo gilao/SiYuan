@@ -16,6 +16,8 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "def load_faiss",
+      "load_faiss",
       "#锁#",
       "#数据转换#",
       "#嵌入式#",

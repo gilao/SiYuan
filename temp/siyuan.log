@@ -1927,3 +1927,176 @@ I 2023/08/15 14:14:25 database.go:1195: closed database
 I 2023/08/15 14:14:25 conf.go:867: cleared workspace temp
 I 2023/08/15 14:14:26 conf.go:522: exited kernel
 I 2023/08/15 14:14:26 sync.go:660: sync websocket closed
+I 2023/08/15 14:22:22 working.go:116: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/15 14:22:22 runtime.go:74: kernel is booting:
+    * ver [2.9.9]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [1920]
+    * runtime mode [prod]
+    * working directory [D:\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/08/15 14:22:22 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/15 14:22:22 runtime.go:128: use network proxy [system]
+I 2023/08/15 14:22:22 serve.go:119: kernel [pid=1920] http server [127.0.0.1:55679] is booting
+I 2023/08/15 14:22:22 blocktree.go:446: read block tree [5.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/08/15 14:22:22 conf.go:710: database size [44 MB], tree/block count [391/23153]
+I 2023/08/15 14:22:22 working.go:154: kernel booted
+I 2023/08/15 14:22:22 box.go:79: auto stat [trees=391, blocks=23153, dataSize=86 MB, assetsSize=61 MB]
+I 2023/08/15 14:22:22 disk.go:33: disk usage [total=55 GB, used=19 GB, free=36 GB]
+I 2023/08/15 14:22:22 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 14:22:22 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 14:22:23 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=64, size=1.3 MB]
+E 2023/08/15 14:22:24 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+I 2023/08/15 14:22:24 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+W 2023/08/15 14:22:31 blocktree.go:500: save block tree [size=5.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.17s]
+E 2023/08/15 14:40:02 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+E 2023/08/15 14:40:59 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+E 2023/08/15 14:41:36 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+E 2023/08/15 14:50:03 span.go:103: sql query failed: near "n": syntax error
+E 2023/08/15 14:50:05 span.go:103: sql query failed: near "l": syntax error
+E 2023/08/15 14:50:05 span.go:103: sql query failed: near "li": syntax error
+E 2023/08/15 14:50:08 span.go:103: sql query failed: near "z": syntax error
+E 2023/08/15 14:50:08 span.go:103: sql query failed: near "zh": syntax error
+E 2023/08/15 14:50:08 span.go:103: sql query failed: near "zhi": syntax error
+E 2023/08/15 14:50:09 span.go:103: sql query failed: near "m": syntax error
+E 2023/08/15 14:50:09 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:10 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:10 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:10 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:10 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:15 span.go:103: sql query failed: near "l": syntax error
+E 2023/08/15 14:50:17 span.go:103: sql query failed: near "l": syntax error
+E 2023/08/15 14:50:17 span.go:103: sql query failed: near "li": syntax error
+E 2023/08/15 14:50:19 span.go:103: sql query failed: near "z": syntax error
+E 2023/08/15 14:50:19 span.go:103: sql query failed: near "zh": syntax error
+E 2023/08/15 14:50:19 span.go:103: sql query failed: near "zhi": syntax error
+E 2023/08/15 14:50:20 span.go:103: sql query failed: near "m": syntax error
+E 2023/08/15 14:50:20 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:20 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:20 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:20 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:20 span.go:103: sql query failed: near "mo": syntax error
+E 2023/08/15 14:50:30 span.go:103: sql query failed: near "h": syntax error
+E 2023/08/15 14:50:30 span.go:103: sql query failed: near "he": syntax error
+E 2023/08/15 14:50:30 span.go:103: sql query failed: near "hen": syntax error
+E 2023/08/15 14:50:30 span.go:103: sql query failed: near "he": syntax error
+E 2023/08/15 14:50:31 span.go:103: sql query failed: near "h": syntax error
+E 2023/08/15 14:50:31 span.go:103: sql query failed: near "h": syntax error
+E 2023/08/15 14:50:31 span.go:103: sql query failed: near "h": syntax error
+E 2023/08/15 14:50:31 span.go:103: sql query failed: near "c": syntax error
+E 2023/08/15 14:50:31 span.go:103: sql query failed: near "ch": syntax error
+E 2023/08/15 14:50:32 span.go:103: sql query failed: near "che": syntax error
+E 2023/08/15 14:50:32 span.go:103: sql query failed: near "chen": syntax error
+E 2023/08/15 14:50:32 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/08/15 14:50:32 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/08/15 14:50:33 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/08/15 14:50:33 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/08/15 14:50:33 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/08/15 14:50:35 span.go:103: sql query failed: near "s": syntax error
+E 2023/08/15 14:50:35 span.go:103: sql query failed: near "x": syntax error
+E 2023/08/15 14:50:35 span.go:103: sql query failed: near "xi": syntax error
+E 2023/08/15 14:50:36 span.go:103: sql query failed: near "xin": syntax error
+E 2023/08/15 14:50:40 span.go:103: sql query failed: near "a": syntax error
+E 2023/08/15 14:50:41 span.go:103: sql query failed: near "s": syntax error
+E 2023/08/15 14:50:41 span.go:103: sql query failed: near "sh": syntax error
+E 2023/08/15 14:50:41 span.go:103: sql query failed: near "shi": syntax error
+E 2023/08/15 14:50:43 span.go:103: sql query failed: near "x": syntax error
+E 2023/08/15 14:50:43 span.go:103: sql query failed: near "xi": syntax error
+E 2023/08/15 14:50:44 span.go:103: sql query failed: near "xin": syntax error
+E 2023/08/15 14:50:44 span.go:103: sql query failed: near "xi": syntax error
+E 2023/08/15 14:50:44 span.go:103: sql query failed: near "xinag": syntax error
+E 2023/08/15 14:50:45 span.go:103: sql query failed: near "r": syntax error
+E 2023/08/15 14:50:45 span.go:103: sql query failed: near "ru": syntax error
+E 2023/08/15 14:50:46 span.go:103: sql query failed: near "r": syntax error
+E 2023/08/15 14:50:46 span.go:103: sql query failed: near "c": syntax error
+E 2023/08/15 14:50:46 span.go:103: sql query failed: near "cu": syntax error
+E 2023/08/15 14:50:46 span.go:103: sql query failed: near "cun": syntax error
+E 2023/08/15 14:50:51 span.go:103: sql query failed: near "c": syntax error
+E 2023/08/15 14:50:51 span.go:103: sql query failed: near "ch": syntax error
+E 2023/08/15 14:50:51 span.go:103: sql query failed: near "che": syntax error
+E 2023/08/15 14:50:51 span.go:103: sql query failed: near "chen": syntax error
+E 2023/08/15 14:50:51 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/08/15 14:50:58 span.go:103: sql query failed: near "g": syntax error
+E 2023/08/15 14:50:58 span.go:103: sql query failed: near "x": syntax error
+E 2023/08/15 14:50:58 span.go:103: sql query failed: near "xi": syntax error
+E 2023/08/15 14:50:58 span.go:103: sql query failed: near "xia": syntax error
+E 2023/08/15 14:50:58 span.go:103: sql query failed: near "xian": syntax error
+E 2023/08/15 14:50:58 span.go:103: sql query failed: near "xiang": syntax error
+E 2023/08/15 14:51:00 span.go:103: sql query failed: near "r": syntax error
+E 2023/08/15 14:51:00 span.go:103: sql query failed: near "ru": syntax error
+E 2023/08/15 14:51:00 span.go:103: sql query failed: near "run": syntax error
+E 2023/08/15 14:51:03 span.go:103: sql query failed: near "c": syntax error
+E 2023/08/15 14:51:03 span.go:103: sql query failed: near "cu": syntax error
+E 2023/08/15 14:51:03 span.go:103: sql query failed: near "cun": syntax error
+E 2023/08/15 14:51:06 span.go:103: sql query failed: near "y": syntax error
+E 2023/08/15 14:51:06 span.go:103: sql query failed: near "y": syntax error
+E 2023/08/15 14:54:44 span.go:103: sql query failed: near "d": syntax error
+E 2023/08/15 14:54:44 span.go:103: sql query failed: near "do": syntax error
+E 2023/08/15 14:54:44 span.go:103: sql query failed: near "don": syntax error
+E 2023/08/15 14:54:44 span.go:103: sql query failed: near "dong": syntax error
+E 2023/08/15 14:54:45 span.go:103: sql query failed: near "m": syntax error
+E 2023/08/15 14:54:45 span.go:103: sql query failed: near "ma": syntax error
+E 2023/08/15 14:54:56 span.go:103: sql query failed: near "y": syntax error
+E 2023/08/15 14:54:56 span.go:103: sql query failed: near "y": syntax error
+E 2023/08/15 14:55:10 span.go:103: sql query failed: near "y": syntax error
+E 2023/08/15 14:55:10 span.go:103: sql query failed: near "ya": syntax error
+E 2023/08/15 14:55:10 span.go:103: sql query failed: near "yan": syntax error
+E 2023/08/15 14:55:12 span.go:103: sql query failed: near "g": syntax error
+E 2023/08/15 14:55:12 span.go:103: sql query failed: near "ga": syntax error
+E 2023/08/15 14:55:12 span.go:103: sql query failed: near "gao": syntax error
+I 2023/08/15 15:38:54 working.go:116: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/15 15:38:54 runtime.go:74: kernel is booting:
+    * ver [2.9.9]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [13396]
+    * runtime mode [prod]
+    * working directory [D:\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/08/15 15:38:54 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/15 15:38:54 runtime.go:128: use network proxy [system]
+I 2023/08/15 15:38:54 serve.go:119: kernel [pid=13396] http server [127.0.0.1:49849] is booting
+I 2023/08/15 15:38:54 blocktree.go:446: read block tree [5.8 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/08/15 15:38:54 conf.go:710: database size [44 MB], tree/block count [393/23175]
+I 2023/08/15 15:38:54 working.go:154: kernel booted
+I 2023/08/15 15:38:54 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 15:38:54 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/15 15:38:54 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.04s], tree [count=64, size=1.3 MB]
+I 2023/08/15 15:38:54 box.go:79: auto stat [trees=329, blocks=20717, dataSize=86 MB, assetsSize=60 MB]
+I 2023/08/15 15:38:54 disk.go:33: disk usage [total=55 GB, used=19 GB, free=36 GB]
+I 2023/08/15 15:38:56 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/08/15 15:38:57 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+I 2023/08/15 16:13:43 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/08/15 16:13:43 database.go:1195: closed database
+I 2023/08/15 16:13:43 conf.go:867: cleared workspace temp
+I 2023/08/15 16:13:44 conf.go:522: exited kernel
+I 2023/08/15 16:13:44 sync.go:660: sync websocket closed
