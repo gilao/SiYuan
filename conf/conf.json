@@ -250,91 +250,8 @@
                 {
                   "children": [
                     {
-                      "active": true,
-                      "children": {
-                        "action": "",
-                        "blockId": "20230811142333-scjxi1d",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230811142117-2g3m2ee",
-                        "rootId": "20230811142333-scjxi1d",
-                        "scrollAttr": {
-                          "endId": "20230815144503-ob0qwlj",
-                          "focusEnd": 2647,
-                          "focusId": "20230815100541-5sm0n4b",
-                          "focusStart": 2647,
-                          "rootId": "20230811142333-scjxi1d",
-                          "scrollTop": 7954,
-                          "startId": "20230815092458-vrn317x"
-                        }
-                      },
-                      "docIcon": "2615",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "大模型启动脚本"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230814084927-urix30f",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230814084818-hog5ds9",
-                        "rootId": "20230814084927-urix30f",
-                        "scrollAttr": {
-                          "endId": "20230814084927-x2myxnv",
-                          "focusEnd": 0,
-                          "focusId": "20230814084927-x2myxnv",
-                          "focusStart": 0,
-                          "rootId": "20230814084927-urix30f",
-                          "scrollTop": 0,
-                          "startId": "20230814084927-x2myxnv"
-                        }
-                      },
-                      "docIcon": "1f3fb",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Go 语言分布式深度学习模型服务框架调研文档"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230815085800-941b9sl",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230723223139-9nm07uk",
-                        "rootId": "20230815085800-941b9sl",
-                        "scrollAttr": {
-                          "endId": "20230815152026-2doo21m",
-                          "rootId": "20230815085800-941b9sl",
-                          "scrollTop": 0,
-                          "startId": "20230815085800-dv9bwei"
-                        }
-                      },
-                      "docIcon": "2199",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "2023-08-15"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20230815144533-6m40zis",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20230814084818-hog5ds9",
-                        "rootId": "20230815144533-6m40zis",
-                        "scrollAttr": {
-                          "endId": "20230815144533-ybtrdcw",
-                          "rootId": "20230815144533-6m40zis",
-                          "scrollTop": 0,
-                          "startId": "20230815144533-ybtrdcw"
-                        }
-                      },
-                      "docIcon": "1f509",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "2023-08-15"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -1121,13 +1038,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 329,
+    "treeCount": 393,
     "cTreeCount": 500,
-    "blockCount": 20717,
+    "blockCount": 23174,
     "cBlockCount": 30000,
-    "dataSize": 85718116,
+    "dataSize": 86499325,
     "cDataSize": 104857600,
-    "assetsSize": 60310743,
+    "assetsSize": 61090451,
     "cAssetsSize": 104857600
   },
   "api": {
