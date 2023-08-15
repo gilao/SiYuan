@@ -1,14 +1,5 @@
 [
 	{
-		"name": "markmind",
-		"displayName": "Markmind 思维导图",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "siyuan-plugins-index",
 		"displayName": "目录插件",
 		"enabled": true,
