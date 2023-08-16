@@ -11,11 +11,25 @@
   "local-docinfo": {
     "id": "20230724231427-0aye9a8"
   },
+  "local-exportpdf": {
+    "keepFold": false,
+    "landscape": false,
+    "marginBottom": 1,
+    "marginLeft": 0.54,
+    "marginRight": 0.54,
+    "marginTop": 1,
+    "marginType": "default",
+    "mergeSubdocs": false,
+    "pageSize": "A4",
+    "removeAssets": true,
+    "scale": 1
+  },
   "local-plugintopunpin": [],
   "local-searchkeys": {
     "col": "",
     "colTab": "",
     "keys": [
+      "15",
       "def load_faiss",
       "load_faiss",
       "#锁#",
