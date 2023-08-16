@@ -327,9 +327,6 @@
                         "rootId": "20230816115129-ubp8wn3",
                         "scrollAttr": {
                           "endId": "20230816115201-98q4d1v",
-                          "focusEnd": 6,
-                          "focusId": "20230816115207-ddkaqyw",
-                          "focusStart": 6,
                           "rootId": "20230816115129-ubp8wn3",
                           "scrollTop": 0,
                           "startId": "20230816115129-u4gec61"
@@ -533,6 +530,7 @@
   },
   "readonly": false,
   "localIPs": [
+    "172.17.203.92",
     "192.168.166.1",
     "192.168.159.1",
     "127.0.0.1"
@@ -1126,7 +1124,7 @@
   "stat": {
     "treeCount": 396,
     "cTreeCount": 500,
-    "blockCount": 23213,
+    "blockCount": 23212,
     "cBlockCount": 30000,
     "dataSize": 86635353,
     "cDataSize": 104857600,
