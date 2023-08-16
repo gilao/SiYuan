@@ -2590,3 +2590,119 @@ I 2023/08/16 13:57:39 database.go:1195: closed database
 I 2023/08/16 13:57:39 conf.go:867: cleared workspace temp
 I 2023/08/16 13:57:40 conf.go:522: exited kernel
 I 2023/08/16 13:57:40 sync.go:660: sync websocket closed
+I 2023/08/16 15:26:14 working.go:116: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/16 15:26:14 runtime.go:74: kernel is booting:
+    * ver [2.9.9]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [17784]
+    * runtime mode [prod]
+    * working directory [D:\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/08/16 15:26:14 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/16 15:26:14 runtime.go:128: use network proxy [system]
+I 2023/08/16 15:26:14 serve.go:119: kernel [pid=17784] http server [127.0.0.1:59436] is booting
+I 2023/08/16 15:26:14 blocktree.go:446: read block tree [5.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.08s]
+I 2023/08/16 15:26:14 conf.go:710: database size [42 MB], tree/block count [396/23213]
+I 2023/08/16 15:26:14 working.go:154: kernel booted
+I 2023/08/16 15:26:14 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/16 15:26:14 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/16 15:26:14 box.go:79: auto stat [trees=332, blocks=20755, dataSize=86 MB, assetsSize=61 MB]
+I 2023/08/16 15:26:14 disk.go:33: disk usage [total=55 GB, used=19 GB, free=36 GB]
+I 2023/08/16 15:26:14 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=64, size=1.3 MB]
+I 2023/08/16 15:26:16 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/08/16 15:26:16 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+I 2023/08/16 15:36:52 working.go:116: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/16 15:36:52 runtime.go:74: kernel is booting:
+    * ver [2.9.9]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [10516]
+    * runtime mode [prod]
+    * working directory [D:\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/08/16 15:36:52 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/16 15:36:52 runtime.go:128: use network proxy [system]
+I 2023/08/16 15:36:52 serve.go:119: kernel [pid=10516] http server [127.0.0.1:60361] is booting
+I 2023/08/16 15:36:52 blocktree.go:446: read block tree [5.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.06s]
+I 2023/08/16 15:36:52 conf.go:710: database size [43 MB], tree/block count [397/23221]
+I 2023/08/16 15:36:52 working.go:154: kernel booted
+I 2023/08/16 15:36:52 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/16 15:36:52 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/16 15:36:52 box.go:79: auto stat [trees=397, blocks=23221, dataSize=87 MB, assetsSize=61 MB]
+I 2023/08/16 15:36:52 disk.go:33: disk usage [total=55 GB, used=19 GB, free=36 GB]
+I 2023/08/16 15:36:52 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=64, size=1.3 MB]
+I 2023/08/16 15:36:54 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/08/16 15:36:54 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+W 2023/08/16 15:37:00 blocktree.go:500: save block tree [size=5.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.43s]
+I 2023/08/16 15:50:34 working.go:116: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/08/16 15:50:34 runtime.go:74: kernel is booting:
+    * ver [2.9.9]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [11196]
+    * runtime mode [prod]
+    * working directory [D:\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/08/16 15:50:34 conf.go:392: user has disabled [Google Analytics]
+I 2023/08/16 15:50:34 runtime.go:128: use network proxy [system]
+I 2023/08/16 15:50:34 serve.go:119: kernel [pid=11196] http server [127.0.0.1:57281] is booting
+I 2023/08/16 15:50:34 blocktree.go:446: read block tree [5.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/08/16 15:50:34 conf.go:710: database size [43 MB], tree/block count [397/23230]
+I 2023/08/16 15:50:34 working.go:154: kernel booted
+I 2023/08/16 15:50:34 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/16 15:50:34 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/08/16 15:50:34 box.go:79: auto stat [trees=397, blocks=23230, dataSize=87 MB, assetsSize=61 MB]
+I 2023/08/16 15:50:34 disk.go:33: disk usage [total=55 GB, used=19 GB, free=36 GB]
+I 2023/08/16 15:50:34 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=64, size=1.3 MB]
+E 2023/08/16 15:50:36 system.go:56: changelog not found: D:\SiYuan\resources\changelogs\v2.9.9\v2.9.9.md
+I 2023/08/16 15:50:36 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+W 2023/08/16 15:50:42 blocktree.go:500: save block tree [size=5.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [2.60s]
+I 2023/08/16 16:10:22 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/08/16 16:10:22 database.go:1195: closed database
+I 2023/08/16 16:10:22 conf.go:867: cleared workspace temp
+E 2023/08/16 16:10:23 block_ref_query.go:380: sql query failed: sql: database is closed
+I 2023/08/16 16:10:23 conf.go:522: exited kernel
+I 2023/08/16 16:10:23 sync.go:660: sync websocket closed
