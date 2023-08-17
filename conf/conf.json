@@ -1039,11 +1039,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 397,
+    "treeCount": 398,
     "cTreeCount": 500,
-    "blockCount": 23230,
+    "blockCount": 23004,
     "cBlockCount": 30000,
-    "dataSize": 86638269,
+    "dataSize": 86636377,
     "cDataSize": 104857600,
     "assetsSize": 61206084,
     "cAssetsSize": 104857600
