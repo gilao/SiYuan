@@ -161,7 +161,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "E:\\SiYuan\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "E:\\波哥\\思源备份\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages"
   },
@@ -251,8 +251,117 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "children": {
+                        "action": "",
+                        "blockId": "20230816093937-xpwez8d",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230811142117-2g3m2ee",
+                        "rootId": "20230816093937-xpwez8d",
+                        "scrollAttr": {
+                          "endId": "20230816105734-z7ardcn",
+                          "rootId": "20230816093937-xpwez8d",
+                          "scrollTop": 922,
+                          "startId": "20230816093937-3ovfg8w"
+                        }
+                      },
+                      "docIcon": "1f9de",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "关于大模型启动脚本的python问题及后续Go框架设计思路"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230727014354-ww7h61x",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230727013545-ousf4dr",
+                        "rootId": "20230727014354-ww7h61x",
+                        "scrollAttr": {
+                          "endId": "20230727014357-1rs62tf",
+                          "focusEnd": 0,
+                          "focusId": "20230727014357-i7aa86d",
+                          "focusStart": 0,
+                          "rootId": "20230727014354-ww7h61x",
+                          "scrollTop": 0,
+                          "startId": "20230727014357-i7aa86d"
+                        }
+                      },
+                      "docIcon": "1fa74",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "限流的实现"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20230816152749-c8icr6t",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230724231451-d96yieh",
+                        "rootId": "20230816152749-c8icr6t",
+                        "scrollAttr": {
+                          "endId": "20230820160258-x5en1j5",
+                          "focusEnd": 8,
+                          "focusId": "20230820160258-x5en1j5",
+                          "focusStart": 8,
+                          "rootId": "20230816152749-c8icr6t",
+                          "scrollTop": 194,
+                          "startId": "20230816153459-agh6g3e"
+                        }
+                      },
+                      "docIcon": "1f313",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Go 调用Python的方式"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230811142333-scjxi1d",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230811142117-2g3m2ee",
+                        "rootId": "20230811142333-scjxi1d",
+                        "scrollAttr": {
+                          "endId": "20230815092824-3ii2t31",
+                          "focusEnd": 128,
+                          "focusId": "20230814155827-cnrzsec",
+                          "focusStart": 128,
+                          "rootId": "20230811142333-scjxi1d",
+                          "scrollTop": 10588,
+                          "startId": "20230814114447-ixr9kru"
+                        }
+                      },
+                      "docIcon": "2615",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "大模型启动脚本"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230815143622-shj65o6",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230814084818-hog5ds9",
+                        "rootId": "20230815143622-shj65o6",
+                        "scrollAttr": {
+                          "endId": "20230815143712-himeani",
+                          "focusEnd": 6,
+                          "focusId": "20230815143622-z0sfshi",
+                          "focusStart": 6,
+                          "rootId": "20230815143622-shj65o6",
+                          "scrollTop": 0,
+                          "startId": "20230815143641-yimnhxo"
+                        }
+                      },
+                      "docIcon": "1f4de",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "基于python \u0026 go 的程序实现"
                     }
                   ],
                   "height": "",
@@ -440,33 +549,34 @@
       "pin": true
     }
   },
-  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35e497713fa0619b515ea5e595d0357929aedf66ad2efd5ff7b55b09b88def54c182bb4c8c6c6bcf8ae253d130f1b9452d020638ac1aa4ec5490af3e7b0388cc5cc1557233200132985771b8edb197c2577ddde2bbe88d2f75541c2b5b4d9d2a9838de9c17773f01bc72aba150c69eca23946388be3507ab1c4c82c47c2b141e43c5a56534d9f5b87e96e30df53b5dbb92082816b61594bd052cc6ebe8a09b752d4518f8ccfc7f8f2071fdbb331132374d1adff7080a4274ef5528adb0020c0f3443245b42689f5b5e5f431f2e602e0082bc1352b288dca9c2f2f2c4040daaf7f22724d131785cb032dbbab40eed9165560344e80965ede0bc5f916a282a2313dad9822e08818016a4de30aa25bb3ef051475089fc565b32e909b654faeb29acaa4606fbf8a5f94fa73ea1583cbc577accce6dfc31f5c2175e0095d77568ddc1a200b0e58a57390d1fa6e43e12130e3d0bba6b8ebe8c4511297a0281ef70d95c8ed4dc7c72c69ec25766748948afb96d772826f83696ae19dc9c0806763e4feb10e15201caa43bbf680b2c53c75598909d3e3ce40ba7c9d1710bc08f7efb2a027bc2efbcbbd6cdcfead61b3aa9edbfa55efdd51968ea3ec3135cd5cdb89c95c8c9cecc75714a0d45f2eb3351f02b8b37218fb29348ce7abc3a12473d5da06628fc90c3f3cb413769b1da3a08fb3c7c7c3365c44e34e7961ac9ee9694908d7829932edfffca0d719795e7aabf3d04d95b823d438b4e355e3fe60519a9ea63080b3194ceded00186994f1fd50ddd1c3e95b4e856195580765448e60987e111a540f60fa1ace171a6bd3c62c4835d99de209f98df6f05f1d89f1d8fa40ea1c67008708401e5b83ed5aae47ccd46572eed224aea2cb46f5060bd6aa3e317b2de39736c0162315ed27445832ab7b39a677722c55e91d7dec408832dd0cccf64f36bd7b3b0ad7f433a1bffa2942aa0487830ddcf917d29167810223ecf9324a2511e03db1b804e572f5e6f72df441509defdd62c6bb25c666d63ffb7452e93fac4645b32f2907add2256ebc38aa99fc70735b2dbbe6d1cd81aef4fe1cd26c99ac61d0f54f7721d9b878171107dece77beac50a0e4308287d3e7d479ab6faf9f66a51620069fa66596da89ce225324b4e00ee43a01d7df4b007833eec33f187d3563279e238238fedefdc027345c091ad236888564978b4c15b6e2f231a97ae0424f085d37e395c235e73c10b2ef8aeb68e9fc51b06cd4436126c8c586f3bb0e6af9405f3fa45b6e95600bd3ab9d13b41b0b96ed5e59ac8c5743eaff8bb064f1c627ea0a860fb8b28b86c3fce0a9edf422bb864fc0aa367e410b100b135b78f77678fffbfc4dbbfc20fb3adb7f20407d116191060418cef93a44970811a5bd041cf2a611303c54ce1e8a777932ef32805bcdca5dac6005858c03678b6e006000c78e3877a64501d86997b4c94dc6cd507138f6342a2946194a49e46234c1b5c03e03ef2b471e04bbb23cf2796fd2d6a984b47c1eb2889cdf1687118ffb6d869ff3538e19000312f9a2eab713cfc3813d417533859ad00c6f90a2a4b77dda624303e3ac4b230bf6c0213ed417da883a622f6ebae958685edbd11eedf0d01aa8c06839d6d8c3b4618ef0630b2daa4ec824ff7809e298c3173c8dae98e75168345f174bf481dc4e65f59faf0ccc9524d9ba40d1505b4d4bc2ac8693849d7b392aad8d856f01e5fe2fa2e1c8b704a6e29e8ac4a13ce8fa1e7e50971a884da09cc1baa65456d08016e0926327954bc8387c2c0f6f937d44146941e28f5fe105f0cb350925d3d30e",
+  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35e2e8d4e819501ce2ca04cd50e2719251a1a01697c2df5ee729246da01ca2e2f1f30747274acb4c3ac1204370151772f148f417153d9c9a222809e1e6ea8c8a157441c196cdf2e48385bc0b71dbe860111ccc30131003ccec6ee521519df2db227e6ee0635bc425a548b8068d6d20ed05a378b1d9d7d96d9d0952529e1ec1c1936616fb0abd4d4c82dc68573ca7720c5fbbaf224ba94f498eac803d9a4ef5e0bcb341d254ab40ca1a29b398e73ed1bafde1a79663de31f415587bd86d63f854da95a56fa36ddfb9178255b4208eb41bd85dad37d4213509efd1d95d8b9637950fc2d20d467442a6399ab189df29469d6436bc224cfadee1f1967a3fbf078fa64a78ca117096d0601b772b752a03f34a03dab9cee4a46a102b3b9bc6a1da2907e3d9de52eaecac6c5557fc6bf6bdd4c04a6602fab0008729dcb9e0c477644d250f5f08e08f56af352ddabaaec18a3d849fe4c5623760c189455477d3f38f9a29871fe6d50a779dfcc86ebb3fe1fa81a8b602a1aad512d388faa3059d91115d3271df61b832f3da3ab135519d8b338ff347f1d07120f5692b813c4d93cdf775e0251dd7c0ca62c083beaed8a161581ebf548ac7808a6fefa0193563702e271c8fab06fbd5007d2ba93025d47f45588562ccb44b3e1743a01b026d905c84278e6322611bab3e31197b07858b00db1c272f8696610e2563b57d711d0f9fa9d268da4578e7bd84a82bdf63310c17c16d193df7db5ccbe96ab2acdb776cc8232eecf9fde91f2e1fa439ecc27d98df8daf5b8f6c25baa3c4b7c4654ec231de543407ae8f8d910d6e6519c58aca8dded81beb8061935d37c6e6ebb92ea0c09e7a5d6d374b01d2a57f60b869736b35b5e65367bdacaaa17fc11705150f51739d1f525ef17629a39b0f0a7eaf03043f602bb5124920808a542a6dacca14f324ff228d63a195bac46fbf191849cdaf4fa2dfba2c5a0a31f03ac1c500c52be0047625f798fa4a844ce091f0336ca1ae8f4d40053091239e43022ed7acd2252a152d82f6767b6a9043ce86457a834ce278efc63b3c28c31b99e025bfe25c33561fa2acefb417620acd1b9d9a2477b71bcdd8c725a80b33e66297f995fb962cf538d72635776752d2c2f06af1051bb2ab72b7812a7845f34e3e1a54f9aa610f9dc166a8e955981841969f4cfc6e563e1662e347f1e8b4b2d9a102718d231d419a4b897193c6bb2cac71571a6208092e1c4934b2e4d19711d5d30c9f6030ea06a2ab66f50da4dcd9cb9aeef7b615053cf9af23f37bf7928aee5bcb0c1ceee47d05e6c050c79f7ac333f401d38b4960cdb603e88c67920c50daea4db71130d20c6265a3ffc11cc3cac0a690320c7585ae5c758463c0c57f0f9b6912b011b202fae85f75697a36acb5479532a09be0a21f548e70620e72cf40fd5d6911a26ded908844c083d4e5585ae32231e5871538b475d76e3e4bd649d91ff7a94df10fca3e0789ff464fdc19b5b8fe8051c5206990d6ba1512f424e5b4e680f03bd5e7bfb78fd873c3077a1da4b5e770e8eb91bcdf6e92c76c48a5739cdc0f97ba1e7be07c47d3fd392d9938f72c12be55b447cdea57594fc81bc3ee930a9df60fb88f7529340556939fb9377af5bf6e42652571c6e199fb22444d3051c7a7feb806a659be7c9a961de028c50236cdd49e4b63bba962648e46cecae3dc8a72610362f05a53010f043c44a9d0db871f911b35c0d6a9916a998a398496feb60a6812b19828fa9fef589b21867e1cf886b945f8ce7e94a83e6f77062b811272c319e5aae8396b31d505b23c1ae2bdf",
   "account": {
     "displayTitle": true,
     "displayVIP": true
   },
   "readonly": false,
   "localIPs": [
-    "172.17.203.92",
-    "192.168.166.1",
-    "192.168.159.1",
+    "10.197.73.12",
+    "192.168.1.7",
+    "192.168.45.1",
+    "192.168.249.1",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "d57cad99-90c9-4c49-a5c7-07a89a4fc500",
-    "name": "DESKTOP-KMPG2RJ",
-    "kernelVersion": "2.9.9",
+    "id": "6b1bdd28-007a-4941-9bd4-27c9b9503b69",
+    "name": "LAPTOP-3SJPKUOC",
+    "kernelVersion": "2.9.7",
     "os": "windows",
-    "osPlatform": "Microsoft Windows 10 Pro",
+    "osPlatform": "Microsoft Windows 11 Home China",
     "container": "std",
     "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\HP",
-    "workspaceDir": "E:\\SiYuan",
-    "appDir": "D:\\SiYuan\\resources",
-    "confDir": "E:\\SiYuan\\conf",
-    "dataDir": "E:\\SiYuan\\data",
+    "homeDir": "C:\\Users\\郝晓波",
+    "workspaceDir": "E:\\波哥\\思源备份",
+    "appDir": "D:\\siyuan\\resources",
+    "confDir": "E:\\波哥\\思源备份\\conf",
+    "dataDir": "E:\\波哥\\思源备份\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1039,13 +1149,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 397,
+    "treeCount": 395,
     "cTreeCount": 500,
-    "blockCount": 23230,
+    "blockCount": 23212,
     "cBlockCount": 30000,
-    "dataSize": 86638269,
+    "dataSize": 86626486,
     "cDataSize": 104857600,
-    "assetsSize": 61206084,
+    "assetsSize": 61206263,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1055,6 +1165,6 @@
     "key": null
   },
   "openHelp": false,
-  "showChangelog": true,
+  "showChangelog": false,
   "cloudRegion": 0
 }
