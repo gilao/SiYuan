@@ -162,7 +162,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "E:\\SiYuan\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "E:\\波哥\\思源备份\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages"
   },
@@ -252,7 +252,6 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "customModelData": {
                           "name": "Python私有化部署"
@@ -264,6 +263,142 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "Python私有化部署"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821211153-0fslvsv",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821211153-0fslvsv",
+                        "scrollAttr": {
+                          "endId": "20230821211153-uow224o",
+                          "focusEnd": 0,
+                          "focusId": "20230821211207-lhnvulg",
+                          "focusStart": 0,
+                          "rootId": "20230821211153-0fslvsv",
+                          "scrollTop": 0,
+                          "startId": "20230821211207-lhnvulg"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "cryptography 的使用"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821151914-7v7r1i5",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821151914-7v7r1i5",
+                        "scrollAttr": {
+                          "endId": "20230821160933-bu4ityf",
+                          "focusEnd": 0,
+                          "focusId": "20230821160933-bu4ityf",
+                          "focusStart": 0,
+                          "rootId": "20230821151914-7v7r1i5",
+                          "scrollTop": 578,
+                          "startId": "20230821160553-uebzta4"
+                        }
+                      },
+                      "docIcon": "1f3bb",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Python 二进制文件私有化部署"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821154105-3515b4w",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821154105-3515b4w",
+                        "scrollAttr": {
+                          "endId": "20230821154158-0q2eyyk",
+                          "focusEnd": 32,
+                          "focusId": "20230821154158-0q2eyyk",
+                          "focusStart": 32,
+                          "rootId": "20230821154105-3515b4w",
+                          "scrollTop": 467,
+                          "startId": "20230821154158-42y0ups"
+                        }
+                      },
+                      "docIcon": "1f333",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Python 私钥公钥实现及验证方案"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821151851-tk3m1uw",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821151851-tk3m1uw",
+                        "scrollAttr": {
+                          "endId": "20230821151851-bjp6tzv",
+                          "focusEnd": 92,
+                          "focusId": "20230821152130-wdwt4kc",
+                          "focusStart": 0,
+                          "rootId": "20230821151851-tk3m1uw",
+                          "scrollTop": 180,
+                          "startId": "20230821152130-udd97ha"
+                        }
+                      },
+                      "docIcon": "1f98c",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "python代码加密和混淆工具"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821153325-cm9rnwy",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821153325-cm9rnwy",
+                        "scrollAttr": {
+                          "endId": "20230822151250-jgjmnfd",
+                          "rootId": "20230821153325-cm9rnwy",
+                          "scrollTop": 0,
+                          "startId": "20230822151250-ynf6mrd"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "基于数字签名证书的时间戳实现"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20230822091736-6opd8su",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230814084818-hog5ds9",
+                        "rootId": "20230822091736-6opd8su",
+                        "scrollAttr": {
+                          "endId": "20230822142629-yz939wi",
+                          "focusEnd": 6,
+                          "focusId": "20230822144030-lelyb0j",
+                          "focusStart": 6,
+                          "rootId": "20230822091736-6opd8su",
+                          "scrollTop": 100,
+                          "startId": "20230822091749-5p94gxz"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2023-08-22"
                     }
                   ],
                   "height": "",
@@ -393,7 +528,7 @@
             "hotkey": "",
             "hotkeyLangId": "",
             "icon": "iconExcalidraw",
-            "show": true,
+            "show": false,
             "size": {
               "height": 0,
               "width": 200
@@ -458,24 +593,27 @@
   },
   "readonly": false,
   "localIPs": [
-    "172.17.203.92",
+    "10.197.73.12",
+    "192.168.1.7",
+    "192.168.45.1",
+    "192.168.249.1",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "d57cad99-90c9-4c49-a5c7-07a89a4fc500",
-    "name": "DESKTOP-KMPG2RJ",
-    "kernelVersion": "2.9.9",
+    "id": "6b1bdd28-007a-4941-9bd4-27c9b9503b69",
+    "name": "LAPTOP-3SJPKUOC",
+    "kernelVersion": "2.9.7",
     "os": "windows",
-    "osPlatform": "Microsoft Windows 10 Pro",
+    "osPlatform": "Microsoft Windows 11 Home China",
     "container": "std",
     "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\HP",
-    "workspaceDir": "E:\\SiYuan",
-    "appDir": "D:\\SiYuan\\resources",
-    "confDir": "E:\\SiYuan\\conf",
-    "dataDir": "E:\\SiYuan\\data",
+    "homeDir": "C:\\Users\\郝晓波",
+    "workspaceDir": "E:\\波哥\\思源备份",
+    "appDir": "D:\\siyuan\\resources",
+    "confDir": "E:\\波哥\\思源备份\\conf",
+    "dataDir": "E:\\波哥\\思源备份\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1048,13 +1186,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 335,
+    "treeCount": 340,
     "cTreeCount": 500,
-    "blockCount": 20786,
+    "blockCount": 20858,
     "cBlockCount": 30000,
-    "dataSize": 85835249,
+    "dataSize": 84356745,
     "cDataSize": 104857600,
-    "assetsSize": 61206082,
+    "assetsSize": 59227581,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1064,6 +1202,6 @@
     "key": null
   },
   "openHelp": false,
-  "showChangelog": true,
+  "showChangelog": false,
   "cloudRegion": 0
 }
