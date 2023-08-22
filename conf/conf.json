@@ -252,7 +252,6 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "customModelData": {
                           "name": "Python私有化部署"
@@ -264,6 +263,168 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "Python私有化部署"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20230822091736-6opd8su",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230814084818-hog5ds9",
+                        "rootId": "20230822091736-6opd8su",
+                        "scrollAttr": {
+                          "endId": "20230822142629-yz939wi",
+                          "focusEnd": 47,
+                          "focusId": "20230822152723-ks9qliq",
+                          "focusStart": 47,
+                          "rootId": "20230822091736-6opd8su",
+                          "scrollTop": 820,
+                          "startId": "20230822091736-cl4rldk"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2023-08-22"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230816093937-xpwez8d",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230811142117-2g3m2ee",
+                        "rootId": "20230816093937-xpwez8d",
+                        "scrollAttr": {
+                          "endId": "20230816105734-z7ardcn",
+                          "focusEnd": 0,
+                          "focusId": "20230816093937-3ovfg8w",
+                          "focusStart": 0,
+                          "rootId": "20230816093937-xpwez8d",
+                          "scrollTop": 1466,
+                          "startId": "20230816093937-3ovfg8w"
+                        }
+                      },
+                      "docIcon": "1f9de",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "关于大模型启动脚本的python问题及后续Go框架设计思路"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821151914-7v7r1i5",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821151914-7v7r1i5",
+                        "scrollAttr": {
+                          "endId": "20230821160933-bu4ityf",
+                          "focusEnd": 0,
+                          "focusId": "20230821160933-bu4ityf",
+                          "focusStart": 0,
+                          "rootId": "20230821151914-7v7r1i5",
+                          "scrollTop": 262,
+                          "startId": "20230821160553-uebzta4"
+                        }
+                      },
+                      "docIcon": "1f3bb",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Python 二进制文件私有化部署"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821154105-3515b4w",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821154105-3515b4w",
+                        "scrollAttr": {
+                          "endId": "20230821154158-0q2eyyk",
+                          "focusEnd": 32,
+                          "focusId": "20230821154158-0q2eyyk",
+                          "focusStart": 32,
+                          "rootId": "20230821154105-3515b4w",
+                          "scrollTop": 0,
+                          "startId": "20230821154158-42y0ups"
+                        }
+                      },
+                      "docIcon": "1f333",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Python 私钥公钥实现及验证方案"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821151851-tk3m1uw",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821151851-tk3m1uw",
+                        "scrollAttr": {
+                          "endId": "20230821151851-bjp6tzv",
+                          "focusEnd": 92,
+                          "focusId": "20230821152130-wdwt4kc",
+                          "focusStart": 0,
+                          "rootId": "20230821151851-tk3m1uw",
+                          "scrollTop": 552,
+                          "startId": "20230821152130-udd97ha"
+                        }
+                      },
+                      "docIcon": "1f4f5",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "python代码加密和混淆工具"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230821153325-cm9rnwy",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230821151832-xlbbtvq",
+                        "rootId": "20230821153325-cm9rnwy",
+                        "scrollAttr": {
+                          "endId": "20230822151250-jgjmnfd",
+                          "focusEnd": 98,
+                          "focusId": "20230822151250-jgjmnfd",
+                          "focusStart": 98,
+                          "rootId": "20230821153325-cm9rnwy",
+                          "scrollTop": 237,
+                          "startId": "20230822151250-ynf6mrd"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "基于数字签名证书的时间戳实现"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20230817104939-wkscmeh",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20230814084818-hog5ds9",
+                        "rootId": "20230817104939-wkscmeh",
+                        "scrollAttr": {
+                          "endId": "20230817105156-oa6exrr",
+                          "focusEnd": 0,
+                          "focusId": "20230817104939-ua7nudk",
+                          "focusStart": 0,
+                          "rootId": "20230817104939-wkscmeh",
+                          "scrollTop": 0,
+                          "startId": "20230817104939-ua7nudk"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2023-08-17"
                     }
                   ],
                   "height": "",
@@ -393,7 +554,7 @@
             "hotkey": "",
             "hotkeyLangId": "",
             "icon": "iconExcalidraw",
-            "show": true,
+            "show": false,
             "size": {
               "height": 0,
               "width": 200
@@ -451,7 +612,7 @@
       "pin": true
     }
   },
-  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35ef54218c69b1ecbda390fed2adc308fa347cd76b942a0f1e24f60adef8b53d8a82072ac46eeb2ab04fe42eec3c8865bfc9daee2ce34c2d99ef7de8da093a385e9fa59fc114bd72c5ea941cc1d4cc5b299c79a21288f2527ace2d6af040326f140d9bd55a0bb398db37e7553d7384cbae489786934ded65560eedb651512531f9fe396f3b7a1f18a288f1b6ad9c1396165eb08abd220d55c09f7b37f9d690afad1ed69c640b70713199ad7a341067ab3ff21860b73909fba549a4ed12cedd263b3f420cd773583bbcfe098167c1852619b3ab992a8b4d52c331d037c24a1c6bc93b37e650327297c402797712b4d2f72072dedc5813fe624d996ce458ce9d3d0efb1cbf74f4c39b724f56d460aff7519704f28ba164576f41d79c5341a10118a8bf4cd1a093b746c0c925af7c0c76b8d77e129d77b794ea897a4632feeaa05e7109ca5215dbc91c28498b2f31beab14b5b56697a097b5f6b9758749f5bdb957aa4b603e7518125fb486049ec2f2007e6f5577018d25d7dbe7c7b1e242cdb26b5e536ba33acf486fedd077d4741d74359be2fcd6bf899e940c37d670a80da3bf5e3e1423561b4de4832578e05ae9a68d630c9c33c5b2c1554f5312eabc4b7884575157b30e6edcf1bac4874a5d8f847a63368adbe30c94456efcf99b2f1a6e7ae0ca47ca7ac589ca3b79e179e66f7cc1259ee29864bde4af214217e7310b0b970e21404392b9baa2decb9542d50592f7900e91749d7940a1862ff6fb83d4666cedd3e0a1e3b5beb260a28c07a0655516887fe5178208dab189568fc83b4b468275a1daa5d16017f767c0ea1c156a9d2e20ac2277ec1f8a9e141ad4e199aead556e5415c94cb3639457c29e1f3d43bee477960dda58f95ed32a56da58848ce28dc8db62da40e6c49406477b368d6d331d33443e138f1392cedefb42d44f0a1bd5cf196f258ba79f5484ec86fb0cd906ed98209acc706f61bf41f0d980bc59997a6bc1ab47f6a961770a7237b65f138a3264a8bd9336ba9ebe6e1e9b600a45ccae4183a3de8dca65436d67260ddd53e518d58584eaa889f6026c8a72e231feec6b16088ea9763517416c1e7600a99a4e23da04b43af5191da25b9be2afa0a3b40c1a8eb0d8305f75d3bbfe2ecf160f76db3826b2535e90823a1fcc711451c76c9bf988d7ad338e3a1bd0978ef1e5f86c0e221ec7e9c5aee91aee26de8cb2dba0fc1dabdc88e9ae91bac45f41bcd755dd48e4604816c16096c9c80e3aa5d30adc4392fedb3ecc54fc26df0b9c21cd3291b4396c74be21e7b79f4de742d5be39134d739e0c435ce1088b3055129e7a37a9bae948df79ec151681ea2985b80db5dbcb3a4b4679e664f881257f389b302d213b8691b3cd40a2eaae67c3faccddc0929fe4468bb717cbc52d5ced59ded44973abfd5ccf1dff65165bbff222149477a5dc870d091c2d6dfd1e78826cefa90a52e50d3de29ce199becebcd81d8b3a532b1bd8eb84925e009e23b43104a4044f3ac2d483ab4ad20b8a9cd7abb12925b8c0aa97b5b45a3ff85cd41b66a26951635b732e653f11deb0cd214f0b213fbf1619c3e90d331d3d60203e857b8c87f53f515981019446d86c7cf55e3d68677c4d6543a74ee6a2befae29ee78da1036b180aa34b4aa7a1b58c0628635613c1c56f29fdf1ddcc65c265d08e8e0c8078f10c7537ded16522785eae92eb75731374a2814216ff62cf35173b58b2abd1b3a8a373abe75b4febe0ff29a1629b123e7d74a38a7eaa0e2d61219f1f1d86e11df52df4d0e1dbdf882418690e04d5a7924374169ca1c",
+  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35e6eb8720c372271427081bd3361d61c45bb2e1a246e5294107ac03ac675979bfe6f521d59557a03aaf93a67b29e8ed2a3f059838168cfc8732aa03f78e876ec58fe9f4dff44992d38243055a5bba71f1c3ed71deba2d8e9e368f9fabf36eba38a0c89d3b99697e5a3611634d535b773fa0e040c653a345f276b2cebb117db0caa7e43d7a9daaf60372cce09a4a49580759409f93c600a3d171442a61e7de2901847a2748f5f9b645921db40f291feb34ce39d75fc6398a4693cf012235b3daafc591a2e2c050107167a8d3c58626fd16c978f1c076f5e0ec2ca9fcb5dbfb084e701012282c2002201b886132efb0c8ed6ae924f868a1a78421e7389fc8cd3e7ad2137bbd06a8bdc19fa1b8cad4f709f9dbda79bd1241306b8284a21fbd8449e39fa43ae2ef6341a9a5c2f0cf45b77968b8dcb18ed93fa2be5cec215aaf4c1510d90b9e7fe8540d5cf4e0cd5e7365012235afbb66877018233d9717464e52363df6f3c99c77cc8c3e6b49928cf6a658e3fbde032e9c8be86f4dfac126a73f28c006b172b55ebfd2d6eb8dbdf420b35057a448ad6532afd89f3ae3ff46d28e05e01978074c7f2efc7b49bdde79323c76406c75e855e84b4a23712d88fcaf350d7a0c2eb1d11661439dca36e33d224c6771b565ad6472346a622d0f2d0dd89fd8839fbf2c6c6a69648a1f819293685a867577a559bf42d46ec2e65ef10c6b296a565cd91ef37d5d3f51cdf0169e0657851b95ce1b1052e016ee5f0f36712a8c662250525d1f07cebf3a4ad9463052c677aee72b81bbef13c59ad8f56387ecc0f16c2b48bb0ada0e831892d5ba583dbea293e649b47adf189a31a2412a1b4aa947504635bb51315cb7a4356733abf0be6b7110a3069980731565d6031064cbdaf20510a492650dd3f8888b10a1e3d4cf2c284624c06379086dc23955b0abe977790230a43bde1d8a0123d593fd086b7da5a38f7dfe6b84f032729e96c924241fe74eb5895787e165c5a5f23997406799e18fde5b6870cccd5e23c09942c5651e64f40dd5dd58bd71016483d23e410242387fae7f445d6cacbfa38ead4184a748fae5581d8cbde3a8886c40753dc405814d47f6c9355b4cf2205f78983543a3c9e40c21ee6476f4afd39ca74136a28ee356a1867f2ea6cfc93268ec79fff19e895876982d2497f22d00c1e812bba4092a9f1cab6b47401cbabbde7b4f48d31850850b8efc4583e0159e1183173130f107cd6dfef70a7e024fcc0b2aba65463ca103442437c58abde15b6d144cbf6c3f9c3ede729100a0e9979bcefa418c776c759b0c0a6605633c22a79d6f59165e97a96ae64627d1ceb1fe2db42a080ac0f0591f252930d21bd75b6c0dced036993afdca38ad5b7adfa791861ab99ba7cd47cbbd858633273859f61942f2bb4beb7a210780cc41a59f2a6c2acf32b0ce2b1bfedc96b118912769fbea78506ea1c9283543107dd120a320db399d0d24d341912e4b92f1ffd32e6d0773157ef076d10c9f06bf7474b8d48753168e030de1bfca13c49729ced1e94ae1aca71e32d5ecdeae6208dca69b6096b0bb73e6393d4a980bc471f98e79f2844695576e15e0c684a920cb0926abafcdd2befccba7586e80a4fc9383c0bd32b80d3312db749c770b0182338764a2b7a777fe72d138512a139df7b8d1b6b4ce6ed9f06690a085aa9afd4768e76d7d1702782227f8ee3398d1808088ecfaf22b416e67da8817267235f09a313d56aba5891e3f46d40671d75d32ef984cbcd89e6e58ac6ffa2733cd160f39d6e42562fc7acd96fa749d9c3664e04a239",
   "account": {
     "displayTitle": true,
     "displayVIP": true
@@ -1048,13 +1209,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 335,
+    "treeCount": 404,
     "cTreeCount": 500,
-    "blockCount": 20786,
+    "blockCount": 23375,
     "cBlockCount": 30000,
-    "dataSize": 85835249,
+    "dataSize": 86765223,
     "cDataSize": 104857600,
-    "assetsSize": 61206082,
+    "assetsSize": 61274634,
     "cAssetsSize": 104857600
   },
   "api": {

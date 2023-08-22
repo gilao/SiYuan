@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:51180",
+  "source": "http://127.0.0.1:54401",
   "elements": [
     {
       "type": "rectangle",
@@ -71,7 +71,7 @@
       "containerId": "edM3nt98EcPne_uJpAmQq",
       "originalText": "基于python的公钥私钥库，生成公钥、私钥",
       "lineHeight": 1.2,
-      "baseline": 43
+      "baseline": 44
     },
     {
       "type": "rectangle",
@@ -141,7 +141,7 @@
       "containerId": "s9SzaMPhmDNY5zqkbVywB",
       "originalText": "将私钥保存在程序代码中用于验证；公钥保存在服务器中",
       "lineHeight": 1.2,
-      "baseline": 43
+      "baseline": 44
     },
     {
       "type": "rectangle",
@@ -211,7 +211,7 @@
       "containerId": "4ulANHRR0XItSLULObbBI",
       "originalText": "基于python程序生成docker镜像，将公钥复制到本地服务器，通过共享存储卷的方式读取服务器上的公钥文件，只有公钥文件正确才可以启动程序，即在程序中加入验证公钥的程序",
       "lineHeight": 1.2,
-      "baseline": 139
+      "baseline": 140
     },
     {
       "type": "rectangle",
@@ -508,7 +508,7 @@
       "containerId": "SWUnns-NTh4TKDhQ84onv",
       "originalText": "Pyarmor\nPyarmor是一个用于保护Python脚本和应用程序的工具。它可以将源代码转换为不可读形式，并提供许可证管理功能。",
       "lineHeight": 1.2,
-      "baseline": 91
+      "baseline": 92
     }
   ],
   "appState": {

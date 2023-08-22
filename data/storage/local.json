@@ -24,6 +24,9 @@
     "removeAssets": true,
     "scale": 1
   },
+  "local-fontstyles": [
+    "backgroundColor​var(--b3-font-background12)"
+  ],
   "local-plugintopunpin": [],
   "local-searchkeys": {
     "col": "",
