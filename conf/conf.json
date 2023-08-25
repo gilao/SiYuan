@@ -358,10 +358,10 @@
                         "notebookId": "20230814084818-hog5ds9",
                         "rootId": "20230825145658-85q934f",
                         "scrollAttr": {
-                          "endId": "20230825161640-5d89l4i",
-                          "focusEnd": 64,
-                          "focusId": "20230825161640-5d89l4i",
-                          "focusStart": 64,
+                          "endId": "20230825161915-wdt6r6l",
+                          "focusEnd": 0,
+                          "focusId": "20230825161915-wdt6r6l",
+                          "focusStart": 0,
                           "rootId": "20230825145658-85q934f",
                           "scrollTop": 0,
                           "startId": "20230825153146-9cw2mz8"
@@ -1200,13 +1200,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 431,
+    "treeCount": 368,
     "cTreeCount": 500,
-    "blockCount": 23927,
+    "blockCount": 21494,
     "cBlockCount": 30000,
-    "dataSize": 87995863,
+    "dataSize": 84663571,
     "cDataSize": 104857600,
-    "assetsSize": 61365886,
+    "assetsSize": 59318651,
     "cAssetsSize": 104857600
   },
   "api": {
