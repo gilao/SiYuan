@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:63087",
+  "source": "http://127.0.0.1:50541",
   "elements": [
     {
       "type": "rectangle",
@@ -71,7 +71,7 @@
       "containerId": "1YHO6_FKhI6CZdN5ObdyQ",
       "originalText": "8",
       "lineHeight": 1.25,
-      "baseline": 20
+      "baseline": 18
     },
     {
       "type": "rectangle",
