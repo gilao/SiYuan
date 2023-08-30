@@ -388,7 +388,7 @@
             "hotkey": "",
             "hotkeyLangId": "",
             "icon": "iconExcalidraw",
-            "show": true,
+            "show": false,
             "size": {
               "height": 0,
               "width": 200
@@ -454,6 +454,7 @@
   "readonly": false,
   "localIPs": [
     "172.17.203.92",
+    "192.168.137.1",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
@@ -1043,11 +1044,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 437,
+    "treeCount": 374,
     "cTreeCount": 500,
-    "blockCount": 23994,
+    "blockCount": 21565,
     "cBlockCount": 30000,
-    "dataSize": 88029499,
+    "dataSize": 88042940,
     "cDataSize": 104857600,
     "assetsSize": 61365886,
     "cAssetsSize": 104857600
