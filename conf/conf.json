@@ -1044,11 +1044,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 374,
+    "treeCount": 438,
     "cTreeCount": 500,
-    "blockCount": 21565,
+    "blockCount": 24023,
     "cBlockCount": 30000,
-    "dataSize": 88042940,
+    "dataSize": 88054357,
     "cDataSize": 104857600,
     "assetsSize": 61365886,
     "cAssetsSize": 104857600
