@@ -6,7 +6,7 @@
     "theme": "2",
     "widget": "0"
   },
-  "local-codelang": "python",
+  "local-codelang": "go",
   "local-dailynoteid": "20230814084818-hog5ds9",
   "local-docinfo": {
     "id": "20230724231427-0aye9a8"
@@ -25,6 +25,7 @@
     "scale": 1
   },
   "local-fontstyles": [
+    "style1​var(--b3-card-info-background)​var(--b3-card-info-color)",
     "backgroundColor​var(--b3-font-background12)"
   ],
   "local-plugintopunpin": [],
