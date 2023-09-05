@@ -87,6 +87,7 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f35f",
       "1f4d0",
       "1f98f",
       "1f98a",
@@ -257,7 +258,6 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "",
                         "blockId": "20230904114414-g29qknw",
@@ -267,11 +267,8 @@
                         "rootId": "20230904114414-g29qknw",
                         "scrollAttr": {
                           "endId": "20230905141256-rpb1jrg",
-                          "focusEnd": 0,
-                          "focusId": "20230905141151-zt4nad5",
-                          "focusStart": 0,
                           "rootId": "20230904114414-g29qknw",
-                          "scrollTop": 0,
+                          "scrollTop": 1726,
                           "startId": "20230904114443-i7jdwc3"
                         }
                       },
@@ -291,7 +288,7 @@
                         "scrollAttr": {
                           "endId": "20230905105533-2i894b5",
                           "focusEnd": 0,
-                          "focusId": "20230905105533-2i894b5",
+                          "focusId": "20230905103933-klbuhud",
                           "focusStart": 0,
                           "rootId": "20230905103933-yzh7fnx",
                           "scrollTop": 0,
@@ -304,6 +301,7 @@
                       "title": "2023-09-05"
                     },
                     {
+                      "active": true,
                       "children": {
                         "action": "",
                         "blockId": "20230904102407-otve1vc",
@@ -313,15 +311,15 @@
                         "rootId": "20230904102407-otve1vc",
                         "scrollAttr": {
                           "endId": "20230904160105-ckz5fdv",
-                          "focusEnd": 0,
-                          "focusId": "20230904112807-ptvtcxy",
-                          "focusStart": 0,
+                          "focusEnd": 2,
+                          "focusId": "20230904112405-zd2j9sy",
+                          "focusStart": 2,
                           "rootId": "20230904102407-otve1vc",
                           "scrollTop": 0,
                           "startId": "20230904112405-zd2j9sy"
                         }
                       },
-                      "docIcon": "2764-fe0f-200d-1f525",
+                      "docIcon": "1f35f",
                       "instance": "Tab",
                       "pin": false,
                       "title": "2023-09-04"
@@ -519,24 +517,23 @@
   },
   "readonly": false,
   "localIPs": [
-    "192.168.45.1",
-    "192.168.249.1",
-    "192.168.69.149",
+    "172.17.203.92",
+    "192.168.137.1",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "6b1bdd28-007a-4941-9bd4-27c9b9503b69",
-    "name": "LAPTOP-3SJPKUOC",
-    "kernelVersion": "2.9.7",
+    "id": "d57cad99-90c9-4c49-a5c7-07a89a4fc500",
+    "name": "DESKTOP-KMPG2RJ",
+    "kernelVersion": "2.9.9",
     "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Home China",
+    "osPlatform": "Microsoft Windows 10 Pro",
     "container": "std",
     "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\郝晓波",
+    "homeDir": "C:\\Users\\HP",
     "workspaceDir": "E:\\SiYuan",
-    "appDir": "D:\\siyuan\\resources",
+    "appDir": "D:\\SiYuan\\resources",
     "confDir": "E:\\SiYuan\\conf",
     "dataDir": "E:\\SiYuan\\data",
     "networkServe": false,
@@ -1111,13 +1108,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 456,
+    "treeCount": 396,
     "cTreeCount": 500,
-    "blockCount": 24398,
+    "blockCount": 22014,
     "cBlockCount": 30000,
-    "dataSize": 88848070,
+    "dataSize": 89024217,
     "cDataSize": 104857600,
-    "assetsSize": 62050104,
+    "assetsSize": 62203416,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1127,6 +1124,6 @@
     "key": null
   },
   "openHelp": false,
-  "showChangelog": false,
+  "showChangelog": true,
   "cloudRegion": 0
 }
