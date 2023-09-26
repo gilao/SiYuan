@@ -6,10 +6,10 @@
     "theme": "2",
     "widget": "0"
   },
-  "local-codelang": "json",
+  "local-codelang": "shell",
   "local-dailynoteid": "20230814084818-hog5ds9",
   "local-docinfo": {
-    "id": "20230724231427-0aye9a8"
+    "id": "20230925160254-2jont39"
   },
   "local-exportpdf": {
     "keepFold": false,
@@ -25,15 +25,27 @@
     "scale": 1
   },
   "local-fontstyles": [
+    "style1​var(--b3-card-warning-background)​var(--b3-card-warning-color)",
     "style1​var(--b3-card-info-background)​var(--b3-card-info-color)",
     "backgroundColor​var(--b3-font-background12)"
   ],
   "local-historynoteid": "20230724011555-12aln0y",
-  "local-plugintopunpin": [],
+  "local-plugintopunpin": [
+    "plugin_siyuan-color-scheme_0"
+  ],
   "local-searchkeys": {
     "col": "",
     "colTab": "",
     "keys": [
+      "#Slices#",
+      "36717",
+      "http://",
+      "info",
+      "**",
+      "**data**",
+      "**result**",
+      "​**data**",
+      "conda",
       "单卡",
       "卡",
       "#标签#",
@@ -55,14 +67,15 @@
       "#31333741#",
       "#g' -e \"s#",
       "#三剑客#",
-      "**",
       "#C语言代码#"
     ],
     "layout": 0,
     "layoutTab": 0,
     "replaceKeys": [
-      "**",
-      ""
+      "",
+      "data",
+      "result",
+      "**"
     ],
     "row": "",
     "rowTab": ""
