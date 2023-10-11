@@ -6,7 +6,7 @@
     "theme": "2",
     "widget": "0"
   },
-  "local-codelang": "shell",
+  "local-codelang": "go",
   "local-dailynoteid": "20230814084818-hog5ds9",
   "local-docinfo": {
     "id": "20230925160254-2jont39"
@@ -25,8 +25,11 @@
     "scale": 1
   },
   "local-fontstyles": [
-    "style1​var(--b3-card-warning-background)​var(--b3-card-warning-color)",
     "style1​var(--b3-card-info-background)​var(--b3-card-info-color)",
+    "fontSize​19px",
+    "color​var(--b3-font-color5)",
+    "style1​var(--b3-card-error-background)​var(--b3-card-error-color)",
+    "style1​var(--b3-card-warning-background)​var(--b3-card-warning-color)",
     "backgroundColor​var(--b3-font-background12)"
   ],
   "local-historynoteid": "20230724011555-12aln0y",

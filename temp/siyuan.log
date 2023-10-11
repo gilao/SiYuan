@@ -9794,3 +9794,1747 @@ I 2023/09/26 11:25:30 database.go:1134: closed database
 I 2023/09/26 11:25:30 conf.go:867: cleared workspace temp
 I 2023/09/26 11:25:30 conf.go:522: exited kernel
 I 2023/09/26 11:25:30 sync.go:660: sync websocket closed
+I 2023/09/26 11:35:03 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/09/26 11:35:03 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [22932]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/09/26 11:35:03 conf.go:392: user has disabled [Google Analytics]
+I 2023/09/26 11:35:03 runtime.go:128: use network proxy [system]
+I 2023/09/26 11:35:03 serve.go:114: kernel [pid=22932] http server [127.0.0.1:61686] is booting
+I 2023/09/26 11:35:03 blocktree.go:446: read block tree [6.4 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/09/26 11:35:03 conf.go:710: database size [52 MB], tree/block count [480/25284]
+I 2023/09/26 11:35:03 working.go:153: kernel booted
+I 2023/09/26 11:35:03 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/26 11:35:03 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/26 11:35:04 box.go:79: auto stat [trees=480, blocks=25284, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/26 11:35:04 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+I 2023/09/26 11:35:04 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/09/26 11:35:05 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/09/26 11:35:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 11:35:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 11:35:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/09/26 11:35:12 blocktree.go:500: save block tree [size=6.4 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.58s]
+E 2023/09/26 11:45:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 11:45:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 11:45:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 11:55:25 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 11:55:25 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 11:55:25 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 12:05:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 12:05:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 12:05:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 12:15:44 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 12:15:44 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 12:15:44 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 12:25:53 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 12:25:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 12:25:53 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/26 13:53:19 box.go:79: auto stat [trees=480, blocks=25300, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/26 13:53:19 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+E 2023/09/26 13:53:22 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 13:53:22 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 13:53:22 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 14:03:32 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 14:03:32 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 14:03:32 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 14:13:41 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 14:13:41 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 14:13:41 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 14:23:50 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 14:23:50 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 14:23:50 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 14:38:53 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 14:38:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 14:38:53 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 14:49:03 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 14:49:03 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 14:49:03 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 14:59:12 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 14:59:12 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 14:59:12 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 15:09:21 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 15:09:21 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 15:09:21 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 15:19:30 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 15:19:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 15:19:30 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 15:29:39 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 15:29:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 15:29:39 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 15:39:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 15:39:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 15:39:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 15:49:58 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 15:49:58 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 15:49:58 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/26 15:53:19 box.go:79: auto stat [trees=480, blocks=25414, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/26 15:53:19 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+E 2023/09/26 16:00:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 16:00:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 16:00:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 16:13:20 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 16:13:20 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 16:13:20 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/26 16:16:45 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/09/26 16:16:45 database.go:1134: closed database
+I 2023/09/26 16:16:45 conf.go:867: cleared workspace temp
+I 2023/09/26 16:16:46 conf.go:522: exited kernel
+I 2023/09/26 16:16:46 sync.go:660: sync websocket closed
+I 2023/09/26 21:37:07 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/09/26 21:37:07 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [19064]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/09/26 21:37:07 conf.go:392: user has disabled [Google Analytics]
+I 2023/09/26 21:37:07 runtime.go:128: use network proxy [system]
+I 2023/09/26 21:37:07 serve.go:114: kernel [pid=19064] http server [127.0.0.1:52456] is booting
+I 2023/09/26 21:37:07 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/09/26 21:37:07 conf.go:710: database size [52 MB], tree/block count [480/25419]
+I 2023/09/26 21:37:07 working.go:153: kernel booted
+I 2023/09/26 21:37:07 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/26 21:37:07 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/26 21:37:07 box.go:79: auto stat [trees=480, blocks=25419, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/26 21:37:07 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+I 2023/09/26 21:37:07 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/09/26 21:37:09 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/09/26 21:37:11 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 21:37:11 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 21:37:11 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 21:47:19 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 21:47:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 21:47:19 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 21:57:32 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 21:57:32 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 21:57:32 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 22:07:41 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 22:07:41 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 22:07:41 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 22:17:50 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 22:17:50 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 22:17:50 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 22:27:59 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 22:27:59 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 22:27:59 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 22:38:09 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 22:38:09 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 22:38:09 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 22:48:18 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 22:48:18 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 22:48:18 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 22:58:30 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 22:58:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 22:58:30 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 23:08:39 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 23:08:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 23:08:39 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 23:18:48 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 23:18:48 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 23:18:48 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 23:28:58 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 23:28:58 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 23:28:58 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/26 23:37:07 box.go:79: auto stat [trees=481, blocks=25477, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/26 23:37:07 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+E 2023/09/26 23:39:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 23:39:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 23:39:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/26 23:49:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/26 23:49:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/26 23:49:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/26 23:52:20 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/09/26 23:52:20 database.go:1134: closed database
+I 2023/09/26 23:52:20 conf.go:867: cleared workspace temp
+I 2023/09/26 23:52:21 conf.go:522: exited kernel
+I 2023/09/26 23:52:21 sync.go:660: sync websocket closed
+I 2023/09/27 09:18:59 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/09/27 09:18:59 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [3100]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/09/27 09:18:59 conf.go:392: user has disabled [Google Analytics]
+I 2023/09/27 09:18:59 runtime.go:128: use network proxy [system]
+I 2023/09/27 09:18:59 serve.go:114: kernel [pid=3100] http server [127.0.0.1:50522] is booting
+I 2023/09/27 09:18:59 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/09/27 09:18:59 conf.go:710: database size [52 MB], tree/block count [481/25477]
+I 2023/09/27 09:18:59 working.go:153: kernel booted
+I 2023/09/27 09:18:59 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/27 09:18:59 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/27 09:18:59 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/09/27 09:18:59 box.go:79: auto stat [trees=421, blocks=23047, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/27 09:18:59 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+I 2023/09/27 09:19:01 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/09/27 09:19:03 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 09:19:03 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 09:19:03 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 09:29:12 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 09:29:12 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 09:29:12 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 09:39:21 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 09:39:21 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 09:39:21 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 09:49:30 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 09:49:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 09:49:30 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 09:59:39 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 09:59:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 09:59:39 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 10:09:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 10:09:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 10:09:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 10:19:58 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 10:19:58 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 10:19:58 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 10:30:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 10:30:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 10:30:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 10:40:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 10:40:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 10:40:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 10:50:25 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 10:50:25 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 10:50:25 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 11:00:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 11:00:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 11:00:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 11:10:44 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 11:10:44 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 11:10:44 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/27 11:19:00 box.go:79: auto stat [trees=482, blocks=25481, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/27 11:19:00 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+E 2023/09/27 11:20:53 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 11:20:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 11:20:53 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 11:31:02 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 11:31:02 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 11:31:02 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 11:41:11 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 11:41:11 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 11:41:11 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 11:51:20 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 11:51:20 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 11:51:20 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 12:24:36 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 12:24:36 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 12:24:36 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 12:34:46 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 12:34:46 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 12:34:46 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 12:44:55 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 12:44:55 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 12:44:55 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/27 13:49:42 box.go:79: auto stat [trees=484, blocks=25492, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/27 13:49:42 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+E 2023/09/27 13:49:45 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 13:49:45 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 13:49:45 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 13:51:45 cloud_service.go:503: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+E 2023/09/27 13:59:55 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 13:59:55 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 13:59:55 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 14:10:04 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 14:10:04 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 14:10:04 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 14:20:13 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 14:20:13 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 14:20:13 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/27 14:26:18 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/09/27 14:26:18 database.go:1134: closed database
+I 2023/09/27 14:26:18 conf.go:867: cleared workspace temp
+I 2023/09/27 14:26:19 conf.go:522: exited kernel
+I 2023/09/27 14:26:19 sync.go:660: sync websocket closed
+I 2023/09/27 14:30:59 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/09/27 14:30:59 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [11100]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/09/27 14:30:59 conf.go:392: user has disabled [Google Analytics]
+I 2023/09/27 14:30:59 runtime.go:128: use network proxy [system]
+I 2023/09/27 14:30:59 serve.go:114: kernel [pid=11100] http server [127.0.0.1:49681] is booting
+I 2023/09/27 14:30:59 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/09/27 14:30:59 conf.go:710: database size [53 MB], tree/block count [484/25489]
+I 2023/09/27 14:30:59 working.go:153: kernel booted
+I 2023/09/27 14:30:59 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/27 14:30:59 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/27 14:30:59 box.go:79: auto stat [trees=424, blocks=23062, dataSize=250 MB, assetsSize=224 MB]
+I 2023/09/27 14:30:59 disk.go:33: disk usage [total=255 GB, used=150 GB, free=105 GB]
+I 2023/09/27 14:30:59 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/09/27 14:31:01 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/09/27 14:31:02 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 14:31:02 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 14:31:02 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/27 14:33:15 cloud_service.go:377: get cloud user elapsed [16138ms]
+E 2023/09/27 14:41:11 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 14:41:11 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 14:41:11 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 14:51:21 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 14:51:21 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 14:51:21 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 15:01:30 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 15:01:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 15:01:30 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 15:11:39 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 15:11:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 15:11:39 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 15:21:48 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 15:21:48 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 15:21:48 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 15:31:57 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 15:31:57 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 15:31:57 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 15:42:06 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 15:42:06 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 15:42:06 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 15:52:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 15:52:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 15:52:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 16:02:26 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 16:02:26 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 16:02:26 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/27 16:12:34 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/27 16:12:34 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/27 16:12:34 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/27 16:16:39 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/09/27 16:16:39 database.go:1134: closed database
+I 2023/09/27 16:16:39 conf.go:867: cleared workspace temp
+I 2023/09/27 16:16:39 conf.go:522: exited kernel
+I 2023/09/27 16:16:39 sync.go:660: sync websocket closed
+I 2023/09/28 09:00:17 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/09/28 09:00:18 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [9372]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/09/28 09:00:18 conf.go:392: user has disabled [Google Analytics]
+I 2023/09/28 09:00:18 runtime.go:128: use network proxy [system]
+I 2023/09/28 09:00:18 serve.go:114: kernel [pid=9372] http server [127.0.0.1:49715] is booting
+I 2023/09/28 09:00:18 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/09/28 09:00:18 conf.go:710: database size [53 MB], tree/block count [486/25531]
+I 2023/09/28 09:00:18 working.go:153: kernel booted
+I 2023/09/28 09:00:18 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/28 09:00:18 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/28 09:00:18 box.go:79: auto stat [trees=486, blocks=25531, dataSize=253 MB, assetsSize=226 MB]
+I 2023/09/28 09:00:18 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+I 2023/09/28 09:00:18 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/09/28 09:00:20 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/09/28 09:00:21 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 09:00:21 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 09:00:21 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/09/28 09:00:26 blocktree.go:500: save block tree [size=6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.44s]
+E 2023/09/28 09:10:30 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 09:10:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 09:10:30 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 09:20:40 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 09:20:40 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 09:20:40 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 09:30:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 09:30:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 09:30:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 09:40:58 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 09:40:58 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 09:40:58 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 09:51:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 09:51:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 09:51:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 10:01:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 10:01:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 10:01:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 10:11:25 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 10:11:25 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 10:11:25 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 10:21:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 10:21:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 10:21:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 10:31:44 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 10:31:44 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 10:31:44 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 10:41:53 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 10:41:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 10:41:53 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/28 10:47:40 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/09/28 10:47:40 database.go:1134: closed database
+I 2023/09/28 10:47:40 conf.go:867: cleared workspace temp
+I 2023/09/28 10:47:41 conf.go:522: exited kernel
+I 2023/09/28 10:47:41 sync.go:660: sync websocket closed
+I 2023/09/28 11:20:58 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/09/28 11:20:58 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [1776]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/09/28 11:20:58 conf.go:392: user has disabled [Google Analytics]
+I 2023/09/28 11:20:58 runtime.go:128: use network proxy [system]
+I 2023/09/28 11:20:58 serve.go:114: kernel [pid=1776] http server [127.0.0.1:56467] is booting
+I 2023/09/28 11:20:58 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/09/28 11:20:58 conf.go:710: database size [53 MB], tree/block count [486/25542]
+I 2023/09/28 11:20:58 working.go:153: kernel booted
+I 2023/09/28 11:20:58 box.go:79: auto stat [trees=426, blocks=23112, dataSize=250 MB, assetsSize=224 MB]
+I 2023/09/28 11:20:58 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+I 2023/09/28 11:20:58 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/09/28 11:20:59 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/28 11:20:59 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/09/28 11:21:00 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+W 2023/09/28 11:21:00 blocktree.go:500: save block tree [size=6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [2.33s]
+E 2023/09/28 11:21:01 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 11:21:01 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 11:21:01 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 11:31:10 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 11:31:10 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 11:31:10 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 11:41:20 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 11:41:20 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 11:41:20 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/09/28 12:13:29 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/09/28 12:13:29 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/09/28 12:13:29 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/09/28 12:14:14 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/09/28 12:14:14 database.go:1134: closed database
+I 2023/09/28 12:14:14 conf.go:867: cleared workspace temp
+I 2023/09/28 12:14:15 conf.go:522: exited kernel
+I 2023/09/28 12:14:15 sync.go:660: sync websocket closed
+I 2023/10/05 17:39:11 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/05 17:39:11 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [6660]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/05 17:39:11 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/05 17:39:11 runtime.go:128: use network proxy [system]
+I 2023/10/05 17:39:11 serve.go:114: kernel [pid=6660] http server [127.0.0.1:50836] is booting
+I 2023/10/05 17:39:11 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/10/05 17:39:11 conf.go:710: database size [54 MB], tree/block count [486/25540]
+I 2023/10/05 17:39:11 working.go:153: kernel booted
+I 2023/10/05 17:39:11 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/05 17:39:11 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/05 17:39:12 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/05 17:39:12 box.go:79: auto stat [trees=426, blocks=23112, dataSize=250 MB, assetsSize=224 MB]
+I 2023/10/05 17:39:12 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+I 2023/10/05 17:39:13 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/05 17:39:15 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 17:39:15 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 17:39:15 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 17:49:24 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 17:49:24 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 17:49:24 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 17:59:33 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 17:59:33 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 17:59:33 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 18:09:42 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 18:09:42 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 18:09:42 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 18:19:52 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 18:19:52 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 18:19:52 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 18:30:01 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 18:30:01 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 18:30:01 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 18:40:10 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 18:40:10 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 18:40:10 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 18:50:19 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 18:50:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 18:50:19 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 19:00:28 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 19:00:28 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 19:00:28 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 19:10:37 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 19:10:37 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 19:10:37 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 19:20:47 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 19:20:47 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 19:20:47 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 19:30:56 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 19:30:56 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 19:30:56 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/05 19:39:12 box.go:79: auto stat [trees=486, blocks=25544, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/05 19:39:12 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/05 19:41:05 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 19:41:05 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 19:41:05 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 19:51:14 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 19:51:14 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 19:51:14 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 20:01:23 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 20:01:23 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 20:01:23 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 20:11:33 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 20:11:33 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 20:11:33 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 20:21:42 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 20:21:42 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 20:21:42 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 20:31:51 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 20:31:51 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 20:31:51 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 20:42:00 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 20:42:00 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 20:42:00 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 20:52:09 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 20:52:09 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 20:52:09 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 21:02:19 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 21:02:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 21:02:19 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 21:12:28 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 21:12:28 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 21:12:28 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 21:22:37 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 21:22:37 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 21:22:37 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 21:32:46 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 21:32:46 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 21:32:46 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/05 21:39:12 box.go:79: auto stat [trees=486, blocks=25544, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/05 21:39:12 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/05 21:42:55 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 21:42:55 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 21:42:55 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 21:53:05 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 21:53:05 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 21:53:05 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 22:03:14 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 22:03:14 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 22:03:14 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 22:13:23 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 22:13:23 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 22:13:23 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 22:23:32 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 22:23:32 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 22:23:32 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 22:33:41 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 22:33:41 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 22:33:41 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 22:43:50 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 22:43:50 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 22:43:50 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 22:54:00 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 22:54:00 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 22:54:00 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 23:04:09 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 23:04:09 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 23:04:09 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 23:14:18 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 23:14:18 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 23:14:18 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 23:24:27 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 23:24:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 23:24:27 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 23:34:36 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 23:34:36 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 23:34:36 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/05 23:39:12 box.go:79: auto stat [trees=486, blocks=25544, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/05 23:39:12 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/05 23:44:46 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 23:44:46 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 23:44:46 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/05 23:54:55 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/05 23:54:55 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/05 23:54:55 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/06 00:05:04 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/06 00:05:04 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/06 00:05:04 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/06 00:15:13 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/06 00:15:13 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/06 00:15:13 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/06 00:25:22 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/06 00:25:22 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/06 00:25:22 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/06 00:30:59 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/06 00:30:59 database.go:1134: closed database
+I 2023/10/06 00:30:59 conf.go:867: cleared workspace temp
+I 2023/10/06 00:30:59 conf.go:522: exited kernel
+I 2023/10/06 00:30:59 sync.go:660: sync websocket closed
+I 2023/10/07 08:48:05 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/07 08:48:05 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [9420]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/07 08:48:05 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/07 08:48:05 runtime.go:128: use network proxy [system]
+I 2023/10/07 08:48:05 serve.go:114: kernel [pid=9420] http server [127.0.0.1:49897] is booting
+I 2023/10/07 08:48:05 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/07 08:48:05 conf.go:710: database size [54 MB], tree/block count [486/25543]
+I 2023/10/07 08:48:05 working.go:153: kernel booted
+I 2023/10/07 08:48:05 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/07 08:48:05 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/07 08:48:06 box.go:79: auto stat [trees=486, blocks=25543, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/07 08:48:06 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/07 08:48:06 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/07 08:48:07 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/07 08:48:09 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 08:48:09 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 08:48:09 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/10/07 08:48:14 blocktree.go:500: save block tree [size=6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.51s]
+E 2023/10/07 08:58:18 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 08:58:18 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 08:58:18 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 09:08:27 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 09:08:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 09:08:27 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 09:18:36 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 09:18:36 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 09:18:36 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 09:28:45 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 09:28:45 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 09:28:45 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 09:38:55 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 09:38:55 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 09:38:55 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 09:49:04 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 09:49:04 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 09:49:04 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 09:59:13 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 09:59:13 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 09:59:13 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 10:09:22 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 10:09:22 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 10:09:22 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 10:19:31 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 10:19:31 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 10:19:31 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 10:29:41 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 10:29:41 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 10:29:41 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 10:39:50 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 10:39:50 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 10:39:50 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/07 10:48:06 box.go:79: auto stat [trees=486, blocks=25546, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/07 10:48:06 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+E 2023/10/07 10:49:59 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 10:49:59 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 10:49:59 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 11:00:08 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 11:00:08 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 11:00:08 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 11:10:17 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 11:10:17 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 11:10:17 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 11:20:27 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 11:20:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 11:20:27 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 11:30:36 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 11:30:36 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 11:30:36 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 11:40:45 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 11:40:45 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 11:40:45 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/07 13:55:10 box.go:79: auto stat [trees=488, blocks=25556, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/07 13:55:10 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+E 2023/10/07 13:55:14 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 13:55:14 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 13:55:14 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 14:05:23 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 14:05:23 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 14:05:23 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 14:15:32 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 14:15:32 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 14:15:32 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 14:25:41 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 14:25:41 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 14:25:41 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 14:35:50 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 14:35:50 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 14:35:50 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 14:46:00 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 14:46:00 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 14:46:00 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 14:56:08 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 14:56:08 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 14:56:08 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 15:06:18 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 15:06:18 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 15:06:18 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 15:16:27 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 15:16:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 15:16:27 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 15:26:36 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 15:26:36 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 15:26:36 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 15:36:45 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 15:36:45 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 15:36:45 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 15:46:55 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 15:46:55 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 15:46:55 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/07 15:55:11 box.go:79: auto stat [trees=488, blocks=25556, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/07 15:55:11 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+E 2023/10/07 15:57:04 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 15:57:04 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 15:57:04 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 16:07:13 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 16:07:13 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 16:07:13 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/07 16:17:06 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/07 16:17:06 database.go:1134: closed database
+I 2023/10/07 16:17:06 conf.go:867: cleared workspace temp
+I 2023/10/07 16:17:07 conf.go:522: exited kernel
+I 2023/10/07 16:17:07 sync.go:660: sync websocket closed
+I 2023/10/07 20:52:39 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/07 20:52:39 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [10328]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/07 20:52:39 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/07 20:52:39 runtime.go:128: use network proxy [system]
+I 2023/10/07 20:52:39 serve.go:114: kernel [pid=10328] http server [127.0.0.1:65401] is booting
+I 2023/10/07 20:52:39 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/07 20:52:39 conf.go:710: database size [54 MB], tree/block count [488/25563]
+I 2023/10/07 20:52:39 working.go:153: kernel booted
+I 2023/10/07 20:52:39 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/07 20:52:39 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/07 20:52:39 box.go:79: auto stat [trees=488, blocks=25563, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/07 20:52:39 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+I 2023/10/07 20:52:39 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/07 20:52:41 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/07 20:52:43 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 20:52:43 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 20:52:43 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 21:02:52 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 21:02:52 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 21:02:52 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/07 21:13:01 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/07 21:13:01 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/07 21:13:01 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/07 21:15:34 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/07 21:15:34 database.go:1134: closed database
+I 2023/10/07 21:15:34 conf.go:867: cleared workspace temp
+I 2023/10/07 21:15:34 conf.go:522: exited kernel
+I 2023/10/07 21:15:34 sync.go:660: sync websocket closed
+I 2023/10/08 08:54:50 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/08 08:54:50 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [12496]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/08 08:54:50 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/08 08:54:50 runtime.go:128: use network proxy [system]
+I 2023/10/08 08:54:50 serve.go:114: kernel [pid=12496] http server [127.0.0.1:49944] is booting
+I 2023/10/08 08:54:50 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/08 08:54:50 conf.go:710: database size [54 MB], tree/block count [488/25563]
+I 2023/10/08 08:54:50 working.go:153: kernel booted
+I 2023/10/08 08:54:50 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/08 08:54:50 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/08 08:54:50 box.go:79: auto stat [trees=488, blocks=24453, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/08 08:54:50 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+I 2023/10/08 08:54:50 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/10/08 08:54:52 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/08 08:54:54 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 08:54:54 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 08:54:54 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 09:05:03 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 09:05:03 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 09:05:03 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 09:15:12 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 09:15:12 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 09:15:12 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 09:25:27 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 09:25:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 09:25:27 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 09:35:40 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 09:35:40 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 09:35:40 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 09:45:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 09:45:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 09:45:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 09:55:58 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 09:55:58 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 09:55:58 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 10:06:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 10:06:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 10:06:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 10:16:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 10:16:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 10:16:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 10:26:26 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 10:26:26 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 10:26:26 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 10:36:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 10:36:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 10:36:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 10:50:11 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 10:50:11 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 10:50:11 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 10:54:50 box.go:79: auto stat [trees=488, blocks=25563, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/08 10:54:50 disk.go:33: disk usage [total=255 GB, used=150 GB, free=104 GB]
+E 2023/10/08 11:00:21 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 11:00:21 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 11:00:21 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 11:10:30 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 11:10:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 11:10:30 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 11:20:39 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 11:20:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 11:20:39 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 11:30:48 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 11:30:48 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 11:30:48 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 11:40:57 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 11:40:57 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 11:40:57 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 11:51:06 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 11:51:06 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 11:51:06 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 14:13:57 box.go:79: auto stat [trees=489, blocks=25597, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/08 14:13:57 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/08 14:24:03 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 14:24:03 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 14:24:03 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 14:34:13 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 14:34:13 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 14:34:13 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 14:44:22 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 14:44:22 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 14:44:22 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 14:54:31 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 14:54:31 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 14:54:31 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 15:04:40 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 15:04:40 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 15:04:40 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 15:14:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 15:14:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 15:14:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 15:24:59 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 15:24:59 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 15:24:59 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 15:35:08 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 15:35:08 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 15:35:08 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 15:45:17 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 15:45:17 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 15:45:17 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 15:55:26 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 15:55:26 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 15:55:26 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 16:05:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 16:05:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 16:05:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 16:13:58 box.go:79: auto stat [trees=489, blocks=25611, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/08 16:13:58 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/08 16:15:51 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 16:15:51 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 16:15:51 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 16:19:08 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/08 16:19:08 database.go:1134: closed database
+I 2023/10/08 16:19:08 conf.go:867: cleared workspace temp
+I 2023/10/08 16:19:09 conf.go:522: exited kernel
+I 2023/10/08 16:19:09 sync.go:660: sync websocket closed
+I 2023/10/08 19:19:45 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/08 19:19:45 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [8992]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/08 19:19:45 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/08 19:19:45 runtime.go:128: use network proxy [system]
+I 2023/10/08 19:19:45 serve.go:114: kernel [pid=8992] http server [127.0.0.1:49866] is booting
+I 2023/10/08 19:19:45 blocktree.go:446: read block tree [6.5 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/08 19:19:45 conf.go:710: database size [54 MB], tree/block count [489/25628]
+I 2023/10/08 19:19:45 working.go:153: kernel booted
+I 2023/10/08 19:19:45 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/08 19:19:45 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/08 19:19:46 box.go:79: auto stat [trees=429, blocks=23198, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/08 19:19:46 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/08 19:19:46 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/10/08 19:19:47 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/08 19:19:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 19:19:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 19:19:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 19:22:08 cloud_service.go:377: get cloud user elapsed [22560ms]
+E 2023/10/08 19:29:58 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 19:29:58 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 19:29:58 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 19:40:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 19:40:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 19:40:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 19:50:26 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 19:50:26 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 19:50:26 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/10/08 19:51:15 file.go:449: block tree not found [20230925144123-az8kf0k]
+W 2023/10/08 19:51:15 file.go:449: block tree not found [20230925221315-qm17x7r]
+E 2023/10/08 20:00:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 20:00:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 20:00:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 20:05:00 span.go:103: sql query failed: near "g": syntax error
+E 2023/10/08 20:05:01 span.go:103: sql query failed: near "z": syntax error
+E 2023/10/08 20:05:01 span.go:103: sql query failed: near "zu": syntax error
+E 2023/10/08 20:05:01 span.go:103: sql query failed: near "zuo": syntax error
+E 2023/10/08 20:05:03 span.go:103: sql query failed: near "s": syntax error
+E 2023/10/08 20:05:03 span.go:103: sql query failed: near "sh": syntax error
+E 2023/10/08 20:05:03 span.go:103: sql query failed: near "shi": syntax error
+E 2023/10/08 20:10:44 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 20:10:44 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 20:10:44 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 20:20:53 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 20:20:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 20:20:53 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 20:31:03 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 20:31:03 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 20:31:03 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 20:41:12 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 20:41:12 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 20:41:12 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 20:51:21 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 20:51:21 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 20:51:21 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 21:01:30 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 21:01:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 21:01:30 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 21:11:39 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 21:11:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 21:11:39 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 21:19:46 box.go:79: auto stat [trees=493, blocks=25743, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/08 21:19:46 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/08 21:21:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 21:21:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 21:21:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 21:31:58 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 21:31:58 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 21:31:58 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 21:38:27 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/08 21:38:27 database.go:1134: closed database
+I 2023/10/08 21:38:27 conf.go:867: cleared workspace temp
+I 2023/10/08 21:38:27 conf.go:522: exited kernel
+I 2023/10/08 21:38:27 sync.go:660: sync websocket closed
+I 2023/10/08 21:38:35 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/08 21:38:35 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [13916]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/08 21:38:35 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/08 21:38:35 runtime.go:128: use network proxy [system]
+I 2023/10/08 21:38:35 serve.go:114: kernel [pid=13916] http server [127.0.0.1:63552] is booting
+I 2023/10/08 21:38:35 blocktree.go:446: read block tree [6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/08 21:38:35 conf.go:710: database size [54 MB], tree/block count [494/25744]
+I 2023/10/08 21:38:35 working.go:153: kernel booted
+I 2023/10/08 21:38:35 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/08 21:38:35 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/08 21:38:35 box.go:79: auto stat [trees=434, blocks=23315, dataSize=253 MB, assetsSize=226 MB]
+I 2023/10/08 21:38:35 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/08 21:38:35 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/08 21:38:37 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/08 21:38:39 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 21:38:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 21:38:39 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 21:48:48 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 21:48:48 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 21:48:48 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 21:58:57 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 21:58:57 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 21:58:57 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 22:09:06 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 22:09:06 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 22:09:06 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 22:19:15 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 22:19:15 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 22:19:15 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 22:29:24 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 22:29:24 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 22:29:24 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 22:39:34 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 22:39:34 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 22:39:34 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/08 23:18:43 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/08 23:18:43 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/08 23:18:43 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/08 23:19:13 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/08 23:19:13 database.go:1134: closed database
+I 2023/10/08 23:19:13 conf.go:867: cleared workspace temp
+I 2023/10/08 23:19:14 conf.go:522: exited kernel
+I 2023/10/08 23:19:14 sync.go:660: sync websocket closed
+I 2023/10/09 09:35:45 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/09 09:35:45 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [17636]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/09 09:35:45 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/09 09:35:45 runtime.go:128: use network proxy [system]
+I 2023/10/09 09:35:45 serve.go:114: kernel [pid=17636] http server [127.0.0.1:51675] is booting
+I 2023/10/09 09:35:45 blocktree.go:446: read block tree [6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/10/09 09:35:45 conf.go:710: database size [54 MB], tree/block count [494/25768]
+I 2023/10/09 09:35:45 working.go:153: kernel booted
+I 2023/10/09 09:35:45 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 09:35:45 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 09:35:45 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/09 09:35:45 box.go:79: auto stat [trees=434, blocks=23340, dataSize=267 MB, assetsSize=224 MB]
+I 2023/10/09 09:35:45 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/09 09:35:47 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/09 09:35:49 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 09:35:49 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 09:35:49 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/10/09 09:35:54 blocktree.go:500: save block tree [size=6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.77s]
+I 2023/10/09 09:36:50 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/09 09:36:50 database.go:1134: closed database
+I 2023/10/09 09:36:50 conf.go:867: cleared workspace temp
+I 2023/10/09 09:36:51 conf.go:522: exited kernel
+I 2023/10/09 09:36:51 sync.go:660: sync websocket closed
+I 2023/10/09 10:52:23 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/09 10:52:23 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [26252]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/09 10:52:23 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/09 10:52:23 runtime.go:128: use network proxy [system]
+I 2023/10/09 10:52:23 serve.go:114: kernel [pid=26252] http server [127.0.0.1:59942] is booting
+I 2023/10/09 10:52:23 blocktree.go:446: read block tree [6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/09 10:52:23 conf.go:710: database size [54 MB], tree/block count [495/25773]
+I 2023/10/09 10:52:23 working.go:153: kernel booted
+I 2023/10/09 10:52:23 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 10:52:23 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 10:52:23 box.go:79: auto stat [trees=495, blocks=25773, dataSize=270 MB, assetsSize=226 MB]
+I 2023/10/09 10:52:23 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/09 10:52:23 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/10/09 10:52:25 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/09 10:52:26 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 10:52:26 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 10:52:26 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/10/09 10:52:32 blocktree.go:500: save block tree [size=6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.55s]
+E 2023/10/09 11:02:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 11:02:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 11:02:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 11:12:45 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 11:12:45 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 11:12:45 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 11:22:54 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 11:22:54 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 11:22:54 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 11:33:03 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 11:33:03 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 11:33:03 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 11:43:12 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 11:43:12 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 11:43:12 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 11:53:22 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 11:53:22 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 11:53:22 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 12:39:35 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 12:39:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 12:39:35 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 12:49:44 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 12:49:44 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 12:49:44 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/09 14:25:54 box.go:79: auto stat [trees=495, blocks=25805, dataSize=270 MB, assetsSize=226 MB]
+I 2023/10/09 14:25:54 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/09 14:25:57 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 14:25:57 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 14:25:57 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 14:36:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 14:36:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 14:36:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 14:46:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 14:46:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 14:46:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 14:56:25 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 14:56:25 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 14:56:25 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 15:06:34 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 15:06:34 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 15:06:34 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 15:16:43 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 15:16:43 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 15:16:43 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 15:26:53 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 15:26:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 15:26:53 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 15:37:02 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 15:37:02 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 15:37:02 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/09 15:41:00 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/09 15:41:00 database.go:1134: closed database
+I 2023/10/09 15:41:00 conf.go:867: cleared workspace temp
+I 2023/10/09 15:41:00 conf.go:522: exited kernel
+I 2023/10/09 15:41:00 sync.go:660: sync websocket closed
+I 2023/10/09 15:41:06 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/09 15:41:06 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [19276]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/09 15:41:06 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/09 15:41:06 runtime.go:128: use network proxy [system]
+I 2023/10/09 15:41:06 serve.go:114: kernel [pid=19276] http server [127.0.0.1:52748] is booting
+I 2023/10/09 15:41:06 blocktree.go:446: read block tree [6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/09 15:41:06 conf.go:710: database size [54 MB], tree/block count [495/25828]
+I 2023/10/09 15:41:06 working.go:153: kernel booted
+I 2023/10/09 15:41:06 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 15:41:06 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 15:41:07 box.go:79: auto stat [trees=495, blocks=25674, dataSize=270 MB, assetsSize=226 MB]
+I 2023/10/09 15:41:07 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/09 15:41:07 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/10/09 15:41:08 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/09 15:41:10 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 15:41:10 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 15:41:10 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/10/09 15:41:15 blocktree.go:500: save block tree [size=6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.36s]
+E 2023/10/09 15:51:19 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 15:51:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 15:51:19 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 16:01:28 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 16:01:28 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 16:01:28 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 16:11:37 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 16:11:37 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 16:11:37 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/09 16:16:57 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/09 16:16:57 database.go:1134: closed database
+I 2023/10/09 16:16:57 conf.go:867: cleared workspace temp
+I 2023/10/09 16:16:57 conf.go:522: exited kernel
+I 2023/10/09 16:16:57 sync.go:660: sync websocket closed
+I 2023/10/09 20:39:29 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/09 20:39:29 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [11132]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/09 20:39:29 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/09 20:39:29 runtime.go:128: use network proxy [system]
+I 2023/10/09 20:39:29 serve.go:114: kernel [pid=11132] http server [127.0.0.1:52155] is booting
+I 2023/10/09 20:39:29 blocktree.go:446: read block tree [6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/10/09 20:39:29 conf.go:710: database size [54 MB], tree/block count [495/25833]
+I 2023/10/09 20:39:29 working.go:153: kernel booted
+I 2023/10/09 20:39:29 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 20:39:29 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/09 20:39:29 box.go:79: auto stat [trees=495, blocks=25833, dataSize=270 MB, assetsSize=226 MB]
+I 2023/10/09 20:39:29 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/09 20:39:29 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=60, size=1.2 MB]
+I 2023/10/09 20:39:31 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/09 20:39:32 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 20:39:32 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 20:39:32 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/10/09 20:39:38 blocktree.go:500: save block tree [size=6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.65s]
+E 2023/10/09 20:49:41 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 20:49:41 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 20:49:41 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 20:59:50 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 20:59:50 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 20:59:50 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 21:10:00 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 21:10:00 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 21:10:00 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 21:20:09 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 21:20:09 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 21:20:09 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 21:30:18 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 21:30:18 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 21:30:18 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 21:40:27 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 21:40:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 21:40:27 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/09 21:50:37 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 21:50:37 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 21:50:37 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/09 23:35:02 box.go:79: auto stat [trees=496, blocks=25906, dataSize=271 MB, assetsSize=227 MB]
+I 2023/10/09 23:35:02 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/09 23:35:06 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/09 23:35:06 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/09 23:35:06 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/09 23:35:18 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/09 23:35:18 database.go:1134: closed database
+I 2023/10/09 23:35:18 conf.go:867: cleared workspace temp
+I 2023/10/09 23:35:19 conf.go:522: exited kernel
+I 2023/10/09 23:35:19 sync.go:660: sync websocket closed
+I 2023/10/10 08:58:11 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/10 08:58:11 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [17804]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/10 08:58:11 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/10 08:58:11 runtime.go:128: use network proxy [system]
+I 2023/10/10 08:58:11 serve.go:114: kernel [pid=17804] http server [127.0.0.1:54193] is booting
+I 2023/10/10 08:58:12 blocktree.go:446: read block tree [6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/10 08:58:12 conf.go:710: database size [54 MB], tree/block count [496/25906]
+I 2023/10/10 08:58:12 working.go:153: kernel booted
+I 2023/10/10 08:58:12 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/10 08:58:12 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/10 08:58:12 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/10 08:58:12 box.go:79: auto stat [trees=436, blocks=23476, dataSize=267 MB, assetsSize=225 MB]
+I 2023/10/10 08:58:12 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/10 08:58:14 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/10 08:58:15 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 08:58:15 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 08:58:15 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/10/10 08:58:20 blocktree.go:500: save block tree [size=6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.70s]
+E 2023/10/10 09:08:24 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 09:08:24 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 09:08:24 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 09:18:33 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 09:18:33 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 09:18:33 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 09:28:43 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 09:28:43 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 09:28:43 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 09:38:52 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 09:38:52 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 09:38:52 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 09:49:01 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 09:49:01 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 09:49:01 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 09:59:10 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 09:59:10 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 09:59:10 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 10:09:19 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 10:09:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 10:09:19 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 10:19:29 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 10:19:29 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 10:19:29 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 10:29:38 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 10:29:38 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 10:29:38 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 10:39:47 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 10:39:47 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 10:39:47 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 10:49:56 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 10:49:56 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 10:49:56 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/10 10:58:12 box.go:79: auto stat [trees=497, blocks=25982, dataSize=271 MB, assetsSize=227 MB]
+I 2023/10/10 10:58:12 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/10 11:00:05 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 11:00:05 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 11:00:05 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 11:10:15 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 11:10:15 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 11:10:15 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/10 11:12:16 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/10 11:12:16 database.go:1134: closed database
+I 2023/10/10 11:12:16 conf.go:867: cleared workspace temp
+I 2023/10/10 11:12:16 conf.go:522: exited kernel
+I 2023/10/10 11:12:16 sync.go:660: sync websocket closed
+I 2023/10/10 11:19:11 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/10 11:19:12 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [16428]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/10 11:19:12 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/10 11:19:12 runtime.go:128: use network proxy [system]
+I 2023/10/10 11:19:12 serve.go:114: kernel [pid=16428] http server [127.0.0.1:61636] is booting
+I 2023/10/10 11:19:12 blocktree.go:446: read block tree [6.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/10 11:19:12 conf.go:710: database size [54 MB], tree/block count [497/25982]
+I 2023/10/10 11:19:12 working.go:153: kernel booted
+I 2023/10/10 11:19:12 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/10 11:19:12 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/10 11:19:12 box.go:79: auto stat [trees=437, blocks=23552, dataSize=267 MB, assetsSize=225 MB]
+I 2023/10/10 11:19:12 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/10 11:19:12 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/10 11:19:14 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/10 11:19:15 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 11:19:15 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 11:19:15 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/10 11:19:30 index.go:133: rebuilt database for notebook [20231010111930-acxk8za] in [0.00s], tree [count=0, size=0 B]
+I 2023/10/10 11:19:30 index.go:206: resolved refs [26] in [131ms]
+E 2023/10/10 11:29:24 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 11:29:24 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 11:29:24 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 11:39:34 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 11:39:34 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 11:39:34 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 11:49:43 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 11:49:43 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 11:49:43 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/10 13:49:03 box.go:79: auto stat [trees=501, blocks=26004, dataSize=271 MB, assetsSize=227 MB]
+I 2023/10/10 13:49:03 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/10 13:49:07 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 13:49:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 13:49:07 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 13:59:16 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 13:59:16 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 13:59:16 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 14:09:25 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 14:09:25 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 14:09:25 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 14:19:34 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 14:19:34 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 14:19:34 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 14:29:43 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 14:29:43 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 14:29:43 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 14:39:52 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 14:39:52 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 14:39:52 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 14:50:01 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 14:50:01 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 14:50:01 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 15:00:11 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 15:00:11 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 15:00:11 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 15:10:20 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 15:10:20 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 15:10:20 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 15:20:29 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 15:20:29 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 15:20:29 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 15:28:38 span.go:103: sql query failed: near "g": syntax error
+E 2023/10/10 15:28:38 span.go:103: sql query failed: near "go": syntax error
+E 2023/10/10 15:28:38 span.go:103: sql query failed: near "gou": syntax error
+E 2023/10/10 15:28:38 span.go:103: sql query failed: near "gou": syntax error
+E 2023/10/10 15:28:38 span.go:103: sql query failed: near "gou": syntax error
+E 2023/10/10 15:28:40 span.go:103: sql query failed: near "d": syntax error
+E 2023/10/10 15:28:56 span.go:103: sql query failed: near "c": syntax error
+E 2023/10/10 15:28:56 span.go:103: sql query failed: near "ch": syntax error
+E 2023/10/10 15:28:56 span.go:103: sql query failed: near "che": syntax error
+E 2023/10/10 15:28:56 span.go:103: sql query failed: near "chen": syntax error
+E 2023/10/10 15:28:56 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/10/10 15:30:38 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 15:30:38 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 15:30:38 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 15:40:47 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 15:40:47 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 15:40:47 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/10 15:49:03 box.go:79: auto stat [trees=502, blocks=26037, dataSize=271 MB, assetsSize=227 MB]
+I 2023/10/10 15:49:03 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+E 2023/10/10 15:50:57 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 15:50:57 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 15:50:57 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 16:01:06 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 16:01:06 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 16:01:06 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/10 16:11:15 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/10 16:11:15 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/10 16:11:15 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/10 16:17:13 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/10 16:17:13 database.go:1134: closed database
+I 2023/10/10 16:17:13 conf.go:867: cleared workspace temp
+I 2023/10/10 16:17:13 conf.go:522: exited kernel
+I 2023/10/10 16:17:13 sync.go:660: sync websocket closed
+I 2023/10/11 09:12:20 working.go:115: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/10/11 09:12:20 runtime.go:74: kernel is booting:
+    * ver [2.9.7]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [4956]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/10/11 09:12:20 conf.go:392: user has disabled [Google Analytics]
+I 2023/10/11 09:12:20 runtime.go:128: use network proxy [system]
+I 2023/10/11 09:12:20 serve.go:114: kernel [pid=4956] http server [127.0.0.1:50776] is booting
+I 2023/10/11 09:12:20 blocktree.go:446: read block tree [6.7 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.02s]
+I 2023/10/11 09:12:20 conf.go:710: database size [54 MB], tree/block count [502/26035]
+I 2023/10/11 09:12:20 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/11 09:12:20 conf.go:927: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/10/11 09:12:20 working.go:153: kernel booted
+I 2023/10/11 09:12:20 box.go:79: auto stat [trees=502, blocks=26035, dataSize=271 MB, assetsSize=227 MB]
+I 2023/10/11 09:12:20 disk.go:33: disk usage [total=255 GB, used=151 GB, free=104 GB]
+I 2023/10/11 09:12:20 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=60, size=1.2 MB]
+I 2023/10/11 09:12:22 serve.go:127: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/10/11 09:12:24 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 09:12:24 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 09:12:24 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 09:12:53 span.go:103: sql query failed: near "c": syntax error
+E 2023/10/11 09:12:53 span.go:103: sql query failed: near "ch": syntax error
+E 2023/10/11 09:12:53 span.go:103: sql query failed: near "che": syntax error
+E 2023/10/11 09:12:53 span.go:103: sql query failed: near "chen": syntax error
+E 2023/10/11 09:12:54 span.go:103: sql query failed: near "cheng": syntax error
+E 2023/10/11 09:13:01 span.go:103: sql query failed: near "z": syntax error
+E 2023/10/11 09:13:02 span.go:103: sql query failed: near "za": syntax error
+E 2023/10/11 09:13:02 span.go:103: sql query failed: near "zai": syntax error
+E 2023/10/11 09:13:02 span.go:103: sql query failed: near "za": syntax error
+E 2023/10/11 09:13:02 span.go:103: sql query failed: near "zai": syntax error
+E 2023/10/11 09:13:04 span.go:103: sql query failed: near "z": syntax error
+E 2023/10/11 09:13:04 span.go:103: sql query failed: near "zh": syntax error
+E 2023/10/11 09:13:04 span.go:103: sql query failed: near "zho": syntax error
+E 2023/10/11 09:13:04 span.go:103: sql query failed: near "zhon": syntax error
+E 2023/10/11 09:13:05 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:05 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:05 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:05 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:09 span.go:103: sql query failed: near "s": syntax error
+E 2023/10/11 09:13:10 span.go:103: sql query failed: near "sa": syntax error
+E 2023/10/11 09:13:10 span.go:103: sql query failed: near "san": syntax error
+E 2023/10/11 09:13:12 span.go:103: sql query failed: near "s": syntax error
+E 2023/10/11 09:13:12 span.go:103: sql query failed: near "sh": syntax error
+E 2023/10/11 09:13:12 span.go:103: sql query failed: near "shu": syntax error
+E 2023/10/11 09:13:13 span.go:103: sql query failed: near "s": syntax error
+E 2023/10/11 09:13:13 span.go:103: sql query failed: near "sh": syntax error
+E 2023/10/11 09:13:16 span.go:103: sql query failed: near "z": syntax error
+E 2023/10/11 09:13:16 span.go:103: sql query failed: near "zh": syntax error
+E 2023/10/11 09:13:16 span.go:103: sql query failed: near "zho": syntax error
+E 2023/10/11 09:13:16 span.go:103: sql query failed: near "zhon": syntax error
+E 2023/10/11 09:13:16 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:18 span.go:103: sql query failed: near "z": syntax error
+E 2023/10/11 09:13:18 span.go:103: sql query failed: near "zh": syntax error
+E 2023/10/11 09:13:19 span.go:103: sql query failed: near "zho": syntax error
+E 2023/10/11 09:13:19 span.go:103: sql query failed: near "zhon": syntax error
+E 2023/10/11 09:13:19 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:19 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:19 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:13:19 span.go:103: sql query failed: near "zhong": syntax error
+E 2023/10/11 09:22:33 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 09:22:33 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 09:22:33 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 09:32:42 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 09:32:42 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 09:32:42 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 09:42:51 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 09:42:51 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 09:42:51 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/11 09:48:21 index.go:133: rebuilt database for notebook [20231011094821-k6sba4v] in [0.00s], tree [count=0, size=0 B]
+I 2023/10/11 09:48:22 index.go:206: resolved refs [26] in [138ms]
+E 2023/10/11 09:49:31 span.go:103: sql query failed: near "w": syntax error
+E 2023/10/11 09:49:31 span.go:103: sql query failed: near "wa": syntax error
+E 2023/10/11 09:49:31 span.go:103: sql query failed: near "wan": syntax error
+E 2023/10/11 09:49:31 span.go:103: sql query failed: near "wan": syntax error
+E 2023/10/11 09:49:31 span.go:103: sql query failed: near "wan": syntax error
+E 2023/10/11 09:49:31 span.go:103: sql query failed: near "wan": syntax error
+E 2023/10/11 09:49:31 span.go:103: sql query failed: near "wan": syntax error
+E 2023/10/11 09:49:32 span.go:103: sql query failed: near "wan": syntax error
+E 2023/10/11 09:53:03 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 09:53:03 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 09:53:03 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 10:03:19 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 10:03:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 10:03:19 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 10:13:28 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 10:13:28 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 10:13:28 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 10:23:43 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 10:23:43 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 10:23:43 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 10:33:53 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 10:33:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 10:33:53 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 10:44:02 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 10:44:02 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 10:44:02 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 10:54:11 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 10:54:11 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 10:54:11 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/10/11 11:04:20 tree.go:193: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/10/11 11:04:20 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/10/11 11:04:20 index_fix.go:172: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/10/11 11:07:35 conf.go:476: exiting kernel [force=false, execInstallPkg=0]
+I 2023/10/11 11:07:35 database.go:1134: closed database
+I 2023/10/11 11:07:35 conf.go:867: cleared workspace temp
+I 2023/10/11 11:07:36 conf.go:522: exited kernel
+I 2023/10/11 11:07:36 sync.go:660: sync websocket closed

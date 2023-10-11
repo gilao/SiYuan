@@ -1,14 +1,5 @@
 [
 	{
-		"name": "siyuan-plugins-index",
-		"displayName": "目录插件",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "Calendar-heatmap",
 		"displayName": "日历热力图",
 		"enabled": true,
@@ -29,15 +20,6 @@
 	{
 		"name": "siyuan-plugin-excalidraw",
 		"displayName": "Excalidraw",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "syplugin-hierarchyNavigate",
-		"displayName": "文档层级导航",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
@@ -101,6 +83,24 @@
 	{
 		"name": "siyuan-plugin-keymap",
 		"displayName": "快捷键帮助",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "markmind",
+		"displayName": "Markmind 思维导图",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-publisher",
+		"displayName": "发布工具",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
