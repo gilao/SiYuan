@@ -24,13 +24,19 @@
     "removeAssets": true,
     "scale": 1
   },
+  "local-exportword": {
+    "mergeSubdocs": false,
+    "removeAssets": false
+  },
   "local-fontstyles": [
-    "style1​var(--b3-card-info-background)​var(--b3-card-info-color)",
-    "fontSize​19px",
-    "color​var(--b3-font-color5)",
-    "style1​var(--b3-card-error-background)​var(--b3-card-error-color)",
     "style1​var(--b3-card-warning-background)​var(--b3-card-warning-color)",
-    "backgroundColor​var(--b3-font-background12)"
+    "backgroundColor​var(--b3-font-background6)",
+    "backgroundColor​var(--b3-font-background3)",
+    "backgroundColor​var(--b3-font-background1)",
+    "color​var(--b3-font-color11)",
+    "style1​var(--b3-card-error-background)​var(--b3-card-error-color)",
+    "color​var(--b3-font-color3)",
+    "style1​var(--b3-card-success-background)​var(--b3-card-success-color)"
   ],
   "local-historynoteid": "20230724011555-12aln0y",
   "local-plugintopunpin": [
@@ -40,6 +46,15 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "链接是指两个设备之间的连接。它包括用于一个设备能够与另一个设备通信的电缆类型和协议。",
+      "#公众号-网络技术平台#",
+      "#学习计划#",
+      "nav",
+      ".",
+      "#sh脚本#",
+      "#Dockerfile#",
+      "为什么泛型会让你的Go程序变慢",
+      "",
       "#Slices#",
       "36717",
       "http://",
@@ -57,7 +72,6 @@
       "#Grpc 原理#",
       "#gRPC 原理#",
       "共享内存",
-      "",
       "15",
       "def load_faiss",
       "load_faiss",

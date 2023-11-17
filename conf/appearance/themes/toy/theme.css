@@ -1,0 +1,39 @@
+/******* Theme for SiYuan Note ************
+1. 本样式仅在16px字号设置下进行有限场景的测试，不能保证所有页面均完美呈现。如果遇到相关功能或样式问题，请重置为官方主题后再确认问题是否重现。
+2. 标注为「实验功能」的部分请谨慎开启使用。
+/****************************************/
+
+/* 引入配色方案 */
+/*@import url("palette/yinxiang.css");*/
+
+
+/* 引入基本框架 */
+@import url("base.css");
+@import url("底栏.css");
+@import url("P-Book.css");
+@import url("有序列表编号.css");
+@import url("style/sticker.css");
+@import url("style/list-to-map.css");
+@import url("style/list-to-table.css");
+@import url("style/table.css");
+@import url("style/file.css");
+@import url("style/file-link-before.css");
+
+[data-key="viewCards"] .b3-list-item.b3-list-item--hide-action {
+   margin:1px 10px;
+   padding:3px 0px;
+}
+
+div.list div.bq .p {
+   margin-top:0px !important;
+   margin-bottom:0px !important;
+   line-height:1.425em !important;
+   padding:0px;
+}   
+div.list div.bq .bq {
+   margin-left:10px !important;
+   margin-top:5px !important;
+}
+.og-fake-doc-breadcrumb-container.protyle-breadcrumb {
+    margin-top: 50px !important;
+}

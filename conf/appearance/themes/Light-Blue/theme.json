@@ -1,0 +1,22 @@
+{
+  "name":   "Light-Blue",
+  "author": "Morgan",
+  "url": "https://github.com/Morganwan90/Lightblue-siyuan-theme/",
+  "version": "1.1.5",
+  "modes": ["light"],
+  "displayName": {
+    "default": "Light-Blue"
+  },
+  "description": {
+    "default": "自用主题"
+  },
+  "readme": {
+    "default": "README.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": ["https://afdian.net/a/morganwan"]
+  }
+}

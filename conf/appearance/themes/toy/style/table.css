@@ -1,0 +1,28 @@
+/* 页宽 */
+.protyle-wysiwyg [data-node-id][custom-f~=full] table{
+	font-weight:500;
+	border-radius:5px;
+	overflow:hidden;
+	width: 100%;
+	display: table;
+}
+.protyle-wysiwyg [data-node-id][custom-f~=full] colgroup{
+	border-style:unset;
+}
+.protyle-wysiwyg div.table[data-node-id][custom-f~=full] table {
+    width: 100%;
+}
+
+.protyle-wysiwyg div.table[data-node-id][custom-f~=auto] table {
+    width: auto;
+}
+.protyle-wysiwyg [data-node-id][custom-f~=auto] table {
+    width: auto !important;
+    white-space: pre;
+}
+
+/* 空白表头 */
+.protyle-wysiwyg [data-node-id][custom-t~=biaotou] table th {
+    font-weight: normal !important;
+    color: inherit !important;
+}
