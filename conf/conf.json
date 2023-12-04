@@ -1073,13 +1073,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 653,
+    "treeCount": 716,
     "cTreeCount": 1000,
-    "blockCount": 29512,
-    "cBlockCount": 30000,
-    "dataSize": 293544884,
+    "blockCount": 32067,
+    "cBlockCount": 40000,
+    "dataSize": 296487785,
     "cDataSize": 419430400,
-    "assetsSize": 248478328,
+    "assetsSize": 250525561,
     "cAssetsSize": 419430400
   },
   "api": {
