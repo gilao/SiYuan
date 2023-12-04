@@ -9,7 +9,7 @@
   "local-codelang": "go",
   "local-dailynoteid": "20230814084818-hog5ds9",
   "local-docinfo": {
-    "id": "20230925160254-2jont39"
+    "id": "20230727000739-vd3h1mq"
   },
   "local-exportpdf": {
     "keepFold": false,
@@ -29,14 +29,14 @@
     "removeAssets": false
   },
   "local-fontstyles": [
-    "style1​var(--b3-card-warning-background)​var(--b3-card-warning-color)",
-    "backgroundColor​var(--b3-font-background6)",
-    "backgroundColor​var(--b3-font-background3)",
-    "backgroundColor​var(--b3-font-background1)",
+    "style1​var(--b3-card-info-background)​var(--b3-card-info-color)",
+    "color​var(--b3-font-color10)",
+    "clear​undefined",
+    "style1​var(--b3-card-success-background)​var(--b3-card-success-color)",
+    "style2​undefined",
     "color​var(--b3-font-color11)",
-    "style1​var(--b3-card-error-background)​var(--b3-card-error-color)",
-    "color​var(--b3-font-color3)",
-    "style1​var(--b3-card-success-background)​var(--b3-card-success-color)"
+    "color​var(--b3-font-color5)",
+    "backgroundColor​var(--b3-font-background3)"
   ],
   "local-historynoteid": "20230724011555-12aln0y",
   "local-plugintopunpin": [
@@ -46,6 +46,18 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "#Channel#",
+      "# Context#",
+      "#Context#",
+      "#goroutine#",
+      "#sync.WaitGroup#",
+      "#Select#",
+      "#Go-Channel#",
+      "#context#",
+      "#公众号-G#",
+      "* *",
+      "",
+      "#未完成#",
       "链接是指两个设备之间的连接。它包括用于一个设备能够与另一个设备通信的电缆类型和协议。",
       "#公众号-网络技术平台#",
       "#学习计划#",
@@ -54,7 +66,6 @@
       "#sh脚本#",
       "#Dockerfile#",
       "为什么泛型会让你的Go程序变慢",
-      "",
       "#Slices#",
       "36717",
       "http://",
@@ -95,7 +106,7 @@
       "**"
     ],
     "row": "",
-    "rowTab": ""
+    "rowTab": "378px"
   },
   "local-zoom": 1,
   "tsundoku-color-href": "/appearance/themes/Tsundoku/style/theme/Tsundoku_light.css"

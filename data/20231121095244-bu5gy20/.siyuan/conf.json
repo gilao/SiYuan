@@ -1,0 +1,11 @@
+{
+  "name": "小项目-基于websocket建立的聊天室",
+  "sort": 0,
+  "icon": "1f433",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 15
+}

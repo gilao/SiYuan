@@ -1,0 +1,11 @@
+{
+  "name": "零声教育Golang云原生第五代课程大纲",
+  "sort": 0,
+  "icon": "",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 15
+}
