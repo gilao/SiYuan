@@ -84,23 +84,23 @@ window.theme.changeThemeMode = function (
 
 /* 根据当前主题模式加载样式配置文件 */
 window.theme.changeThemeMode(
-    `/appearance/themes/Savor/style/topbar/notion-light.css`,
-    `/appearance/themes/Savor/style/topbar/notion-dark.css`,
+    `/appearance/themes/Savor/style/topbar/savor-light.css`,
+    `/appearance/themes/Savor/style/topbar/savor-dark.css`,
 );
 
 
 
 
 
-/*----------------------------------创建notion主题工具栏区域----------------------------------
-function createnotionToolbar() {
+/*----------------------------------创建savor主题工具栏区域----------------------------------
+function createsavorToolbar() {
     var siYuanToolbar = getSiYuanToolbar();
-    var notionToolbar = getnotionToolbar();
+    var savorToolbar = getsavorToolbar();
     var windowControls = document.getElementById("windowControls");
-    if (notionToolbar) siYuanToolbar.removeChild(notionToolbar);
-    notionToolbar = insertCreateBefore(windowControls, "div", "notionToolbar");
-    notionToolbar.style.marginRight = "14px";
-    notionToolbar.style.marginLeft = "11px";
+    if (savorToolbar) siYuanToolbar.removeChild(savorToolbar);
+    savorToolbar = insertCreateBefore(windowControls, "div", "savorToolbar");
+    savorToolbar.style.marginRight = "14px";
+    savorToolbar.style.marginLeft = "11px";
 }*/
 
   /****************************思源API操作**************************/ 
@@ -137,8 +137,15 @@ function createnotionToolbar() {
   button.appendChild(SubMenu(selectid,selecttype))
   return button
 }
+function SubMenu(selectid,selecttype){
+  let button = document.createElement("button")
+  button.id="viewselectSub"
+  button.className="b3-menu__submenu"
+  button.appendChild(MenuItems(selectid,selecttype))
+  return button
+}
 
-function SubMenu(selectid,selecttype,className = 'b3-menu__submenu') {
+  function MenuItems(selectid,selecttype,className = 'b3-menu__items'){
   let node = document.createElement('div');
   node.className = className;
   if(selecttype=="NodeList"){
@@ -152,7 +159,6 @@ function SubMenu(selectid,selecttype,className = 'b3-menu__submenu') {
     node.appendChild(FixWidth(selectid))
     node.appendChild(AutoWidth(selectid))
 	node.appendChild(FullWidth(selectid))
-	node.appendChild(dHeader(selectid))
 	node.appendChild(vHeader(selectid))
 	node.appendChild(Removeth(selectid))
 	node.appendChild(Defaultth(selectid))
@@ -261,17 +267,6 @@ function FullWidth(selectid){
   button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#iconTable"></use></svg><span class="b3-menu__label">页面宽度</span>`
   return button
 }
-function dHeader(selectid){
-  let button = document.createElement("button")
-  button.className="b3-menu__item"
-  button.onclick=ViewMonitor
-  button.setAttribute("data-node-id",selectid)
-  button.setAttribute("custom-attr-name","t")
-  button.setAttribute("custom-attr-value","dongjie")
-
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#iconSuper"></use></svg><span class="b3-menu__label">冻结表头滚屏</span>`
-  return button
-}
 function vHeader(selectid){
   let button = document.createElement("button")
   button.className="b3-menu__item"
@@ -310,7 +305,7 @@ function quoteError(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","error")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-1f6ab"></use></svg><span class="b3-menu__label">禁止</span>`
+  button.innerHTML=`<span class="b3-menu__label">🚫禁止</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -320,7 +315,7 @@ function Warn(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","warn")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-26a0"></use></svg><span class="b3-menu__label">警告</span>`
+  button.innerHTML=`<span class="b3-menu__label">⚠警告</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -330,7 +325,7 @@ function Bug(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","bug")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-1f41b"></use></svg><span class="b3-menu__label">bug</span>`
+  button.innerHTML=`<span class="b3-menu__label">🐛bug</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -340,7 +335,7 @@ function Check(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","check")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-2705"></use></svg><span class="b3-menu__label">正确</span>`
+  button.innerHTML=`<span class="b3-menu__label">✅正确</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -350,7 +345,7 @@ function Light(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","light")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-1f4a1"></use></svg><span class="b3-menu__label">灵感</span>`
+  button.innerHTML=`<span class="b3-menu__label">💡灵感</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -360,7 +355,7 @@ function Question(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","question")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-2753"></use></svg><span class="b3-menu__label">问题</span>`
+  button.innerHTML=`<span class="b3-menu__label">❓问题</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -370,7 +365,7 @@ function Wrong(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","wrong")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-274c"></use></svg><span class="b3-menu__label">错误</span>`
+  button.innerHTML=`<span class="b3-menu__label">❌错误</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -380,7 +375,7 @@ function Info(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","info")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-2139"></use></svg><span class="b3-menu__label">信息</span>`
+  button.innerHTML=`<span class="b3-menu__label">ℹ信息</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -390,7 +385,7 @@ function Pen(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","pen")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-1f58b"></use></svg><span class="b3-menu__label">记录</span>`
+  button.innerHTML=`<span class="b3-menu__label">🖋记录</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -400,7 +395,7 @@ function Note(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","note")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-1f4d3"></use></svg><span class="b3-menu__label">汇总</span>`
+  button.innerHTML=`<span class="b3-menu__label">📓汇总</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -410,7 +405,7 @@ function Bell(selectid){
   button.setAttribute("data-node-id",selectid)
   button.setAttribute("custom-attr-name","b")
   button.setAttribute("custom-attr-value","bell")
-  button.innerHTML=`<svg class="b3-menu__icon" style=""><use xlink:href="#icon-1f514"></use></svg><span class="b3-menu__label">提醒</span>`
+  button.innerHTML=`<span class="b3-menu__label">🔔提醒</span>`
   button.onclick=ViewMonitor
   return button
 }
@@ -518,15 +513,15 @@ setTimeout(()=>ClickMonitor(),1000)
 /**---------------------------------------------------------主题-------------------------------------------------------------- */
 
 function themeButton() {
-	notionThemeToolbarAddButton(
+	savorThemeToolbarAddButton(
         "buttonSavor-light",
         "toolbar__item b3-tooltips b3-tooltips__sw",
-		"Savor-light 配色",
+		"Light 配色",
 		'light',
         "/appearance/themes/Savor/img/base2.svg",
         "/appearance/themes/Savor/img/base.svg",
         () => {
-            loadStyle("/appearance/themes/Savor/style/topbar/notion-light.css", "Savor-light").setAttribute("topicfilter", "buttonSavor-light");
+            loadStyle("/appearance/themes/Savor/style/topbar/savor-light.css", "Savor-light").setAttribute("topicfilter", "buttonSavor-light");
             qucuFiiter();
         },
         () => {
@@ -534,7 +529,7 @@ function themeButton() {
         },
         true
     );
-		notionThemeToolbarAddButton(
+		savorThemeToolbarAddButton(
         "buttonsalt",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Salt 配色",
@@ -550,7 +545,7 @@ function themeButton() {
         },
         true
     );
-		notionThemeToolbarAddButton(
+		savorThemeToolbarAddButton(
         "buttonsugar",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Sugar 配色",
@@ -566,15 +561,15 @@ function themeButton() {
         },
         true
     );
-		notionThemeToolbarAddButton(
+		savorThemeToolbarAddButton(
         "buttonSavor-dark",
         "toolbar__item b3-tooltips b3-tooltips__sw",
-		"Savor-dark 配色",
+		"Dark 配色",
 		'dark',
         "/appearance/themes/Savor/img/base2.svg",
         "/appearance/themes/Savor/img/base3.svg",
         () => {
-            loadStyle("/appearance/themes/Savor/style/topbar/notion-dark.css", "Savor-dark").setAttribute("topicfilter", "buttonSavor-dark");
+            loadStyle("/appearance/themes/Savor/style/topbar/savor-dark.css", "Savor-dark").setAttribute("topicfilter", "buttonSavor-dark");
             qucuFiiter();
         },
         () => {
@@ -582,7 +577,7 @@ function themeButton() {
         },
         true
     );
-	    notionThemeToolbarAddButton(
+	    savorThemeToolbarAddButton(
         "buttonvinegar",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Vinegar 配色",
@@ -603,7 +598,7 @@ function themeButton() {
 /**---------------------------------------------------------挖空-------------------------------------------------------------- */
 
 function concealMarkButton() {
-    notionThemeToolplusAddButton(
+    savorThemeToolplusAddButton(
         "conceal",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"挖空",
@@ -621,7 +616,7 @@ function concealMarkButton() {
 /**---------------------------------------------------------垂直-------------------------------------------------------------- */
 
 function tabbarVerticalButton() {
-    notionThemeToolplusAddButton(
+    savorThemeToolplusAddButton(
         "tabbarVertical",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"垂直页签",
@@ -640,7 +635,7 @@ function tabbarVerticalButton() {
 /**---------------------------------------------------------顶栏-------------------------------------------------------------- */
 
 function topbarfixedButton() {
-    notionThemeToolplusAddButton(
+    savorThemeToolplusAddButton(
         "topBar",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"隐藏顶栏",
@@ -656,6 +651,24 @@ function topbarfixedButton() {
     );
 }
 
+/**---------------------------------------------------------子弹-------------------------------------------------------------- */
+
+function bulletThreading() {
+    savorThemeToolplusAddButton(
+        "bulletThreading",
+        "toolbar__item b3-tooltips b3-tooltips__sw",
+		"列表子弹线",
+        "/appearance/themes/Savor/img/bulletthreading2.svg",
+        "/appearance/themes/Savor/img/bulletthreading.svg",
+        () => {
+            loadStyle("/appearance/themes/Savor/style/topbar/bullet-threading.css", "列表子弹线").setAttribute("bulletThreading", "列表子弹线");
+        },
+        () => {
+            document.getElementById("列表子弹线").remove();
+        },
+        true
+    );
+}
 //去除主题所有滤镜还原按钮状态
 function qucuFiiter() {
     var Topicfilters = document.querySelectorAll("head [topicfilter]");
@@ -1190,27 +1203,27 @@ async function 写入文件(path, filedata, then = null, obj = null, isDir = fal
  * @param {*} OffClickRunFun 按钮关闭执行函数
  * @param {*} Memory 是否设置记忆状态 true为是留空或false为不设置记忆状态。
  */
-function notionThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, NoButtonSvgURL, OffButtonSvgURL, NoClickRunFun, OffClickRunFun, Memory) {
-    var notionToolbar = document.getElementById("notionToolbar");
-    if (notionToolbar == null) {
+function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, NoButtonSvgURL, OffButtonSvgURL, NoClickRunFun, OffClickRunFun, Memory) {
+    var savorToolbar = document.getElementById("savorToolbar");
+    if (savorToolbar == null) {
         var toolbarEdit = document.getElementById("toolbarEdit");
-        var windowControls = document.getElementById("dockRight");
+        var windowControls = document.getElementById("windowControls");
 
         if (toolbarEdit == null && windowControls != null) {
-            notionToolbar = document.createElement("div");
-            notionToolbar.id = "notionToolbar";
-            windowControls.children[1].appendChild(notionToolbar);
+            savorToolbar = document.createElement("div");
+            savorToolbar.id = "savorToolbar";
+            windowControls.parentElement.insertBefore(savorToolbar, windowControls);
         } else if (toolbarEdit != null) {
-            notionToolbar = insertCreateBefore(toolbarEdit, "div", "notionToolbar");
-            notionToolbar.style.position = "relative";
+            savorToolbar = insertCreateBefore(toolbarEdit, "div", "savorToolbar");
+            savorToolbar.style.position = "relative";
         }
     }
 
-    var addButton = addinsertCreateElement(notionToolbar, "div");
+    var addButton = addinsertCreateElement(savorToolbar, "div");
     addButton.style.float = "top";
     addButton.style.backgroundImage = "url(" + OffButtonSvgURL + ")";
     addButton.style.backgroundRepeat = "no-repeat";
-	addButton.style.backgroundPosition = "center";
+	addButton.style.backgroundPosition = "5% 50%";
 
 
     
@@ -1225,18 +1238,18 @@ function notionThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, N
 
         
         // 如果主题是暗色主题，默认选中样式
-        if (Mode == 'dark') {
+        if (Mode == 'dark'){
             if (Memory == true) {
-        offNo = getItem(ButtonID);
-        if (offNo == "1") {
-            addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
-            setItem(ButtonID, "0");
-            NoClickRunFun(addButton);
-            setItem(ButtonID, "1");
-        } else if (offNo != "0") {
-            offNo = "0";
-            setItem(ButtonID, "0");
-        }
+			offNo = getItem(ButtonID);
+			if (offNo == "1") {
+				addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
+				setItem(ButtonID, "0");
+				NoClickRunFun(addButton);
+				setItem(ButtonID, "1");
+			} else if (offNo != "0") {
+				offNo = "0";
+				setItem(ButtonID, "0");
+			}
     }
 
     AddEvent(addButton, "click", () => {
@@ -1299,27 +1312,27 @@ function notionThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, N
 }
 
 
-function notionThemeToolplusAddButton(ButtonID, ButtonTitle, ButtonLabel, NoButtonSvgURL, OffButtonSvgURL, NoClickRunFun, OffClickRunFun, Memory) {
-    var notionToolplus = document.getElementById("notionToolplus");
-    if (notionToolplus == null) {
+function savorThemeToolplusAddButton(ButtonID, ButtonTitle, ButtonLabel, NoButtonSvgURL, OffButtonSvgURL, NoClickRunFun, OffClickRunFun, Memory) {
+    var savorToolplus = document.getElementById("savorToolplus");
+    if (savorToolplus == null) {
         var toolbarEdit = document.getElementById("toolbarEdit");
-        var windowControls = document.getElementById("dockRight");
+        var windowControls = document.getElementById("windowControls");
 
         if (toolbarEdit == null && windowControls != null) {
-            notionToolplus = document.createElement("div");
-            notionToolplus.id = "notionToolplus";
-            windowControls.children[1].appendChild(notionToolplus);
+            savorToolplus = document.createElement("div");
+            savorToolplus.id = "savorToolplus";
+            windowControls.parentElement.insertBefore(savorToolplus, windowControls);
         } else if (toolbarEdit != null) {
-            notionToolplus = insertCreateBefore(toolbarEdit, "div", "notionToolplus");
-            notionToolplus.style.position = "relative";
+            savorToolplus = insertCreateBefore(toolbarEdit, "div", "savorToolplus");
+            savorToolplus.style.position = "relative";
         }
     }
 
-    var addButton = addinsertCreateElement(notionToolplus, "div");
+    var addButton = addinsertCreateElement(savorToolplus, "div");
     addButton.style.float = "top";
     addButton.style.backgroundImage = "url(" + OffButtonSvgURL + ")";
     addButton.style.backgroundRepeat = "no-repeat";
-	addButton.style.backgroundPosition = "center";
+	addButton.style.backgroundPosition = "5% 50%";
 
 
     
@@ -1632,10 +1645,10 @@ function loadScript(url, type = 'module') {
 function getSiYuanToolbar() { return document.getElementById("toolbar"); }
 
 /**
- * 得到notionToolbar
+ * 得到savorToolbar
  * @returns 
  */
-function getnotionToolbar() { return document.getElementById("notionToolbar"); }
+function getsavorToolbar() { return document.getElementById("savorToolbar"); }
 
 /**简单判断目前思源是否是pc窗口模式 */
 function isPcWindow() {
@@ -1644,7 +1657,7 @@ function isPcWindow() {
 
 /**简单判断目前思源是否是手机模式 */
 function isPhone() {
-    return document.getElementById("toolbarEdit") != null && document.getElementById("toolbar") == null;
+    return document.getElementById("editor") ;
 }
 
 
@@ -2108,6 +2121,8 @@ function getcommonMenu_Bolck() {
                 tabbarVerticalButton();//垂直页签
 				
 				topbarfixedButton();//顶栏悬浮
+				
+				bulletThreading();//子弹线
  
                 setTimeout(() => ClickMonitor(), 3000);//各种列表转xx
 
@@ -2174,5 +2189,54 @@ window.theme.loadScript = function (src, type = 'module', async = false, defer =
 };
 
 
-// 加载打字机功能
-window.theme.loadScript('/appearance/themes/Savor/js_module/module/typewriter.js');
+
+
+/**
+ * 获得指定块位于的编辑区
+ * @params {HTMLElement}
+ * @return {HTMLElement} 光标所在块位于的编辑区
+ * @return {null} 光标不在块内
+ */
+function getTargetEditor(block) {
+    while (block != null && !block.classList.contains('protyle-wysiwyg')) block = block.parentElement;
+    return block;
+}
+
+/**
+ * 获得焦点所在的块
+ * @return {HTMLElement} 光标所在块
+ * @return {null} 光标不在块内
+ */
+function getFocusedBlock() {
+    if (document.activeElement.classList.contains('protyle-wysiwyg')) {
+        let block = window.getSelection()?.focusNode?.parentElement; // 当前光标
+        while (block != null && block.dataset.nodeId == null) block = block.parentElement;
+        return block;
+    }
+}
+
+function focusHandler() {
+    /* 获取当前编辑区 */
+    let block = getFocusedBlock(); // 当前光标所在块
+    /* 当前块已经设置焦点 */
+    if (block?.classList.contains(`block-focus`)) return;
+
+    /* 当前块未设置焦点 */
+    const editor = getTargetEditor(block); // 当前光标所在块位于的编辑区
+    if (editor) {
+        editor.querySelectorAll(`.block-focus`).forEach((element) => element.classList.remove(`block-focus`));
+        block.classList.add(`block-focus`);
+        // setSelector(block);
+    }
+}
+
+function bulletMain() {
+    // 跟踪当前所在块
+    window.addEventListener('mouseup', focusHandler, true);
+    window.addEventListener('keyup', focusHandler, true);
+}
+
+(async () => {
+    bulletMain();
+    console.log('加载子弹线成功')
+})();

@@ -6,10 +6,10 @@
     "theme": "2",
     "widget": "0"
   },
-  "local-codelang": "go",
+  "local-codelang": "shell",
   "local-dailynoteid": "20230814084818-hog5ds9",
   "local-docinfo": {
-    "id": "20230727000739-vd3h1mq"
+    "id": "20231206142051-ygw31qu"
   },
   "local-exportpdf": {
     "keepFold": false,
@@ -46,6 +46,7 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "#Go-http#",
       "#Channel#",
       "# Context#",
       "#Context#",
