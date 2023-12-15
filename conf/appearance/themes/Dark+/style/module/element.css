@@ -1,0 +1,29 @@
+/* 自定义元素 */
+/* 拖拽按钮 */
+#custom-toolbar-more {
+  cursor: move;
+}
+/* 自定义悬浮菜单栏 */
+.float-tooldock {
+  position: absolute;
+  width: var(--custom-dock-width);
+  height: var(--custom-bar-height);
+  z-index: 201;
+  -webkit-app-region: no-drag;
+}
+.float-tooldock > * {
+  display: inline;
+}
+#toolbar .float-tooldock .toolbar__item {
+  display: inline;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: fill-available;
+}
+#toolbar .float-tooldock .toolbar__item#custom-toolbar-more {
+  box-shadow: 0 0 2px 2px var(--custom-striking-color);
+}
+/* 自定义工具栏 */
+#custom-toolbar {
+  transition: all 500ms;
+}

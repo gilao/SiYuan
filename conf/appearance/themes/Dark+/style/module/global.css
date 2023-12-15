@@ -1,0 +1,48 @@
+/* 全局页面 */
+/* 背景图片 */
+html,
+.protyle.fullscreen {
+  background-image: var(--custom-background-image);
+  background-attachment: var(--custom-background-attachment);
+  background-blend-mode: var(--custom-background-blend-mode);
+  background-clip: var(--custom-background-clip);
+  background-origin: var(--custom-background-origin);
+  background-position: var(--custom-background-position);
+  background-repeat: var(--custom-background-repeat);
+  background-size: var(--custom-background-size);
+  background-color: var(--custom-background-color);
+}
+body {
+  border: none;
+  background-color: var(--custom-background-transparent-color);
+}
+/* 文本选择 */
+::selection {
+  background-color: var(--custom-selection-background-color);
+  color: var(--custom-selection-color);
+}
+.b3-list-item__toggle {
+  border-radius: 2px;
+  z-index: 2;
+}
+.b3-list-item__toggle:hover {
+  outline: 1px solid var(--b3-theme-on-surface-light);
+  background-color: var(--b3-theme-background-light);
+}
+/* 悬浮提示 */
+.tooltip {
+  word-wrap: normal;
+  max-width: none;
+}
+/* 文本输入框 */
+textarea.b3-text-field {
+  max-width: 100%;
+}
+/* 开关 */
+input.b3-switch {
+  border-radius: 12px;
+}
+/* 滑动器 */
+input.b3-slider {
+  border-radius: 12px;
+}

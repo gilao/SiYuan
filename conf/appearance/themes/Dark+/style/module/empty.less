@@ -1,0 +1,96 @@
+/* 空白提示 */
+
+
+.empty-content(@content, @color) {
+    >[contenteditable][spellcheck] {
+
+        // 内容为空的块
+        &:empty {
+            &::before {
+                content: var(@content);
+                color: var(@color);
+                // 过渡无效
+                // transition: all 1000ms linear 0ms;
+            }
+        }
+
+        // &:focus:empty::before {
+        //     content: var(@content-focus);
+        // }
+    }
+}
+
+.empty(@color,
+    @content-p,
+    @content-c,
+    @content-t,
+    @content-u,
+    @content-o,
+) {
+
+    &.p,
+    &[data-type="NodeHeading"] {
+        // 空段落块 & 空标题块
+        .empty-content(@content-p, @color);
+    }
+
+    &.code-block {
+        // 空代码块
+        .empty-content(@content-c, @color);
+    }
+
+    &[data-subtype="t"].li>.p:nth-of-type(2) {
+        // 空任务列表
+        .empty-content(@content-t, @color);
+    }
+
+    &[data-subtype="u"].li>.p:nth-of-type(2) {
+        // 空无序列表
+        .empty-content(@content-u, @color);
+    }
+
+    &[data-subtype="o"].li>.p:nth-of-type(2) {
+        // 空有序列表
+        .empty-content(@content-o, @color);
+    }
+}
+
+/* 👇聚焦提示👇 */
+.protyle-wysiwyg {
+    [data-node-id] {
+        .empty(--b3-theme-on-surface-light,
+            --custom-empty-p,
+            --custom-empty-c,
+            --custom-empty-t,
+            --custom-empty-u,
+            --custom-empty-o,
+        );
+    }
+
+    // 效果不太好的焦点所在的空块提示
+    // #theme-focus-block[data-node-id] {
+    //     .empty(--b3-theme-on-surface-light,
+    //         --custom-empty-focus-p,
+    //         --custom-empty-focus-c,
+    //         --custom-empty-focus-t,
+    //         --custom-empty-focus-u,
+    //         --custom-empty-focus-o,
+    //     );
+    // }
+}
+
+/* 不打开文档时的界面 */
+.layout__center {
+    .layout__empty.b3-list {
+        background: transparent;
+
+        // 空白界面菜单列表项
+        .b3-list-item {
+
+            // 快捷键标签
+            .b3-list-item__meta {
+                margin-left: 1em;
+            }
+        }
+    }
+}

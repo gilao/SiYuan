@@ -1,0 +1,17 @@
+/* 水平分隔线 */
+.b3-typography hr > div,
+.protyle-wysiwyg .hr[data-node-id] > div {
+  height: 1em;
+}
+.b3-typography hr > div::after,
+.protyle-wysiwyg .hr[data-node-id] > div::after {
+  top: calc(0.5em - 3px);
+  border-bottom: 4px double var(--custom-line-color);
+}
+.protyle-wysiwyg [data-node-id].li > .protyle-action + .hr[data-node-id] > div {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+.protyle-wysiwyg [data-node-id][custom-jupyter-block-type=output] .hr[data-node-id] > div::after {
+  top: calc(0.5em - 3px) !important;
+}

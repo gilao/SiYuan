@@ -1,0 +1,26 @@
+{
+  "name": "sy-theme-change",
+  "author": "frostime",
+  "url": "https://github.com/frostime/sy-theme-change",
+  "version": "0.1.1",
+  "minAppVersion": "2.9.0",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "displayName": {
+    "en_US": "Theme Change",
+    "zh_CN": "切换主题"
+  },
+  "description": {
+    "en_US": "Quickly change the theme of SiYuan",
+    "zh_CN": "一年逛两次海澜之家, 思源的衣柜 ～(￣▽￣～)(～￣▽￣)～"
+  },
+  "readme": {
+    "en_US": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "custom": [
+      "https://afdian.net/a/frostime"
+    ]
+  }
+}

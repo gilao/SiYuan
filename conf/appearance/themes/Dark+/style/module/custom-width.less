@@ -1,0 +1,16 @@
+/* 宽度设置 */
+
+
+.protyle-wysiwyg {
+    [data-node-id][custom-width="100%"].iframe {
+        >.iframe-content {
+
+            &,
+            >iframe,
+            >video,
+            >audio {
+                width: 100% !important;
+            }
+        }
+    }
+}

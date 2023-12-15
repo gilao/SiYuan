@@ -1,0 +1,30 @@
+/* 引入参数配置 */
+svg.popover__block:hover,
+.protyle-attr--refcount.popover__block:hover {
+  transform: scale(1.25);
+  transition: all 0.1s ease-in-out;
+}
+.b3-list-item__icon:hover img,
+.dock__item:hover img,
+.b3-tooltips:hover img,
+.toolbar__item:hover img,
+.b3-list-item__action:hover img,
+.block__icon:hover img,
+.b3-list-item__icon:hover svg:not(.b3-list-item__arrow),
+.dock__item:hover svg:not(.b3-list-item__arrow),
+.b3-tooltips:hover svg:not(.b3-list-item__arrow),
+.toolbar__item:hover svg:not(.b3-list-item__arrow),
+.b3-list-item__action:hover svg:not(.b3-list-item__arrow),
+.block__icon:hover svg:not(.b3-list-item__arrow) {
+  transform: scale(1.25);
+  transition: all 0.1s ease-in-out;
+}
+.b3-list-item__icon:hover:not(:has(*)):not(.counter),
+.dock__item:hover:not(:has(*)):not(.counter),
+.b3-tooltips:hover:not(:has(*)):not(.counter),
+.toolbar__item:hover:not(:has(*)):not(.counter),
+.b3-list-item__action:hover:not(:has(*)):not(.counter),
+.block__icon:hover:not(:has(*)):not(.counter) {
+  transform: scale(1.25);
+  transition: all 0.1s ease-in-out;
+}

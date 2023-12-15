@@ -1,0 +1,24 @@
+# 调试映射文件
+**.js.map
+
+# 发行包文件目录
+/release
+
+# 发行包文件
+/package.zip
+
+# 临时文件
+/temp
+
+# 自定义样式
+/custom.css
+
+# 测试样式
+/style/test
+
+# 测试脚本
+/script/test
+
+# 编辑器
+# /app/editor
+/app/min-maps

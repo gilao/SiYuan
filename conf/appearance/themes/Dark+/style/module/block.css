@@ -1,0 +1,11 @@
+/* 块全局样式 */
+.b3-typography p {
+  margin-top: var(--custom-block-margin-top);
+  margin-bottom: var(--custom-block-margin-bottom);
+  border-radius: unset;
+}
+.protyle-wysiwyg [data-node-id] {
+  margin-top: var(--custom-block-margin-top);
+  margin-bottom: var(--custom-block-margin-bottom);
+  border-radius: unset;
+}
