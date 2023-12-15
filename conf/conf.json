@@ -1223,13 +1223,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 753,
+    "treeCount": 689,
     "cTreeCount": 1000,
-    "blockCount": 32342,
-    "cBlockCount": 40000,
-    "dataSize": 104724138,
+    "blockCount": 29960,
+    "cBlockCount": 30000,
+    "dataSize": 103970835,
     "cDataSize": 104857600,
-    "assetsSize": 59172352,
+    "assetsSize": 59172350,
     "cAssetsSize": 104857600
   },
   "api": {

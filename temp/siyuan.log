@@ -2448,3 +2448,54 @@ I 2023/12/15 14:11:58 conf.go:524: exiting kernel [force=false, execInstallPkg=0
 I 2023/12/15 14:11:58 database.go:1233: closed database
 I 2023/12/15 14:11:58 conf.go:918: cleared workspace temp
 I 2023/12/15 14:11:59 sync.go:693: sync websocket closed
+I 2023/12/15 14:15:02 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/12/15 14:15:02 runtime.go:74: kernel is booting:
+    * ver [2.11.2]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [16484]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/12/15 14:15:02 conf.go:438: user has disabled [Google Analytics]
+I 2023/12/15 14:15:02 runtime.go:123: use network proxy [system]
+I 2023/12/15 14:15:02 serve.go:119: kernel [pid=16484] http server [127.0.0.1:59515] is booting
+I 2023/12/15 14:15:02 blocktree.go:495: read block tree [8.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/12/15 14:15:02 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/15 14:15:02 conf.go:985: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/15 14:15:02 conf.go:760: database size [60 MB], tree/block count [753/32342]
+I 2023/12/15 14:15:02 working.go:192: kernel booted
+I 2023/12/15 14:15:02 conf.go:963: upgrading user guide box [20210808180117-czj9bvb]
+I 2023/12/15 14:15:03 box.go:76: auto stat [trees=689, blocks=29960, dataSize=104 MB, assetsSize=59 MB]
+I 2023/12/15 14:15:03 disk.go:33: disk usage [total=255 GB, used=174 GB, free=81 GB]
+I 2023/12/15 14:15:03 index.go:138: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=64, size=1.2 MB]
+I 2023/12/15 14:15:03 conf.go:975: upgraded user guide box [20210808180117-czj9bvb]
+I 2023/12/15 14:15:03 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+E 2023/12/15 14:15:06 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 14:15:06 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 14:15:06 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 14:15:07 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 14:15:07 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+I 2023/12/15 14:15:07 conf.go:524: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/15 14:15:07 database.go:1233: closed database
+W 2023/12/15 14:15:11 blocktree.go:552: save block tree [size=8.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.63s]
+I 2023/12/15 14:15:11 conf.go:918: cleared workspace temp
+I 2023/12/15 14:15:11 sync.go:693: sync websocket closed
+I 2023/12/15 14:15:11 conf.go:524: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/15 14:15:11 database.go:1233: closed database
+I 2023/12/15 14:15:11 conf.go:918: cleared workspace temp
+E 2023/12/15 14:15:11 working.go:490: remove workspace lock failed: remove E:\SiYuan\.lock: The system cannot find the file specified.
