@@ -29,6 +29,15 @@
     "removeAssets": false
   },
   "local-fileposition": {
+    "20230814084927-urix30f": {
+      "endId": "20230814084927-x2myxnv",
+      "focusEnd": 0,
+      "focusId": "20230814084927-x2myxnv",
+      "focusStart": 0,
+      "rootId": "20230814084927-urix30f",
+      "scrollTop": 0,
+      "startId": "20230814084927-x2myxnv"
+    },
     "20230822161613-0pezg4u": {
       "endId": "20230822161707-4tsrezo",
       "rootId": "20230822161613-0pezg4u",
@@ -38,10 +47,10 @@
     "20230912154259-arvuvbh": {
       "endId": "20231121100623-j3njnb2",
       "focusEnd": 0,
-      "focusId": "20230912154458-u8yaast",
+      "focusId": "20231214165150-xadp40u",
       "focusStart": 0,
       "rootId": "20230912154259-arvuvbh",
-      "scrollTop": 600,
+      "scrollTop": 568,
       "startId": "20230912154458-u8yaast"
     },
     "20230925221522-22epy6u": {
@@ -55,6 +64,9 @@
     },
     "20230926092002-yxqujnh": {
       "endId": "20230926144757-2as71k6",
+      "focusEnd": 0,
+      "focusId": "20230926092033-npws0fn",
+      "focusStart": 0,
       "rootId": "20230926092002-yxqujnh",
       "scrollTop": 0,
       "startId": "20230926092032-hzx9lqy"
@@ -104,13 +116,19 @@
       "scrollTop": 0,
       "startId": "20231205101156-ar8tkkg"
     },
+    "20231211114717-cugd6nz": {
+      "endId": "20231211114717-ubvopvc",
+      "focusEnd": 0,
+      "focusId": "20231211114717-ubvopvc",
+      "focusStart": 0,
+      "rootId": "20231211114717-cugd6nz",
+      "scrollTop": 0,
+      "startId": "20231211114717-ubvopvc"
+    },
     "20231214001341-phmmrex": {
       "endId": "20231214094350-qtx7tpo",
-      "focusEnd": 14,
-      "focusId": "20231214004220-7189emu",
-      "focusStart": 14,
       "rootId": "20231214001341-phmmrex",
-      "scrollTop": 0,
+      "scrollTop": 469,
       "startId": "20231214005910-2rsa9ws"
     },
     "20231214235313-hdhomvy": {
@@ -142,9 +160,21 @@
     },
     "20231215014145-6ir2rqd": {
       "endId": "20231215014205-hpuang2",
+      "focusEnd": 0,
+      "focusId": "20231215014205-hpuang2",
+      "focusStart": 0,
       "rootId": "20231215014145-6ir2rqd",
       "scrollTop": 0,
       "startId": "20231215014145-rff5eft"
+    },
+    "20231215114346-ogxa9m9": {
+      "endId": "20231215140318-9m86ypg",
+      "focusEnd": 2,
+      "focusId": "20231215140318-9m86ypg",
+      "focusStart": 2,
+      "rootId": "20231215114346-ogxa9m9",
+      "scrollTop": 1425,
+      "startId": "20231215114346-2qlqhtu"
     }
   },
   "local-fontstyles": [

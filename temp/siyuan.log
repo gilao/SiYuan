@@ -2266,3 +2266,185 @@ I 2023/12/15 11:18:40 conf.go:524: exiting kernel [force=false, execInstallPkg=0
 I 2023/12/15 11:18:40 database.go:1233: closed database
 I 2023/12/15 11:18:40 conf.go:918: cleared workspace temp
 I 2023/12/15 11:18:41 sync.go:693: sync websocket closed
+I 2023/12/15 11:31:31 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/12/15 11:31:31 runtime.go:74: kernel is booting:
+    * ver [2.11.2]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [27844]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/12/15 11:31:31 conf.go:438: user has disabled [Google Analytics]
+I 2023/12/15 11:31:31 runtime.go:123: use network proxy [system]
+I 2023/12/15 11:31:31 serve.go:119: kernel [pid=27844] http server [127.0.0.1:55332] is booting
+I 2023/12/15 11:31:31 blocktree.go:495: read block tree [8.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/12/15 11:31:31 conf.go:760: database size [76 MB], tree/block count [753/33485]
+I 2023/12/15 11:31:31 working.go:192: kernel booted
+I 2023/12/15 11:31:31 conf.go:963: upgrading user guide box [20210808180117-czj9bvb]
+I 2023/12/15 11:31:31 box.go:76: auto stat [trees=753, blocks=31103, dataSize=105 MB, assetsSize=59 MB]
+I 2023/12/15 11:31:31 disk.go:33: disk usage [total=255 GB, used=174 GB, free=81 GB]
+I 2023/12/15 11:31:31 index.go:138: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=64, size=1.2 MB]
+I 2023/12/15 11:31:31 conf.go:975: upgraded user guide box [20210808180117-czj9bvb]
+I 2023/12/15 11:31:32 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/12/15 11:31:33 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/15 11:31:33 conf.go:985: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+E 2023/12/15 11:31:35 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 11:31:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 11:31:35 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+W 2023/12/15 11:31:40 blocktree.go:552: save block tree [size=8.9 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.43s]
+E 2023/12/15 11:41:44 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 11:41:44 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 11:41:44 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 11:51:53 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 11:51:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 11:51:53 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 12:33:26 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 12:33:26 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 12:33:26 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 12:43:35 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 12:43:35 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 12:43:35 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 12:53:44 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 12:53:44 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 12:53:44 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 13:03:53 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 13:03:53 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 13:03:53 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 13:14:02 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 13:14:02 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 13:14:02 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 13:24:11 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 13:24:11 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 13:24:11 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/12/15 13:31:32 box.go:76: auto stat [trees=754, blocks=33487, dataSize=105 MB, assetsSize=59 MB]
+I 2023/12/15 13:31:32 disk.go:33: disk usage [total=255 GB, used=174 GB, free=81 GB]
+E 2023/12/15 13:34:21 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 13:34:21 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 13:34:21 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 13:44:30 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 13:44:30 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 13:44:30 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 13:54:39 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 13:54:39 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 13:54:39 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/12/15 14:03:50 conf.go:524: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/15 14:03:50 database.go:1233: closed database
+I 2023/12/15 14:03:50 conf.go:918: cleared workspace temp
+I 2023/12/15 14:03:51 sync.go:693: sync websocket closed
+I 2023/12/15 14:11:36 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/12/15 14:11:37 runtime.go:74: kernel is booting:
+    * ver [2.11.2]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [19632]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2023/12/15 14:11:37 conf.go:438: user has disabled [Google Analytics]
+I 2023/12/15 14:11:37 runtime.go:123: use network proxy [system]
+I 2023/12/15 14:11:37 serve.go:119: kernel [pid=19632] http server [127.0.0.1:59355] is booting
+I 2023/12/15 14:11:37 database.go:89: the database structure is changed, rebuilding database...
+I 2023/12/15 14:11:37 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/15 14:11:37 conf.go:985: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/15 14:11:37 database.go:109: reinitialized database [E:\SiYuan\temp\siyuan.db]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230814084818-hog5ds9] in [0.02s], tree [count=94, size=491 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20231019103857-mj30ws2] in [0.00s], tree [count=4, size=25 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230823102830-kozv1qt] in [0.01s], tree [count=76, size=334 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724011555-12aln0y] in [0.00s], tree [count=4, size=45 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724011408-0f3y5i1] in [0.00s], tree [count=3, size=23 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230723214033-y8h4tud] in [0.00s], tree [count=4, size=27 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724012526-f36nu2n] in [0.00s], tree [count=27, size=509 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724020722-qopm3x4] in [0.00s], tree [count=6, size=232 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724220259-tton0li] in [0.00s], tree [count=3, size=38 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724220641-3lu39fe] in [0.00s], tree [count=5, size=196 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724221344-nrbgwsy] in [0.00s], tree [count=5, size=27 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724231451-d96yieh] in [0.05s], tree [count=218, size=7.3 MB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230822161522-8kc1qyb] in [0.00s], tree [count=10, size=202 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20231012213728-gvda3e6] in [0.00s], tree [count=1, size=34 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724003122-2iu5oz8] in [0.00s], tree [count=2, size=2.7 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230724215531-wv1ayj3] in [0.00s], tree [count=5, size=50 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20231121095151-3jqqueo] in [0.00s], tree [count=1, size=16 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230821151832-xlbbtvq] in [0.00s], tree [count=9, size=32 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20231025114758-zboxh2d] in [0.00s], tree [count=2, size=5.9 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230913203839-x7j4e00] in [0.00s], tree [count=10, size=63 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20231108104347-aqf5pyk] in [0.01s], tree [count=33, size=94 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230723213314-7wwmtox] in [0.00s], tree [count=3, size=31 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230723214908-zfr1jw5] in [0.00s], tree [count=1, size=8.5 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230811142117-2g3m2ee] in [0.01s], tree [count=11, size=488 kB]
+I 2023/12/15 14:11:37 index.go:138: rebuilt database for notebook [20230723215222-r0fqhhm] in [0.00s], tree [count=1, size=21 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230727013545-ousf4dr] in [0.00s], tree [count=7, size=284 kB]
+I 2023/12/15 14:11:38 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230723225922-oudgbya] in [0.00s], tree [count=23, size=401 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230823103552-lre655w] in [0.00s], tree [count=1, size=1.3 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231011094821-k6sba4v] in [0.00s], tree [count=2, size=2.4 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230723221406-h9posk4] in [0.00s], tree [count=17, size=115 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230811111146-bkcyjf4] in [0.00s], tree [count=1, size=2.1 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230724003303-2ryafyu] in [0.01s], tree [count=29, size=245 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230723223139-9nm07uk] in [0.00s], tree [count=18, size=20 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231010111930-acxk8za] in [0.00s], tree [count=4, size=42 kB]
+E 2023/12/15 14:11:38 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 14:11:38 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 14:11:38 index.go:98: read box [20230724003855-a19d28t] tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230724003855-a19d28t] in [0.00s], tree [count=1, size=18 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231019104816-xb59unj] in [0.00s], tree [count=1, size=51 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20210808180117-czj9bvb] in [0.01s], tree [count=64, size=1.2 MB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230724004022-mqbeihl] in [0.00s], tree [count=10, size=78 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230724003714-sgzbig6] in [0.00s], tree [count=1, size=5.3 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230917182915-mb8dlz7] in [0.00s], tree [count=2, size=37 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230724005048-lhpjk51] in [0.00s], tree [count=2, size=18 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230724010127-g52b2kx] in [0.00s], tree [count=10, size=213 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231109215828-y38yy9s] in [0.00s], tree [count=2, size=6.4 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231121095244-bu5gy20] in [0.00s], tree [count=2, size=2.5 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231109212933-b7fn4k7] in [0.00s], tree [count=2, size=3.0 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231025144959-wpo19cz] in [0.00s], tree [count=3, size=9.0 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231025155115-p0xs7gz] in [0.00s], tree [count=4, size=6.4 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231025155217-ggvysr5] in [0.00s], tree [count=3, size=4.5 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20231120143407-tam128m] in [0.00s], tree [count=3, size=5.2 kB]
+I 2023/12/15 14:11:38 index.go:138: rebuilt database for notebook [20230724010327-43g5rlx] in [0.00s], tree [count=4, size=45 kB]
+W 2023/12/15 14:11:42 blocktree.go:552: save block tree [size=8.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.54s]
+I 2023/12/15 14:11:42 conf.go:760: database size [4.1 kB], tree/block count [753/32342]
+I 2023/12/15 14:11:42 working.go:192: kernel booted
+I 2023/12/15 14:11:42 conf.go:963: upgrading user guide box [20210808180117-czj9bvb]
+I 2023/12/15 14:11:42 box.go:76: auto stat [trees=753, blocks=32342, dataSize=105 MB, assetsSize=59 MB]
+I 2023/12/15 14:11:42 disk.go:33: disk usage [total=255 GB, used=174 GB, free=81 GB]
+I 2023/12/15 14:11:42 index.go:138: rebuilt database for notebook [20210808180117-czj9bvb] in [0.01s], tree [count=64, size=1.2 MB]
+I 2023/12/15 14:11:42 conf.go:975: upgraded user guide box [20210808180117-czj9bvb]
+E 2023/12/15 14:11:48 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 14:11:48 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2023/12/15 14:11:48 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2023/12/15 14:11:48 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2023/12/15 14:11:48 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+W 2023/12/15 14:11:51 blocktree.go:552: save block tree [size=8.6 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.57s]
+I 2023/12/15 14:11:58 conf.go:524: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/15 14:11:58 database.go:1233: closed database
+I 2023/12/15 14:11:58 conf.go:918: cleared workspace temp
+I 2023/12/15 14:11:59 sync.go:693: sync websocket closed
