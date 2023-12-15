@@ -19,19 +19,26 @@
 
 **简介**：[思源笔记(Siyuan)](https://github.com/siyuan-note/siyuan)是一款本地优先的个人知识管理系统，支持完全离线使用，同时也支持端到端加密同步。融合块、大纲和双向链接，构建你永恒的数字花园。本主题为个人原创主题，专为思源笔记设计。
 
-![](https://cdn.staticaly.com/gh/Achuan-2/PicBed@pic/assets/202306221442856.png)
+![](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/202306221442856.png)
 <center>Light 主题</center>
 
-![](https://cdn.staticaly.com/gh/Achuan-2/PicBed@pic/assets/202306221441869.png)
+![](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/202306221441869.png)
 <center>Green 主题</center>
 
-![](https://cdn.staticaly.com/gh/Achuan-2/PicBed@pic/assets/202306221442278.png)
+![](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/202306221442278.png)
 <center>Dark 主题</center>
 
 ## 🚀更新情况
 
-见 [CHANGE_LOGS](./CHANGE_LOGS.md)
+最近更新：
+v1.8.6 / 2023.11.3
+- 💄 ui(Admonition): fix 行内代码颜色
+- 
+ v1.8.5 / 2023.10.31
+- 💄 ui(字体颜色): 为数据库调整字体颜色
+- 💄 ui(代码块): 行号显示优化
 
+所有更新日志见 [CHANGE_LOGS](./CHANGE_LOGS.md)
 
 ## 💌 缘起
 
@@ -53,13 +60,17 @@ Tsundoku “積 ん 読”是日语里的一个词，维基百科是这样解释
   
 - 📎**为超链接添加了icon**：区别不同的本地链接和网络链接，详见[超链接图标介绍](https://www.yuque.com/achuan-2/siyuan/gar358)
   ![20220131165215_2022-01-31](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/README/20220131165215_2022-01-31.png)
-- 🧊 **引入语雀提示区块**：给引述块blockquote添加块背景颜色，就会自动应用样式，详见[语雀提示区块样式](https://www.yuque.com/achuan-2/siyuan/obxpvr)
-  ![20220131165233_2022-01-31](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/README/20220131165233_2022-01-31.png)
+- 🧊 **Admonition 块**：给引述块blockquote添加块背景颜色，就会自动应用样式
+  推荐使用模板添加emoji以及调整标题字体大小和加粗
+  ```markdown
+  > **🔔 标题**{: style="font-size: 24px;"}
+  >
+  > 内容
+  ```
+  ![](https://raw.githubusercontent.com/Achuan-2/PicBed/pic/assets/20231019132056-2023-10-19.png)
 
 ## 😺 借鉴功能
 
-- [Dark+主题](https://github.com/Zuoqiu-Yingyi/siyuan-theme-dark-plus)
-  - 右键块菜单可以用monaco-editor以markdown样式打开当前块或文档，方便批量编辑，支持 Ctrl+S 保存内容
 - [HBuilderX-Light主题](https://github.com/UFDXD/HBuilderX-Light)
   - 列表转脑图、表格
   - 表格设置是否显示表头和表宽度调整
@@ -68,6 +79,7 @@ Tsundoku “積 ん 読”是日语里的一个词，维基百科是这样解释
 - [日历面板](https://github.com/HowcanoeWang/calendar)
   - 支持根据笔记本日记路径模板智能识别“2006.01.02”或“2006-01-02”格式（不支持更复杂的格式）
   - 支持点击查看已有日记以及提前新建未来日记
+
 
 
 ## 🐭自定义属性

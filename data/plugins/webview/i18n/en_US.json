@@ -1,6 +1,54 @@
 {
   "displayName": "Web Page View",
   "menu": {
+    "copyAlt": {
+      "label": "Copy Description"
+    },
+    "copyAudio": {
+      "label": "Copy Audio"
+    },
+    "copyFile": {
+      "label": "Copy File"
+    },
+    "copyFileName": {
+      "label": "Copy File Name"
+    },
+    "copyFrame": {
+      "label": "Copy Frame"
+    },
+    "copyFrameAddress": {
+      "label": "Copy Frame URL"
+    },
+    "copyImage": {
+      "label": "Copy Image"
+    },
+    "copyLink": {
+      "label": "Copy Link"
+    },
+    "copyLinkAddress": {
+      "label": "Copy Link URL"
+    },
+    "copyPage": {
+      "label": "Copy Page Link"
+    },
+    "copyPageAddress": {
+      "label": "Copy Page URL"
+    },
+    "copyResourceAddress": {
+      "label": "Copy Resource URL"
+    },
+    "copySelectionText": {
+      "label": "Copy Selected Text"
+    },
+    "copyText": {
+      "label": "Copy Anchor Text"
+    },
+    "copyTitle": {
+      "label": "Copy Title"
+    },
+    "copyVideo": {
+      "label": "Copy Video"
+    },
     "openByNewWindow": {
       "label": "Open with New Window"
     },
@@ -13,14 +61,30 @@
     "openFocusedEditor": {
       "label": "Open in a New Window and Focus"
     },
+    "openLink": {
+      "label": "Open Link"
+    },
     "openMobildWindow": {
       "label": "Open SiYuan Mobile Window"
     },
+    "openNewTab": {
+      "label": "Open New Tab",
+      "title": "New Tab"
+    },
+    "openResource": {
+      "label": "Open Resource"
+    },
+    "openTab": {
+      "label": "Open in New Tab"
+    },
     "openTabBackground": {
-      "label": "Open in background tab"
+      "label": "Open in Background Tab"
     },
     "openTabBottom": {
       "label": "Open Below the Tab"
+    },
+    "openTabCurrent": {
+      "label": "Open in Current Tab"
     },
     "openTabRight": {
       "label": "Open Right the Tab"
@@ -90,7 +154,8 @@
         "description": "The type of SiYuan editor that opens in a new window by default",
         "options": {
           "desktop": "Desktop Editor",
-          "mobile": "Mobile Editor"
+          "mobile": "Mobile Editor",
+          "window": "Native Multi-Window Editor"
         },
         "title": "Editor Type"
       },
@@ -117,6 +182,10 @@
       "title": "SiYuan Editor"
     },
     "window": {
+      "center": {
+        "description": "Show new window in the center of the screen",
+        "title": "Window Centering"
+      },
       "height": {
         "description": "The default height of the new window",
         "title": "Window Height"

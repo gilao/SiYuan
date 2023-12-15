@@ -518,8 +518,6 @@ function themeButton() {
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Light 配色",
 		'light',
-        "/appearance/themes/Savor/img/base2.svg",
-        "/appearance/themes/Savor/img/base.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/savor-light.css", "Savor-light").setAttribute("topicfilter", "buttonSavor-light");
             qucuFiiter();
@@ -534,8 +532,6 @@ function themeButton() {
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Salt 配色",
 		'light',
-        "/appearance/themes/Savor/img/salt2.svg",
-        "/appearance/themes/Savor/img/salt.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/salt.css", "salt主题").setAttribute("topicfilter", "buttonsalt");
             qucuFiiter();
@@ -550,8 +546,6 @@ function themeButton() {
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Sugar 配色",
 		'light',
-        "/appearance/themes/Savor/img/sugar2.svg",
-        "/appearance/themes/Savor/img/sugar.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/sugar.css", "sugar主题").setAttribute("topicfilter", "buttonsugar");
             qucuFiiter();
@@ -566,8 +560,6 @@ function themeButton() {
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Dark 配色",
 		'dark',
-        "/appearance/themes/Savor/img/base2.svg",
-        "/appearance/themes/Savor/img/base3.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/savor-dark.css", "Savor-dark").setAttribute("topicfilter", "buttonSavor-dark");
             qucuFiiter();
@@ -582,8 +574,6 @@ function themeButton() {
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"Vinegar 配色",
 		'dark',
-        "/appearance/themes/Savor/img/moon2.svg",
-        "/appearance/themes/Savor/img/moon3.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/vinegar.css", "vinegar主题").setAttribute("topicfilter", "buttonvinegar");
             qucuFiiter();
@@ -602,8 +592,6 @@ function concealMarkButton() {
         "conceal",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"挖空",
-        "/appearance/themes/Savor/img/conceal2.svg",
-        "/appearance/themes/Savor/img/conceal.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/conceal-mark.css", "conceal挖空").setAttribute("topBarcss", "conceal挖空");
         },
@@ -620,8 +608,6 @@ function tabbarVerticalButton() {
         "tabbarVertical",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"垂直页签",
-        "/appearance/themes/Savor/img/vtabbar2.svg",
-        "/appearance/themes/Savor/img/vtabbar.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/tab-bar-vertical.css", "tabbar垂直").setAttribute("topBarcss", "tabbar垂直");
         },
@@ -639,8 +625,6 @@ function topbarfixedButton() {
         "topBar",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"隐藏顶栏",
-        "/appearance/themes/Savor/img/topbar2.svg",
-        "/appearance/themes/Savor/img/topbar.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/top-fixed.css", "topbar隐藏").setAttribute("topBarcss", "topbar隐藏");
         },
@@ -658,8 +642,6 @@ function bulletThreading() {
         "bulletThreading",
         "toolbar__item b3-tooltips b3-tooltips__sw",
 		"列表子弹线",
-        "/appearance/themes/Savor/img/bulletthreading2.svg",
-        "/appearance/themes/Savor/img/bulletthreading.svg",
         () => {
             loadStyle("/appearance/themes/Savor/style/topbar/bullet-threading.css", "列表子弹线").setAttribute("bulletThreading", "列表子弹线");
         },
@@ -1203,7 +1185,7 @@ async function 写入文件(path, filedata, then = null, obj = null, isDir = fal
  * @param {*} OffClickRunFun 按钮关闭执行函数
  * @param {*} Memory 是否设置记忆状态 true为是留空或false为不设置记忆状态。
  */
-function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, NoButtonSvgURL, OffButtonSvgURL, NoClickRunFun, OffClickRunFun, Memory) {
+function savorThemeToolbarAddButton(ButtonID, ButtonTitle , ButtonLabel, Mode, NoClickRunFun, OffClickRunFun, Memory) {
     var savorToolbar = document.getElementById("savorToolbar");
     if (savorToolbar == null) {
         var toolbarEdit = document.getElementById("toolbarEdit");
@@ -1221,14 +1203,11 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
 
     var addButton = addinsertCreateElement(savorToolbar, "div");
     addButton.style.float = "top";
-    addButton.style.backgroundImage = "url(" + OffButtonSvgURL + ")";
-    addButton.style.backgroundRepeat = "no-repeat";
-	addButton.style.backgroundPosition = "5% 50%";
 
 
     
     addButton.id = ButtonID;
-	addButton.setAttribute("class", ButtonTitle);
+	addButton.setAttribute("class", ButtonTitle + " button_off");
 	addButton.setAttribute("aria-label", ButtonLabel)
 	
 
@@ -1242,7 +1221,7 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
             if (Memory == true) {
 			offNo = getItem(ButtonID);
 			if (offNo == "1") {
-				addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
+				addButton.setAttribute("class", ButtonTitle + " button_on");
 				setItem(ButtonID, "0");
 				NoClickRunFun(addButton);
 				setItem(ButtonID, "1");
@@ -1255,8 +1234,7 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
     AddEvent(addButton, "click", () => {
 
         if (offNo == "0") {
-            addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
-
+			addButton.setAttribute("class", ButtonTitle + " button_on");
             NoClickRunFun(addButton);
             if (Memory != null) setItem(ButtonID, "1");
             offNo = "1";
@@ -1264,8 +1242,7 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
         }
 
         if (offNo == "1") {
-            addButton.style.backgroundImage = "url(" + OffButtonSvgURL + ")";
-            addButton.style.filter = "none";
+			addButton.setAttribute("class", ButtonTitle + " button_off");
             OffClickRunFun(addButton);
             if (Memory != null) setItem(ButtonID, "0");
             offNo = "0";
@@ -1276,7 +1253,7 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
     if (Memory == true) {
         offNo = getItem(ButtonID);
         if (offNo == "1") {
-            addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
+			addButton.setAttribute("class", ButtonTitle + " button_on");
             setItem(ButtonID, "0");
             NoClickRunFun(addButton);
             setItem(ButtonID, "1");
@@ -1289,8 +1266,7 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
     AddEvent(addButton, "click", () => {
 
         if (offNo == "0") {
-            addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
-
+			addButton.setAttribute("class", ButtonTitle + " button_on");
             NoClickRunFun(addButton);
             if (Memory != null) setItem(ButtonID, "1");
             offNo = "1";
@@ -1298,8 +1274,7 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
         }
 
         if (offNo == "1") {
-            addButton.style.backgroundImage = "url(" + OffButtonSvgURL + ")";
-            addButton.style.filter = "none";
+			addButton.setAttribute("class", ButtonTitle + " button_off");
             OffClickRunFun(addButton);
             if (Memory != null) setItem(ButtonID, "0");
             offNo = "0";
@@ -1312,32 +1287,29 @@ function savorThemeToolbarAddButton(ButtonID, ButtonTitle, ButtonLabel, Mode, No
 }
 
 
-function savorThemeToolplusAddButton(ButtonID, ButtonTitle, ButtonLabel, NoButtonSvgURL, OffButtonSvgURL, NoClickRunFun, OffClickRunFun, Memory) {
-    var savorToolplus = document.getElementById("savorToolplus");
+function savorThemeToolplusAddButton(ButtonID, ButtonTitle, ButtonLabel, NoClickRunFun, OffClickRunFun, Memory) {
+    var savorToolplus = document.getElementById("savorToolbar");
     if (savorToolplus == null) {
         var toolbarEdit = document.getElementById("toolbarEdit");
         var windowControls = document.getElementById("windowControls");
 
         if (toolbarEdit == null && windowControls != null) {
             savorToolplus = document.createElement("div");
-            savorToolplus.id = "savorToolplus";
+            savorToolplus.id = "savorToolbar";
             windowControls.parentElement.insertBefore(savorToolplus, windowControls);
         } else if (toolbarEdit != null) {
-            savorToolplus = insertCreateBefore(toolbarEdit, "div", "savorToolplus");
+            savorToolplus = insertCreateBefore(toolbarEdit, "div", "savorToolbar");
             savorToolplus.style.position = "relative";
         }
     }
 
-    var addButton = addinsertCreateElement(savorToolplus, "div");
+    var addButton = addinsertCreateElement(savorToolbar, "div");
     addButton.style.float = "top";
-    addButton.style.backgroundImage = "url(" + OffButtonSvgURL + ")";
-    addButton.style.backgroundRepeat = "no-repeat";
-	addButton.style.backgroundPosition = "5% 50%";
 
 
     
     addButton.id = ButtonID;
-	addButton.setAttribute("class", ButtonTitle);
+	addButton.setAttribute("class", ButtonTitle + " button_off");
 	addButton.setAttribute("aria-label", ButtonLabel)
 	
 
@@ -1347,7 +1319,7 @@ function savorThemeToolplusAddButton(ButtonID, ButtonTitle, ButtonLabel, NoButto
     if (Memory == true) {
         offNo = getItem(ButtonID);
         if (offNo == "1") {
-            addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
+			addButton.setAttribute("class", ButtonTitle + " button_on");
             setItem(ButtonID, "0");
             NoClickRunFun(addButton);
             setItem(ButtonID, "1");
@@ -1360,8 +1332,7 @@ function savorThemeToolplusAddButton(ButtonID, ButtonTitle, ButtonLabel, NoButto
     AddEvent(addButton, "click", () => {
 
         if (offNo == "0") {
-            addButton.style.backgroundImage = "url(" + NoButtonSvgURL + ")";
-
+			addButton.setAttribute("class", ButtonTitle + " button_on");
             NoClickRunFun(addButton);
             if (Memory != null) setItem(ButtonID, "1");
             offNo = "1";
@@ -1369,8 +1340,7 @@ function savorThemeToolplusAddButton(ButtonID, ButtonTitle, ButtonLabel, NoButto
         }
 
         if (offNo == "1") {
-            addButton.style.backgroundImage = "url(" + OffButtonSvgURL + ")";
-            addButton.style.filter = "none";
+			addButton.setAttribute("class", ButtonTitle + " button_off");
             OffClickRunFun(addButton);
             if (Memory != null) setItem(ButtonID, "0");
             offNo = "0";

@@ -6,7 +6,7 @@
     "theme": "2",
     "widget": "0"
   },
-  "local-codelang": "shell",
+  "local-codelang": "go",
   "local-dailynoteid": "20230814084818-hog5ds9",
   "local-docinfo": {
     "id": "20231206142051-ygw31qu"
@@ -28,15 +28,134 @@
     "mergeSubdocs": false,
     "removeAssets": false
   },
+  "local-fileposition": {
+    "20230822161613-0pezg4u": {
+      "endId": "20230822161707-4tsrezo",
+      "rootId": "20230822161613-0pezg4u",
+      "scrollTop": 76,
+      "startId": "20230822161643-ewuk3fh"
+    },
+    "20230912154259-arvuvbh": {
+      "endId": "20231121100623-j3njnb2",
+      "focusEnd": 0,
+      "focusId": "20230912154458-u8yaast",
+      "focusStart": 0,
+      "rootId": "20230912154259-arvuvbh",
+      "scrollTop": 600,
+      "startId": "20230912154458-u8yaast"
+    },
+    "20230925221522-22epy6u": {
+      "endId": "20230925223401-m6y7ado",
+      "focusEnd": 0,
+      "focusId": "20230925221522-k4atvkd",
+      "focusStart": 0,
+      "rootId": "20230925221522-22epy6u",
+      "scrollTop": 0,
+      "startId": "20230925221522-k4atvkd"
+    },
+    "20230926092002-yxqujnh": {
+      "endId": "20230926144757-2as71k6",
+      "rootId": "20230926092002-yxqujnh",
+      "scrollTop": 0,
+      "startId": "20230926092032-hzx9lqy"
+    },
+    "20231117204644-fwosqai": {
+      "endId": "20231117211301-8b5uq8y",
+      "focusEnd": 0,
+      "focusId": "20231117211301-491f0vf",
+      "focusStart": 0,
+      "rootId": "20231117204644-fwosqai",
+      "scrollTop": 0,
+      "startId": "20231117211301-491f0vf"
+    },
+    "20231121100230-bqsv3jr": {
+      "endId": "20231121100234-y5zciey",
+      "focusEnd": 0,
+      "focusId": "20231121100234-tz7oqzp",
+      "focusStart": 0,
+      "rootId": "20231121100230-bqsv3jr",
+      "scrollTop": 0,
+      "startId": "20231121100234-tz7oqzp"
+    },
+    "20231130155635-986r5w8": {
+      "endId": "20231130155635-o9sgfj0",
+      "focusEnd": 0,
+      "focusId": "20231130155652-dhvu1xb",
+      "focusStart": 0,
+      "rootId": "20231130155635-986r5w8",
+      "scrollTop": 0,
+      "startId": "20231130155652-dhvu1xb"
+    },
+    "20231130225638-mc0gj5u": {
+      "endId": "20231202121151-7f0j8mz",
+      "focusEnd": 0,
+      "focusId": "20231202115924-9hij45f",
+      "focusStart": 0,
+      "rootId": "20231130225638-mc0gj5u",
+      "scrollTop": 0,
+      "startId": "20231202115924-9hij45f"
+    },
+    "20231205101156-hsrnpzr": {
+      "endId": "20231205101156-ar8tkkg",
+      "focusEnd": 0,
+      "focusId": "20231205101156-ar8tkkg",
+      "focusStart": 0,
+      "rootId": "20231205101156-hsrnpzr",
+      "scrollTop": 0,
+      "startId": "20231205101156-ar8tkkg"
+    },
+    "20231214001341-phmmrex": {
+      "endId": "20231214094350-qtx7tpo",
+      "focusEnd": 14,
+      "focusId": "20231214004220-7189emu",
+      "focusStart": 14,
+      "rootId": "20231214001341-phmmrex",
+      "scrollTop": 0,
+      "startId": "20231214005910-2rsa9ws"
+    },
+    "20231214235313-hdhomvy": {
+      "endId": "20231214235313-3bzdck7",
+      "focusEnd": 25,
+      "focusId": "20231214235313-3bzdck7",
+      "focusStart": 25,
+      "rootId": "20231214235313-hdhomvy",
+      "scrollTop": 0,
+      "startId": "20231214235313-3bzdck7"
+    },
+    "20231214235927-dvzb6nv": {
+      "endId": "20231214235927-yakjrk9",
+      "focusEnd": 0,
+      "focusId": "20231214235927-yakjrk9",
+      "focusStart": 0,
+      "rootId": "20231214235927-dvzb6nv",
+      "scrollTop": 0,
+      "startId": "20231214235927-yakjrk9"
+    },
+    "20231215000028-z4c455a": {
+      "endId": "20231215014028-0n16kvu",
+      "focusEnd": 139,
+      "focusId": "20231215014028-0n16kvu",
+      "focusStart": 139,
+      "rootId": "20231215000028-z4c455a",
+      "scrollTop": 0,
+      "startId": "20231215000028-ovnhp4e"
+    },
+    "20231215014145-6ir2rqd": {
+      "endId": "20231215014205-hpuang2",
+      "rootId": "20231215014145-6ir2rqd",
+      "scrollTop": 0,
+      "startId": "20231215014145-rff5eft"
+    }
+  },
   "local-fontstyles": [
+    "color​var(--b3-font-color6)",
+    "style1​var(--b3-card-error-background)​var(--b3-card-error-color)",
     "style1​var(--b3-card-info-background)​var(--b3-card-info-color)",
     "color​var(--b3-font-color10)",
     "clear​undefined",
     "style1​var(--b3-card-success-background)​var(--b3-card-success-color)",
     "style2​undefined",
-    "color​var(--b3-font-color11)",
-    "color​var(--b3-font-color5)",
-    "backgroundColor​var(--b3-font-background3)"
+    "color​var(--b3-font-color11)"
   ],
   "local-historynoteid": "20230724011555-12aln0y",
   "local-plugintopunpin": [
@@ -46,6 +165,9 @@
     "col": "",
     "colTab": "",
     "keys": [
+      "maps",
+      "​\u003cspan\u003e",
+      "\u003c/span\u003e",
       "#Go-http#",
       "#Channel#",
       "# Context#",

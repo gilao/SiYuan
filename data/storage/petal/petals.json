@@ -27,26 +27,8 @@
 		"i18n": null
 	},
 	{
-		"name": "siyuan-color-scheme",
-		"displayName": "配色方案",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "siyuan-plugin-math-enhance",
 		"displayName": "数学增强",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "siyuan-plugin-background-cover",
-		"displayName": "替换背景图片",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
@@ -101,6 +83,15 @@
 	{
 		"name": "siyuan-plugin-publisher",
 		"displayName": "发布工具",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "sy-theme-change",
+		"displayName": "切换主题",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",

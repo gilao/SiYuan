@@ -180,7 +180,7 @@ function create_theme_button() {
     if (drag && themeStyle) {
         const button_change_color = document.createElement('button'); // 切换主题颜色按钮
         button_change_color.id = window.theme.IDs.BUTTON_TOOLBAR_CHANGE_COLOR;
-        button_change_color.className = 'toolbar__item b3-tooltips b3-tooltips__sw';
+        button_change_color.className = 'toolbar__item ariaLabel';
         button_change_color.ariaLabel = '切换主题颜色';
         button_change_color.innerHTML = `<svg><use xlink:href="#iconTheme"></use></svg>`;
         button_change_color.addEventListener('click', e => {
@@ -455,7 +455,7 @@ function initcalendar() {
         var barSearch = document.getElementById('barSync');
         barSearch.insertAdjacentHTML(
             'afterend',
-            '<div id="calendar"class="toolbar__item b3-tooltips b3-tooltips__se" aria-label="日历" ></div>'
+            '<div id="calendar"class="toolbar__item ariaLabel" aria-label="日历" ></div>'
         );
         let calendarIcon = document.getElementById('calendar');
 
@@ -765,28 +765,17 @@ function ViewMonitor(event) {
 }
 
 /**++++++++++++++++++++++++++++++++主题功能执行：按需调用++++++++++++++++++++++++++++++ */
-//各种列表转xx
-setTimeout(() => ClickMonitor(), 1000);
 
-setTimeout(() => {
+// setTimeout(() => ClickMonitor(), 1000);
+
+(async () => {
+    //各种列表转xx
+    ClickMonitor();
     /*创建日历按钮 */
     initcalendar();
     /*创建主题按钮 */
     create_theme_button();
-}, 0);
+    bulletMain();
+    console.log('加载子弹线成功');
+})();
 
-/* 加载 Dark+ 主题功能 */
-window.theme.loadScript('/appearance/themes/Tsundoku/script/module/html.js', 'text/javascript');
-
-window.theme.loadScript('/appearance/themes/Tsundoku/script/module/window.js');
-window.theme.loadScript('/appearance/themes/Tsundoku/script/module/doc.js');
-window.theme.loadScript(
-    window.theme.addURLParam('/appearance/themes/Tsundoku/script/module/goto.js'),
-    undefined,
-    true
-);
-window.theme.loadScript(
-    window.theme.addURLParam('/appearance/themes/Tsundoku/script/module/menu.js'),
-    undefined,
-    true
-);

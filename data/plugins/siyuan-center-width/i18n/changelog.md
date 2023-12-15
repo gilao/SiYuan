@@ -1,10 +1,8 @@
-## 编辑器宽度 v0.1.0 更新
+## 编辑器宽度 v0.2.0 更新
 
-- 本次更新修复了之前开启插件后，无法将挂件等 iframe 块调整为编辑器当前最大宽度的问题。
-- 适配了 Ref craft 主题
+- Fix: 无法更新所有页签的 inline style
 
-## Editor Width v0.1.0 Update
+## Editor Width v0.2.0 Update
 
-- This update fixes the issue where widgets, iframes, and other blocks would not adjust to the current maximum width of the editor after enabling the plugin.
-- Adapted the Ref Craft theme.
+- Fix: Haven't update all tab pages' inline style
 

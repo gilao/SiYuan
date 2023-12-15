@@ -2,19 +2,22 @@
   "name": "Calendar-heatmap",
   "author": "svtardust",
   "url": "https://github.com/svtardust/Calendar-heatmap",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "minAppVersion": "2.8.10",
   "backends": [
     "windows",
     "linux",
     "docker",
-    "darwin"
+    "darwin",
+    "android",
+    "ios"
   ],
   "frontends": [
     "desktop",
     "browser-desktop",
     "desktop-window",
-    "browser-mobile"
+    "browser-mobile",
+    "mobile"
   ],
   "displayName": {
     "default": "日历热力图"

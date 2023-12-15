@@ -2,13 +2,13 @@
     "code": 404,
     "msg": "",
     "data": null,
-    "buttonSavor-light": "0",
+    "buttonSavor-light": "1",
     "buttonsalt": "0",
     "buttonsugar": "0",
     "conceal": "0",
     "tabbarVertical": "0",
     "topBar": "0",
     "buttonSavor-dark": "0",
-    "buttonvinegar": "0",
+    "buttonvinegar": "1",
     "bulletThreading": "0"
 }

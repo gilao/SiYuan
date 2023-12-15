@@ -23,9 +23,9 @@
 @import url('style/func/fold.css');
 /* 导入超链接图标样式 */
 @import url('style/func/link_icon.css');
-/* 导入语雀提示区块样式 */
-@import url('style/func/yuque.css');
-
+/* 导入Admonition样式 */
+@import url('style/func/Admonition.css');
+@import url('style/func//bullet-threading.css');
 :root {
     /* 主色 */
     /* 高亮 */
@@ -52,8 +52,8 @@
     --b3-theme-on-error: #fff;
 
     /* 字体 */
-    --b3-font-family: 'quote', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', 'Hiragino Sans GB',
-        'Microsoft Yahei', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+    --b3-font-family: 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', 'Hiragino Sans GB',
+        'Microsoft Yahei', sans-serif, 'Apple Color Emoji', 'Noto Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
     --b3-font-family-code: 'JetBrainsMono-Regular', mononoki, Consolas, 'Liberation Mono', Menlo,
         Courier, monospace, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
@@ -82,7 +82,7 @@
     --b3-tab-background: #e7edf0;
     --b3-tab-background-hover: #dee4e8;
     /* 菜单 */
-    --b3-menu-background: #fff;
+    --b3-menu-background: #ffffff;
     /* 提示 */
     --b3-tooltips-color: #fff;
     --b3-tooltips-background: #335c7396;
@@ -98,14 +98,14 @@
     --b3-card-success-background: #e0f9e0d2;
 
     /* 自定义文字 */
-    --b3-font-color1: #e1694e;
-    --b3-font-color2: #f1781c;
-    --b3-font-color3: #007aaa;
-    --b3-font-color4: #11ad81;
+    --b3-font-color1: var(--b3-card-error-color: ); /*#e1694e;*/
+    --b3-font-color2: var(--b3-card-warning-color); /*#f1781c;*/
+    --b3-font-color3: var(--b3-card-info-color); /*#007aaa;*/
+    --b3-font-color4: var(--b3-card-success-color); /*#11ad81;*/
     --b3-font-color5: #8e8e8e;
     --b3-font-color6: #52d4ca;
     --b3-font-color7: var(--b3-theme-secondary);
-    --b3-font-color8: #d32a1b;
+    --b3-font-color8: #6a0b03;
     --b3-font-color9: #596ab7;
     --b3-font-color10: #944194;
     --b3-font-color11: #d447c5;
@@ -466,20 +466,11 @@
 }
 /* 图片大小调整手柄 */
 .protyle-wysiwyg [data-node-id] .img .protyle-action__drag {
-    width: 7px;
     height: 50%;
-    background: #b4d9f0;
-    border-radius: 3px;
-    right: -1px;
-    box-shadow: 0 0 2px #415f86;
     top: 25%;
-    opacity: 0.5;
+    background: var(--b3-theme-surface);
 }
-.protyle-wysiwyg [data-node-id] .img .protyle-action__drag:hover {
-    background-color: #b4d9f0;
-    border-left: 2px solid #184563b5;
-    box-shadow: 0 0 2px #415f86;
-}
+
 /*  ------------------------------列表 ------------------------------ */
 /* 调整列表间距 */
 .protyle .li {
@@ -677,6 +668,16 @@ span[data-type='strong'] {
     border-bottom: 1px dashed var(--b3-protyle-inline-blockref-hover-color); /*下划线可以去掉*/
 }
 
+/* 块引用前后添加符号 */
+/* .protyle-wysiwyg [data-node-id] span[data-type~='block-ref']::before {
+    content: '⸢';
+    color: var(---b3-font-color3);
+}
+.protyle-wysiwyg [data-node-id] span[data-type~='block-ref']::after {
+    content: '⸥';
+    color: var(---b3-font-color3);
+} */
+
 /* 块引用悬浮动画 */
 .block__popover.block__popover--move.block__popover--open {
     animation: showBlock 0.4s ease;
@@ -794,6 +795,7 @@ li[data-type='navigation-file'] .counter {
 }
 
 /*  ------------------------------超链接 ------------------------------ */
+
 .protyle-wysiwyg [data-node-id] span[data-type~='a'] {
     color: var(--b3-protyle-inline-link-color);
     cursor: pointer;
@@ -986,13 +988,12 @@ body {
     background-color: #fff;
 }
 .block__icons {
-    /* box-shadow: rgb(0 0 0 / 30%) 0px 1px 2px; */
     background-color: #d5dde2;
 }
-
-.block__icons {
-    background-color: #d5dde2 !important;
+[data-type='NodeAttributeView'] .block__icons {
+    background-color: transparent !important;
 }
+
 /* 工具栏样式 */
 .protyle-toolbar {
     background-color: rgb(235 239 243);
@@ -1770,15 +1771,6 @@ body
     color: var(--b3-theme-on-surface);
 }
 
-/* 待改进：暂时全部隐藏 */
-#preview.protyle-wysiwyg .code-block .protyle-action {
-    left: auto;
-    right: 4px;
-    opacity: 0;
-}
-#preview.protyle-wysiwyg .code-block .protyle-action .protyle-action__language {
-    opacity: 0;
-}
 /* 导出代码块优化 */
 [data-theme-mode='light'] #preview.protyle-wysiwyg:not(.export-img) .code-block {
     /* 背景色透明 */
@@ -1791,7 +1783,7 @@ body
 [data-theme-mode='light'] #preview.protyle-wysiwyg:not(.export-img) .hljs {
     /* 背景色透明 */
     background-color: var(--b3-theme-background) !important;
-    padding: 20px 10px 20px 26px !important;
+    /* padding: 20px 10px 20px 26px !important; */
 }
 
 /* 取消2.7.7 更新的待办列表完成样式 */
@@ -1835,4 +1827,25 @@ body
 
 #custom-toolbar-more {
     display: none;
+}
+
+/* 图片导出 */
+/* 超链接添加下划线 */
+.export-img.protyle-wysiwyg a {
+    border-bottom: 1px solid var(--b3-protyle-inline-blockref-color);
+}
+
+/* 退出聚焦按钮添加背景色 */
+.protyle-breadcrumb__icon[data-type='exit-focus'] {
+    background-color: var(--b3-card-success-background);
+}
+
+/* 调整反链面板颜色 */
+.protyle-wysiwyg [data-node-id] .def--mark {
+    background-color: var(--b3-card-success-background);
+}
+
+#dockBottom,
+#status {
+    border-top: none;
 }

@@ -4,33 +4,73 @@
 
 ![](./icon.png)
 
-Publish articles from siyuan-note to platforms such as Yuque, Notion, Cnblogs, WordPress, Typecho, Hexo, Zhihu and more.
+Publish articles from siyuan-note to platforms like Yuque etc. `Free` and `open source`. 
 
-Support features such as fast publishing, image bed management, platform expansion, smart labels, etc.
+If you're interested in the paid professional version, please check the paied ➡️ [Publishing Tool Professional Edition](https://github.com/terwer/siyuan-plugin-publisher-pro)
 
-> Latest New Features: 🎉 Release of Publish Tool New Version `1.15.0`
+> Recent Update: 🎉 Publish Tool new version `1.18.11` released.
 
-  - `1.15.1` addresses minor bug fixes for the Juejin platform, resolving issues related to duplicate tags during article editing.
-  - This update introduces the Halo platform. After upgrading to `1.15.0+`, you can publish to the Halo2 site.
-  - It also fixes issues related to YAML parsing in certain scenarios, and errors when tags are empty on some platforms.
-  - Oh, in version `1.14.0` and beyond, the author quietly developed an import feature. You can use the `Settings` -> `Publish Settings` -> `Import Predefined Platforms` feature to quickly import builtin platforms 😄
+- `1.18.0` brings new features and enhanced user experience.
+- The `1.18.11` Version primarily includes the following minor optimizations and bug fixes:
+  - Improved prompts for unpublished articles. 
+  - Fixed abnormal formula parsing issues on CSDN and Zhihu.
+- The `1.18.10` version, the primary rectifications encompass:
+  - Introduction of a streamlined confirmation for the one-click preview.
+  - Resolution of conversion errors in VuePress.
+- The `1.18.9` version primarily addresses the following issues:
+  - Resolved the issue where newly added tags would disappear upon selecting them.
+  - Refactored the logic within the YAML section.
+- The `1.18.8` version primarily introduces the following enhancements and addresses certain defects:
+  - Facilitation of singular preview and one-click preview in standard release mode
+  - Rectification of the issue where alterations to article properties, made outside of source code mode, were not persisting
+  - Imposition of control over the default display method, with a preference for showcasing in `yaml` in source code mode if adapters are present
+- The `1.18.7` version brings the following features:
+  - Added menu configuration
+  - Added document menu
+- The `1.18.6` version primarily addresses the following issues:
+  - Rectified the issue of misaligned previews at the end of the homepage.
+  - Addressed potential preview errors that may arise on Cnblogs.
+  - Resolved the debugging issue that prevented troubleshooting via the server.
+  - Corrected error messages during publishing on Jianshu.
+  - Ensured compatibility with formulas on CSDN.
+  - Extended compatibility to accommodate formulas on Zhihu.
+  - Imposed constraints on the abstract length within the range of 50 to 100 characters on the Juejin platform.
+  - Tailored certain scenarios to adapt to the docker browser version<sup>beta</sup>.
+- The `1.18.5` version primarily addresses the following issues:
+  - Resolved a bug that could cause erroneous YAML generation on certain platforms.
+  - Enhanced project building efficiency by utilizing symbolic links.
+  - Preview of the Professional Edition
+- The `1.18.4` version primarily addresses the following issues:
+  - Fixed the problem of YAML modifications not taking effect
+  - Fixed an issue where not setting tag categories could lead to errors
+  - Automatically saves attributes and removes unnecessary prompts
+- The `1.18.3` version primarily addresses the following defects:
+  - Resolved the issue where automatic classification paths could be empty.
+  - Rectify the potential path error issue that may arise when publishing documents in the root directory.
+- The `1.18.2` version primarily addresses the following bug fixes:
+  - Resolved the issue with uploading images on Blog Park.
+- The `1.18.1` version primarily addresses the following bug fixes:
+  - Only add the path as a category when automatically mapping categories.
+  - Fixed the incorrect path for viewing the latest articles.
+- `1.18.0` introduces the following important changes:
+  - Added a clever workaround to support document updates in Notion.
+  - Added support for external link conversion.
+  - Added the ability to manually set file rules in the publishing configuration.
+  - Integrated menu enhancements to focus on core functionality.
+  - Enabled automatic mapping of document paths to categories.
+  - Enhanced the platform list with hover tooltips, improved display of platform names, and added new platform prompts.
+  - Strengthened validation for GitHub and Gitlab platforms.
+  - Fixed compatibility issues with CSDN error prompts, reducing unnecessary disruptions.
+  - Fixed the problem of AI tab not being openable.
+  - Resolved formatting issues when publishing HTML content.
+  - Fixed the issue of formulas not displaying correctly in HTML publishing.
+  - Modify the authorization mode to read-only, in order to prevent misinterpretation or misconfiguration.
+  - Preserve labels and classifications for each platform.
+- Ahem, in addition, the author secretly developed an import feature after version `1.14.0`. You can easily import predefined platforms through the `Settings` -> `Publish Settings` -> `Import Predefined Platforms` function 😄
 
+> [Click here](https://blog.terwer.space/s/20230810132040-nn4q7vs) to access the latest documentation.
 
-> Platform Limitations:
-  - **WeChat Official Accounts**: Publishing Tool now supports posting articles to the WeChat Official Accounts draft box in version `1.13.0` and beyond. However, due to limitations on the WeChat platform in Electron, normal login operations are not possible. Therefore, you will need to visit `https://mp.weixin.qq.com/` yourself, complete the login, copy the cookie, and then paste it into the configuration options.
-  - **Notion**: Since Notion is block-based, not a whole document, it is constrained by technology and does not support updates. To update, you can only delete and then repost it.
-  - **Juejin**: Due to the mandatory requirements of the Jujin platform, tags and classifications must be filled in, if you do not select publishing, a backend classification and programmer label will be added by default, otherwise you will not be able to publish.
-  - **Juejin**: **Juejin need to review every time they publish an article**, so the preview may be 404 immediately after publishing the article, at which point you can modify the link '/post' to '/spost' for temporary viewing, or wait patiently for the review to pass.
-  - **CSDN**: CSDN requires setting tags, which is a requirement of the CSDN platform, and tags cannot be empty.
-    ![](https://img1.terwer.space/api/public/202309211113950.png)
-    If not provided, CSDN will generate an error:
-      ```json
-      {
-        "code": 400,
-        "msg": "Please set article tags"
-      }
-      ```
-> [Click here](https://blog.terwer.space/s/20230810132040-nn4q7vs) to view the latest help documentation.
+**For any further inquiries or suggestions, please join QQ Group `895063267` for discussion**
 
 ## Update history
 
@@ -43,6 +83,7 @@ Names not listed in order
 - [X] Yuque
 - [X] Notion
 - [X] Halo
+- [ ] Evernote - TODO
 - [X] Github
   - [X] Hexo
   - [X] Hugo
@@ -50,6 +91,8 @@ Names not listed in order
   - [X] Vuepress
   - [X] Vuepress2
   - [X] Vitepress
+  - [ ] Antora - TODO
+  - [ ] Docsify - TODO
 - [X] Gitlab
   - [X] Gitlabhexo
   - [X] Gitlabhugo
@@ -57,15 +100,24 @@ Names not listed in order
   - [X] Gitlabvuepress
   - [X] Gitlabvuepress2
   - [X] Gitlabvitepress
+  - [ ] Gitlabantora - TODO
+  - [ ] Gitlabdocsify - TODO
 - [X] Metaweblog
-- [X] Cnblogs
+- [X] CnBlogs
 - [X] Typecho
 - [X] WordPress
 - [X] Zhihu
 - [X] CSDN
-- [X] Wechat
+- [X] WeChat Official Account
 - [X] Jianshu
 - [X] Juejin
+- [ ] 52pojie - TODO
+- [ ] Bilibili - TODO
+- [ ] Xiaohongshu - TODO
+- [ ] Douban - TODO
+- [ ] Xlog - TODO
+- [ ] Mdnice - TODO
+- [ ] Flowus - TODO
 
 ## Core Features
 
