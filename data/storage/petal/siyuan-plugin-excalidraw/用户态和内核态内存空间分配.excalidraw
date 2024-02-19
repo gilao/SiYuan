@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:57103",
+  "source": "http://127.0.0.1:50656",
   "elements": [
     {
       "type": "rectangle",
@@ -2859,8 +2859,8 @@
     },
     {
       "type": "text",
-      "version": 189,
-      "versionNonce": 2006491515,
+      "version": 190,
+      "versionNonce": 219664814,
       "isDeleted": false,
       "id": "_pIiKhOL6j4GIfV3-rfG8",
       "fillStyle": "hachure",
@@ -2880,7 +2880,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1699531208379,
+      "updated": 1708312793567,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -2891,12 +2891,12 @@
       "containerId": null,
       "originalText": "每个进程都有\n每个进程都不相同",
       "lineHeight": 1.2,
-      "baseline": 77
+      "baseline": 78
     },
     {
       "type": "text",
-      "version": 117,
-      "versionNonce": 1691912117,
+      "version": 118,
+      "versionNonce": 1313466418,
       "isDeleted": false,
       "id": "LR9ZACjvgXg9gLXREKROx",
       "fillStyle": "hachure",
@@ -2916,7 +2916,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1699531208381,
+      "updated": 1708312793567,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -2927,12 +2927,12 @@
       "containerId": null,
       "originalText": "每个进程都是一致的",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "text",
-      "version": 126,
-      "versionNonce": 1486666267,
+      "version": 127,
+      "versionNonce": 30239726,
       "isDeleted": false,
       "id": "17VpHOyiUlJYK_iT30Fct",
       "fillStyle": "hachure",
@@ -2952,7 +2952,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1699531208385,
+      "updated": 1708312793568,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -2963,7 +2963,7 @@
       "containerId": null,
       "originalText": "3-4 内存地址\n内核虚拟内存\n也就是所谓的内核态",
       "lineHeight": 1.2,
-      "baseline": 120
+      "baseline": 121
     },
     {
       "type": "rectangle",
@@ -3458,7 +3458,7 @@
       "containerId": "-0IjY01OEi8xEpl4U2qqH",
       "originalText": "运行封装\n通过 malloc 动态分配",
       "lineHeight": 1.2,
-      "baseline": 77
+      "baseline": 79
     },
     {
       "type": "rectangle",
@@ -3528,7 +3528,7 @@
       "containerId": "MT3sWjE9XKgwSqeJTnRen",
       "originalText": "未初始化的数据 .bss",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 36
     },
     {
       "type": "rectangle",
@@ -3598,7 +3598,7 @@
       "containerId": "C924xU6gwdIBPKjht2MYw",
       "originalText": "已初始化的数据 .data",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 36
     },
     {
       "type": "rectangle",
@@ -3668,7 +3668,7 @@
       "containerId": "KjXU8M89MplZckSfLgnAP",
       "originalText": "代码 .text",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 36
     },
     {
       "type": "rectangle",
@@ -3701,8 +3701,8 @@
     },
     {
       "type": "text",
-      "version": 5,
-      "versionNonce": 406309141,
+      "version": 6,
+      "versionNonce": 1560416754,
       "isDeleted": false,
       "id": "0oCqqgmsWvHs60Pea7leW",
       "fillStyle": "solid",
@@ -3722,7 +3722,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1699531208386,
+      "updated": 1708312793568,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -3733,12 +3733,12 @@
       "containerId": null,
       "originalText": "0",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "text",
-      "version": 49,
-      "versionNonce": 2127871675,
+      "version": 50,
+      "versionNonce": 2035662382,
       "isDeleted": false,
       "id": "g8aljfeEvJKrwTa0PDvQb",
       "fillStyle": "solid",
@@ -3758,7 +3758,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1699531208388,
+      "updated": 1708312793569,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -3769,12 +3769,12 @@
       "containerId": null,
       "originalText": "0x40000000\n",
       "lineHeight": 1.2,
-      "baseline": 77
+      "baseline": 78
     },
     {
       "type": "text",
-      "version": 31,
-      "versionNonce": 350740085,
+      "version": 32,
+      "versionNonce": 1049559986,
       "isDeleted": false,
       "id": "e5fTNC9N_R3S9KGU4FwXW",
       "fillStyle": "solid",
@@ -3794,7 +3794,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1699531208390,
+      "updated": 1708312793570,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -3805,7 +3805,7 @@
       "containerId": null,
       "originalText": "brk",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "arrow",
@@ -5161,8 +5161,8 @@
     },
     {
       "type": "text",
-      "version": 110,
-      "versionNonce": 1961045851,
+      "version": 111,
+      "versionNonce": 2023344238,
       "isDeleted": false,
       "id": "-e75iIo9BAWVYoXXOp_WS",
       "fillStyle": "solid",
@@ -5182,7 +5182,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1699531208392,
+      "updated": 1708312793570,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -5193,7 +5193,7 @@
       "containerId": null,
       "originalText": "0-3G 内存地址\n进程 虚拟内存\n也是所谓用户态",
       "lineHeight": 1.2,
-      "baseline": 120
+      "baseline": 121
     }
   ],
   "appState": {

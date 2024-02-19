@@ -1,14 +1,5 @@
 [
 	{
-		"name": "Calendar-heatmap",
-		"displayName": "日历热力图",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "siyuan-importer",
 		"displayName": "导入工具",
 		"enabled": true,
@@ -92,6 +83,24 @@
 	{
 		"name": "sy-theme-change",
 		"displayName": "切换主题",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "Calendar-heatmap",
+		"displayName": "日历热力图",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-background-cover",
+		"displayName": "替换背景图片",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
