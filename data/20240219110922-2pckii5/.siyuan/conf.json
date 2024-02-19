@@ -1,0 +1,11 @@
+{
+  "name": "小项目-自用网盘",
+  "sort": 0,
+  "icon": "2601-fe0f",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 0
+}

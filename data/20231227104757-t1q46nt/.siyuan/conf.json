@@ -1,0 +1,11 @@
+{
+  "name": "小项目-LangChain+ChatGLM2-6B 搭建个人专属知识库",
+  "sort": 0,
+  "icon": "1f9f8",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 15
+}

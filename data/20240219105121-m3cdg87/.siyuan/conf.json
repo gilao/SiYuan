@@ -1,0 +1,11 @@
+{
+  "name": "微服务后端开发工具",
+  "sort": 0,
+  "icon": "26cf-fe0f",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 15
+}

@@ -1,0 +1,11 @@
+{
+  "name": "小项目-Markdown笔记软件开发",
+  "sort": 0,
+  "icon": "1f408-200d-2b1b",
+  "closed": false,
+  "refCreateSavePath": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 15
+}
