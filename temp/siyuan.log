@@ -17598,3 +17598,64 @@ I 2024/02/19 16:52:23 conf.go:525: exiting kernel [force=false, execInstallPkg=0
 I 2024/02/19 16:52:23 database.go:1244: closed database
 I 2024/02/19 16:52:23 conf.go:933: cleared workspace temp
 I 2024/02/19 16:52:24 sync.go:695: sync websocket closed
+I 2024/02/19 22:56:06 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/02/19 22:56:06 runtime.go:74: kernel is booting:
+    * ver [2.12.1]
+    * arch [amd64]
+    * os [Microsoft Windows 11 Home China]
+    * pid [41932]
+    * runtime mode [prod]
+    * working directory [D:\siyuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\SiYuan]
+I 2024/02/19 22:56:06 conf.go:439: user has disabled [Google Analytics]
+I 2024/02/19 22:56:06 runtime.go:123: use network proxy [system]
+I 2024/02/19 22:56:06 serve.go:115: kernel [pid=41932] http server [127.0.0.1:55757] is booting
+I 2024/02/19 22:56:06 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/02/19 22:56:06 conf.go:1000: pandoc initialized, set pandoc bin to [E:\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/02/19 22:56:06 blocktree.go:495: read block tree [10 MB] to [E:\SiYuan\temp\blocktree], elapsed [0.06s]
+I 2024/02/19 22:56:06 conf.go:770: database size [77 MB], tree/block count [915/37435]
+I 2024/02/19 22:56:06 working.go:192: kernel booted
+I 2024/02/19 22:56:06 conf.go:978: upgrading user guide box [20210808180117-czj9bvb]
+I 2024/02/19 22:56:06 index.go:197: rebuilt database for notebook [20210808180117-czj9bvb] in [0.02s], tree [count=64, size=1.2 MB]
+I 2024/02/19 22:56:06 conf.go:990: upgraded user guide box [20210808180117-czj9bvb]
+I 2024/02/19 22:56:06 box.go:76: auto stat [trees=915, blocks=37435, dataSize=184 MB, assetsSize=136 MB]
+I 2024/02/19 22:56:06 disk.go:33: disk usage [total=255 GB, used=196 GB, free=59 GB]
+I 2024/02/19 22:56:07 serve.go:128: reverse proxy server [127.0.0.1:6806] is booting
+E 2024/02/19 22:56:10 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2024/02/19 22:56:10 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2024/02/19 22:56:10 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2024/02/19 22:56:10 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2024/02/19 22:56:10 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2024/02/19 22:56:11 rhy.go:48: get version info failed: Get "https://siyuan-sync.b3logfile.com/apis/siyuan/version?ver=2.12.1": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+W 2024/02/19 22:56:15 blocktree.go:552: save block tree [size=10 MB] to [E:\SiYuan\temp\blocktree], elapsed [3.95s]
+E 2024/02/19 22:57:09 rhy.go:48: get version info failed: Get "https://siyuan-sync.b3logfile.com/apis/siyuan/version?ver=2.12.1": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+E 2024/02/19 22:57:09 updater.go:221: get announcement failed: Get "https://siyuan-sync.b3logfile.com/apis/siyuan/version?ver=2.12.1": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+E 2024/02/19 22:58:09 cloud_service.go:537: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": dial tcp: lookup siyuan-sync.b3logfile.com: no such host
+E 2024/02/19 23:06:19 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2024/02/19 23:06:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2024/02/19 23:06:19 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2024/02/19 23:06:19 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2024/02/19 23:06:19 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2024/02/19 23:24:27 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2024/02/19 23:24:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+E 2024/02/19 23:24:27 index_fix.go:195: load tree [/20230724003916-84sjk5m.sy] failed: parse tree failed
+E 2024/02/19 23:24:27 tree.go:177: parse json [20230724003855-a19d28t/20230724003916-84sjk5m.sy] to tree failed: json: string unexpected end of JSON input
+E 2024/02/19 23:24:27 tree.go:54: parse tree [/20230724003916-84sjk5m.sy] failed
+I 2024/02/19 23:25:28 conf.go:525: exiting kernel [force=false, execInstallPkg=0]
+I 2024/02/19 23:25:28 database.go:1244: closed database
+I 2024/02/19 23:25:28 conf.go:933: cleared workspace temp
+I 2024/02/19 23:25:29 sync.go:695: sync websocket closed
