@@ -1,0 +1,476 @@
+[INFO] 2024/05/11 10:54:33 src/FastChatLoadBalancingTest/main.go:78 配置信息：{
+  "URL": "http://localhost:21001",
+  "WorkerAddress": [
+    "http://localhost:21002",
+    "http://localhost:21003"
+  ],
+  "Model": "103caa40027ebfd8450289ca2f278eac4ff26405"
+}
+[ERROR] 2024/05/11 10:54:33 src/FastChatLoadBalancingTest/main.go:128 请求失败：Post "http://localhost:21003/worker_get_status": dial tcp [::1]:21003: connectex: No connection could be made because the target machine actively refused it.
+[INFO] 2024/05/11 10:54:59 src/FastChatLoadBalancingTest/main.go:78 配置信息：{
+  "URL": "http://localhost:21001",
+  "WorkerAddress": [
+    "http://localhost:21002",
+    "http://localhost:21003"
+  ],
+  "Model": "103caa40027ebfd8450289ca2f278eac4ff26405"
+}
+[INFO] 2024/05/11 10:54:59 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:54:59 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:00 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:01 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:02 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:03 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:04 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:05 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:06 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:07 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:08 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:09 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:10 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:11 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:12 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:13 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:14 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:15 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:16 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:17 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:18 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:19 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:20 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:21 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:22 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:23 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:24 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:25 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:26 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:27 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 17
+}
+[INFO] 2024/05/11 10:55:28 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 16
+}
+[INFO] 2024/05/11 10:55:29 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 16
+}
+[INFO] 2024/05/11 10:55:30 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 14
+}
+[INFO] 2024/05/11 10:55:31 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 14
+}
+[INFO] 2024/05/11 10:55:32 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 10
+}
+[INFO] 2024/05/11 10:55:33 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 9
+}
+[INFO] 2024/05/11 10:55:34 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 8
+}
+[INFO] 2024/05/11 10:55:35 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 7
+}
+[INFO] 2024/05/11 10:55:36 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 5
+}
+[INFO] 2024/05/11 10:55:37 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 3
+}
+[INFO] 2024/05/11 10:55:38 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 2
+}
+[INFO] 2024/05/11 10:55:39 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 1
+}
+[INFO] 2024/05/11 10:55:40 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 1
+}
+[INFO] 2024/05/11 10:55:41 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 1
+}
+[INFO] 2024/05/11 10:55:42 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 1
+}
+[INFO] 2024/05/11 10:55:43 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 1
+}
+[INFO] 2024/05/11 10:55:44 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:45 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:46 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:47 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}
+[INFO] 2024/05/11 10:55:49 src/FastChatLoadBalancingTest/main.go:147 worker status：{
+  "worker_names": "",
+  "worker_model_type": "",
+  "model_names": [
+    "103caa40027ebfd8450289ca2f278eac4ff26405"
+  ],
+  "speed": 1,
+  "queue_length": 0
+}

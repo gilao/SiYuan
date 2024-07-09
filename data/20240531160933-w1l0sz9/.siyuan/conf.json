@@ -1,0 +1,13 @@
+{
+  "name": "小项目-Bilibili视频下载",
+  "sort": 0,
+  "icon": "1f9eb",
+  "closed": false,
+  "refCreateSaveBox": "",
+  "refCreateSavePath": "",
+  "docCreateSaveBox": "",
+  "docCreateSavePath": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": "",
+  "sortMode": 15
+}

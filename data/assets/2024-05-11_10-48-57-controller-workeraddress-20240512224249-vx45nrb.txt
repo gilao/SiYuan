@@ -1,0 +1,56 @@
+2024-05-11 10:47:28 | INFO | controller | Receive heart beat. http://localhost:21003
+2024-05-11 10:47:32 | INFO | controller | Receive heart beat. http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [0.0, 0.0, 0.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [1.0, 0.0, 0.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [1.0, 1.0, 0.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [1.0, 1.0, 1.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [2.0, 1.0, 1.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [2.0, 2.0, 1.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [2.0, 2.0, 2.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [3.0, 2.0, 2.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [3.0, 3.0, 2.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [3.0, 3.0, 3.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [4.0, 3.0, 3.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [4.0, 4.0, 3.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [4.0, 4.0, 4.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [5.0, 4.0, 4.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [5.0, 5.0, 4.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [5.0, 5.0, 5.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [6.0, 5.0, 5.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [6.0, 6.0, 5.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [6.0, 6.0, 6.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [7.0, 6.0, 6.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [7.0, 7.0, 6.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [7.0, 7.0, 7.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [8.0, 7.0, 7.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [8.0, 8.0, 7.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [8.0, 8.0, 8.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [9.0, 8.0, 8.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [9.0, 9.0, 8.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [9.0, 9.0, 9.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [10.0, 9.0, 9.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [10.0, 10.0, 9.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [10.0, 10.0, 10.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [11.0, 10.0, 10.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [11.0, 11.0, 10.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [11.0, 11.0, 11.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [12.0, 11.0, 11.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [12.0, 12.0, 11.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [12.0, 12.0, 12.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [13.0, 12.0, 12.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [13.0, 13.0, 12.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [13.0, 13.0, 13.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [14.0, 13.0, 13.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [14.0, 14.0, 13.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [14.0, 14.0, 14.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [15.0, 14.0, 14.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [15.0, 15.0, 14.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [15.0, 15.0, 15.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [16.0, 15.0, 15.0], ret: http://localhost:21003
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [16.0, 16.0, 15.0], ret: http://localhost:21004
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [16.0, 16.0, 16.0], ret: http://localhost:21002
+2024-05-11 10:47:46 | INFO | controller | names: ['http://localhost:21002', 'http://localhost:21003', 'http://localhost:21004'], queue_lens: [17.0, 16.0, 16.0], ret: http://localhost:21003
+2024-05-11 10:48:00 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-05-11 10:48:13 | INFO | controller | Receive heart beat. http://localhost:21003
+2024-05-11 10:48:17 | INFO | controller | Receive heart beat. http://localhost:21004
+2024-05-11 10:48:45 | INFO | controller | Receive heart beat. http://localhost:21002
