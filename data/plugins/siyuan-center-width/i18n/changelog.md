@@ -1,8 +1,6 @@
-## 编辑器宽度 v0.2.0 更新
+## Width Plugin v1.0.0
 
-- Fix: 无法更新所有页签的 inline style
-
-## Editor Width v0.2.0 Update
-
-- Fix: Haven't update all tab pages' inline style
+- 增加了百分比之外的宽度设置模式
+- [#20](https://github.com/frostime/siyuan-center-width/issues/20)
+- [#8](https://github.com/frostime/siyuan-center-width/issues/8)
 

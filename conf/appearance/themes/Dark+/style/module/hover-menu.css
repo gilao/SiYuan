@@ -23,6 +23,10 @@
   /* 鼠标悬停菜单项 */
   background-color: var(--b3-theme-background-light) !important;
 }
+.b3-menu .b3-menu__item.b3-menu__item--readonly {
+  /* 只读项 */
+  max-width: fit-content;
+}
 .b3-menu .b3-menu__item > .b3-menu__submenu {
   /* 子菜单 */
   background-color: var(--custom-popover-function-menu-background-color);
@@ -83,6 +87,12 @@
   outline: var(--custom-popover-menu-outline-width) var(--custom-popover-menu-outline-style) var(--custom-popover-menu-outline-color);
   overflow-x: visible;
   /* 多层列表 */
+}
+.switch-doc .b3-list {
+  /* 最近的文档 */
+  padding: var(--custom-popover-menu-padding-width);
+  border: initial;
+  margin: 1px;
 }
 .b3-list .b3-list {
   padding: unset;

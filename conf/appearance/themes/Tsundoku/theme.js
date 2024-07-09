@@ -10,8 +10,8 @@ window.theme.darkColors = ['style/theme/Tsundoku_dark.css'];
 
 /* DOM 节点 ID */
 window.theme.IDs = {
-    STYLE_COLOR: 'custom-id-style-theme-color',
-    BUTTON_TOOLBAR_CHANGE_COLOR: 'custom-id-button-toolbar-change-color',
+    STYLE_COLOR: 'Tsundoku-theme-css',
+    BUTTON_TOOLBAR_CHANGE_COLOR: 'Tsundoku-theme-button',
     LOCAL_STORAGE_COLOR_HREF: 'tsundoku-color-href',
 };
 
@@ -140,10 +140,17 @@ window.theme.updateStyle = function (id, href) {
 };
 
 function create_theme_button() {
-
     // light 主题下更新样式：为了新建窗口也能自动加载样式
-    const drag = document.getElementById('drag'); // 标题栏
+    let drag;
+    console.log(window.theme.clientMode);
+    if (window.theme.clientMode == 'mobile') {
+        drag = document.getElementsByClassName('.toolbar--border'); // 标题栏
+    } else {
+
+        drag = document.getElementById('barMode'); // 标题栏
+    }
     const themeStyle = document.getElementById('themeStyle'); // 当前主题引用路径
+
     if (themeStyle) {
         const THEME_ROOT = new URL(themeStyle.href).pathname.replace('theme.css', ''); // 当前主题根目录
         const colors_href = [];
@@ -154,7 +161,7 @@ function create_theme_button() {
             window.theme.updateStyle(window.theme.IDs.STYLE_COLOR, `${THEME_ROOT}${color}`);
             return;
         }
-        
+
         /* 通过颜色配置文件列表生成完整 URL 路径 */
         window.theme.lightColors.forEach(color => colors_href.push(`${THEME_ROOT}${color}`));
         window.theme.iter = window.theme.Iterator(colors_href);
@@ -334,18 +341,6 @@ window.theme.root = (() => {
  * @return {Lute} Lute 对象
  */
 window.theme.lute = window.Lute.New();
-
-/*HBuiderX主题功能*/
-const HBuiderXToolbarID = 'HBuiderXToolbar';
-const SiYuanToolbarID = 'toolbar';
-
-const SidebarHoverButtonID = 'sidebarHoverButton';
-const HighlightBecomesHiddenID = 'highlightBecomesHidden';
-
-var siYuanToolbar = null;
-var HBuiderXToolbar = null;
-var sidebarHoverButton = null;
-var highlightBecomesHiddenButton = null;
 
 /****************************思源API操作**************************/
 async function 设置思源块属性(内容块id, 属性对象) {
@@ -600,8 +595,6 @@ function SubMenu(selectid, selecttype, className = 'b3-menu__submenu') {
         node.appendChild(DefaultView(selectid));
     }
     if (selecttype == 'NodeTable') {
-        node.appendChild(FixWidth(selectid));
-        node.appendChild(AutoWidth(selectid));
         node.appendChild(Removeth(selectid));
         node.appendChild(Defaultth(selectid));
     }
@@ -766,16 +759,25 @@ function ViewMonitor(event) {
 
 /**++++++++++++++++++++++++++++++++主题功能执行：按需调用++++++++++++++++++++++++++++++ */
 
-// setTimeout(() => ClickMonitor(), 1000);
+window.destroyTheme = () => {
+    // 删除主题切换按钮
+    const themeButton = document.getElementById(window.theme.IDs.BUTTON_TOOLBAR_CHANGE_COLOR);
+    if (themeButton) {
+        themeButton.remove();
+    }
+    // 删除主题加载的额外配色css
+    let css_link = document.getElementById(window.theme.IDs.STYLE_COLOR);
+    if (css_link) {
+        css_link.remove();
+    }
+
+    // 删除列表转导图功能
+    window.removeEventListener('mouseup', MenuShow);
+};
 
 (async () => {
     //各种列表转xx
     ClickMonitor();
-    /*创建日历按钮 */
-    initcalendar();
     /*创建主题按钮 */
     create_theme_button();
-    bulletMain();
-    console.log('加载子弹线成功');
 })();
-

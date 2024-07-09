@@ -16,21 +16,81 @@ English  | [中文](./README_zh_CN.md)
 
 ![](preview.png)
 
+>If you like this topic, welcome to [AFDIAN](https://afdian.net/a/achuan-2 )to sponsor me, it will motivate me to update and improve this theme
 
-**Introduction**: [Siyuan](https://github.com/Siyuan-Note/Siyuan) is a local priority personal knowledge management system, which supports completely offline use and end-to-end encryption synchronization. Combine blocks, outlines and two-way links to build your eternal digital garden. This theme is a personal original theme, specially designed for Siyuan notes.
 
-<img src="https:/cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/202306221442856.png" alt="">
+**Introduction**: [Siyuan](https://github.com/Siyuan-Note/Siyuan)  is a privacy-first personal knowledge management system, support fine-grained block-level reference and Markdown WYSIWYG. This theme is a personal original theme, specially designed for Siyuan notes.
+
+![Light](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/1704370183771Clip_2024-01-04_20-09-39.png)
 <center>Light</center>
 
-<img src="https:/cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/202306221441869.png" alt="">
+![Green](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/1704370137769Clip_2024-01-04_20-07-57.png)
 <center>Green</center>
 
-<img src="https:/cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/202306221442278.png" alt="">
+![Dark](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/1704370028776Clip_2024-01-04_20-07-02.png)
 <center>Dark</center>
 
 ## 🚀 CHANGLOGS
 
-See [CHANGE_LOGS](./CHANGE_LOGS.md)
+v2.0.0 / 2024.03.08
+
+- 🐛 Tables are now default to center, cannot be aligned to the left according to the block menu's layout setting
+
+ v1.9.9 / 2024.02.25
+- 📝 docs: center the h1 theme by default, how to align it to the left
+- 💄 ui(database): Set the background color of the custom attribute window to match the editor background
+- 🐛 fix(export): Split export image tags into individual words [#101](https://github.com/Achuan-2/siyuan-themes-tsundoku/issues/101)
+
+v1.9.8 / 2024.02.16
+
+- 🐛 fix (adapting to theme switching): Fixed the issue of incorrect switching between light and dark themes.
+
+v1.9.7 / 2024.02.03
+
+- ✨ feat(JS): Adapted theme switching without refreshing 
+- 📝 docs(README): Add some introduction to theme settings
+- 💄 ui(database): Optimze Green Theme style
+- 💄 ui(database): checkbox column distinguish between checked and unchecked states
+
+
+ v1.9.6 / 2024.01.24
+
+- 💄  UI (Light Theme): Custom font style optimization: Adjust the four font colors of red, green, blue, and orange
+- 💄  UI (Green Theme): Set Style Beautification
+- 🔥  Considering that the calendar plugin has been improved, remove the theme calendar function
+
+
+v1.9.4 / 2024.01.16
+
+- 🐛 fix (appearance): change of the list vertical line, there are issues with the list conversion diagram style.
+
+
+ v1.9.3 / 2023.01.16
+- 🐛 fix (font customization): Fixed the issue where the Green and Dark themes did not support font customization in code snippets. Now, the themes can support global font settings by placing the font in the plugins folder and using the following code snippet, allowing the font to be used on mobile devices as well:
+  ```css
+  @font-face {
+    font-family: "HanYiKongShanKai";
+    font-style: normal;
+    src: url("plugins/custom-fonts/HanYiKongShanKai.ttf");
+  }
+
+  :root {
+    --b3-font-family: "HanYiKongShanKai", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB", "Microsoft Yahei", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
+  }
+  ```
+- 🐛 fix (database): Fixed the issue where the selected cell in the database did not display the background color.
+- 🐛 fix (Dark theme): Fixed the issue where specific link icons and code block styles were not loaded.
+- 💄 ui (appearance): Modified the color of `b3-theme-primary-lightest`.
+
+v1.9.2 / 2023.01.14
+* 💄 Adjusted the color of the vertical lines in the list to adapt for PDF export.
+* 🎨 Placed export styles in print.css
+* 💄 Optimized blockquote style
+* 📝 Starting from this version, the English README and CHANGELOG.md will be updated.
+* 🔥Cancel th adjustment of table width.
+
+
+Please see [CHANGELOG](./CHANGELOG.md) for the full update log.
 
 
 
@@ -48,23 +108,32 @@ The biggest obstacle to using a tool is "unclear requirements". If you don't kno
 
 I use this name to wake myself up, hoping to make good use of Siyuan notes, help me form the habit of daily recording and reviewing the answers regularly, better master knowledge and skills, strive to do meaningful projects and become a better person, instead of taking notes for the sake of taking notes, so that the note-taking software can become a dust box to relieve knowledge anxiety and satisfy abnormal digital hoarding.
 
-![1695625149328](README/1695625149328.png)
-![](https://raw.githubusercontent.com/Achuan-2/PicBed/pic/assets/20230925145915-2023-09-25.png)
+
 ## 🐯 Features
 
-- ✨ **The theme is three-in-one, which supports both bright mode and dark mode.**（Tsundoku Light、Tsundoku Green、Tsundoku Dark）【Ref：[Savor](https://github.com/royc01/notion-theme) 】  
+- ✨ **The theme is three-in-one, which supports both bright mode and dark mode.**（Tsundoku Light、Tsundoku Green、Tsundoku Dark）
   - Siyuan note bright mode only supports the selection of light and green, while dark mode only supports the selection of dark theme.
   - **If both bright mode and dark mode are set to use Tsundoku theme**：Switch from dark mode to bright mode, and automatically change to green theme /light theme according to the previous bright mode selection; Switch from bright mode to dark mode and automatically change to dark theme.
 - 📎**Added icon to hyperlink.**：See [Introduction to Hyperlink Icons](https://www.yuque.com/Achuan-2/siyuan/gar358) for the difference between different local links and network links.
   ![20220131165215_2022-01-31](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/README/20220131165215_2022-01-31.png)
-- 🧊 **Introduction of finch cue block**：Add a block background color to the reference block blockquote, and the style will be automatically applied. See [Que Hint Block Style](https://www.yuque.com/achuan-2/siyuan/obxpvr) for details.
-  ![20220131165233_2022-01-31](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/README/20220131165233_2022-01-31.png)
+- 🧊 **Introduction of finch cue block**：Add a block background color to the reference block blockquote, and the style will be automatically applied. 
+  ![1704370779797Clip_2024-01-04_20-15-14.png](https://cdn.jsdelivr.net/gh/Achuan-2/PicBed@pic/assets/1704370779797Clip_2024-01-04_20-15-14.png)
+
+    Recommend using a template to add emojis and adjust the title font size and boldness. Here is an example.
+  ```markdown
+  > **💡  标题**{: style="font-size: 24px;"}
+  >
+  > 内容
+  {: id="20231019114031-5bqqmpr" style="background-color: var(--b3-card-error-background); color: var(--b3-card-error-color);"}
+  ```
 
 ## 😺 Referenced features
 
-- [HBuilderX-Light](https://github.com/UFDXD/HBuilderX-Light)
-  - Highlight text hide button: Set Ctrl+E as the text masking effect. By default, the text is displayed. When clicking on the "Enable Highlight Text Hide Button" in the top bar, the highlighted text will be hidden.
-  - Theme switch button: A button that allows users to switch between different themes.
+- [HBuilderX-Light Theme](https://github.com/UFDXD/HBuilderX-Light)
+  - Convert a list to mind map, table
+  - Table settings including the display of table headers
+- [Savor Theme](https://github.com/royc01/notion-theme)
+  - Theme switch button
 
 
 
@@ -81,7 +150,6 @@ I use this name to wake myself up, hoping to make good use of Siyuan notes, help
    | f             | kb              | Convert list to kanban board                         | Ref: Notion theme |
    | f             | dt              | Convert list to mind map                             | Ref: Notion theme |
    | f             | dg              | Convert list to table                                | Ref: Notion theme |
-   | f             | full            | Set table width to page width                        | Ref: Notion theme |
    | f             | biaotou         | Remove bold formatting from table headers            | Ref: Notion theme |
 
 

@@ -27,9 +27,9 @@
       "mini-vlook",
       "toy"
     ],
-    "themeDark": "Zhihu",
-    "themeLight": "daylight",
-    "themeVer": "1.0.6",
+    "themeDark": "mini-vlook",
+    "themeLight": "OneNote",
+    "themeVer": "0.25",
     "icons": [
       "Lucide-icon",
       "Remix-icon",
@@ -38,7 +38,7 @@
       "material"
     ],
     "icon": "Savor-icon",
-    "iconVer": "1.0.0",
+    "iconVer": "1.0.1",
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "github-dark",
     "lang": "zh_CN",
@@ -60,6 +60,10 @@
       "name": "fr_FR"
     },
     {
+      "label": "日本語",
+      "name": "ja_JP"
+    },
+    {
       "label": "繁體中文",
       "name": "zh_CHT"
     },
@@ -72,7 +76,9 @@
   "fileTree": {
     "alwaysSelectOpenedFile": true,
     "openFilesUseCurrentTab": false,
+    "refCreateSaveBox": "",
     "refCreateSavePath": "",
+    "docCreateSaveBox": "",
     "docCreateSavePath": "",
     "maxListCount": 512,
     "maxOpenTabCount": 8,
@@ -86,6 +92,7 @@
     "sort": 4
   },
   "editor": {
+    "allowHTMLBLockScript": false,
     "fontSize": 19,
     "fontSizeScrollZoom": false,
     "fontFamily": "",
@@ -98,70 +105,70 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f348",
-      "2601-fe0f",
-      "26cf-fe0f",
-      "1f4ab",
-      "1f4a5",
-      "1f98f",
-      "1f680",
-      "2603",
-      "1f9f8",
-      "2744",
-      "1f413",
-      "1f403",
-      "1f408-200d-2b1b",
-      "1f433",
-      "1f9ea",
-      "1f341",
+      "1fa95",
+      "1f52f",
+      "1f468-200d-1f33e",
+      "1f4e4",
+      "2614",
+      "23f3",
+      "1f1f9-1f1e6",
+      "1f3ae",
+      "1f371",
       "1f4a7",
-      "1f995",
-      "1f30f",
-      "1f340",
-      "1f41d",
-      "1f4bb",
-      "231a",
-      "1f984",
-      "1f699",
-      "1f98c",
-      "1f432",
-      "1f317",
-      "1f41f",
-      "1f335",
-      "1f34c",
-      "1f40f",
-      "2618",
-      "1f35f",
-      "1f4d0",
-      "1f98a",
-      "1f9aa",
-      "1f411",
-      "1f6eb",
-      "1f9de",
-      "1f916",
-      "2600",
-      "1f993",
-      "1f30d",
-      "1f990",
-      "1f404",
-      "1f440",
-      "1f43f",
-      "1f3b0",
-      "1f367",
-      "1f405",
-      "1f42b",
-      "1f94f",
-      "1f9ad",
-      "1f9ac",
-      "1f9ca",
-      "1f419",
-      "1f438",
-      "1f47e",
-      "1f514",
-      "1f96b",
-      "1f687",
-      "1f397",
-      "1f40b"
+      "1f320",
+      "1f9f9",
+      "1f3da-fe0f",
+      "1f9e8",
+      "1f600",
+      "1f418",
+      "1f970",
+      "1f23a",
+      "1f52c",
+      "1fa85",
+      "1f494",
+      "1f99b",
+      "1f3d0",
+      "1f9a4",
+      "26c4",
+      "1f1fb-1f1e6",
+      "1f6ce-fe0f",
+      "1f92d",
+      "26fd",
+      "1fa92",
+      "1f6d2",
+      "1f61b",
+      "1f3d2",
+      "1f3a4",
+      "1f1ee-1f1f3",
+      "1f346",
+      "1f933",
+      "1f39e-fe0f",
+      "1f3eb",
+      "1f95d",
+      "1f380",
+      "1f9ab",
+      "1f1fe",
+      "1f9cb",
+      "1f6e5-fe0f",
+      "1f38e",
+      "1f9bb",
+      "1f97d",
+      "1f381",
+      "1f31c",
+      "1f3cd-fe0f",
+      "1f939-200d-2642-fe0f",
+      "1f92a",
+      "1f577-fe0f",
+      "1f1f2-1f1f6",
+      "1f492",
+      "1f4be",
+      "1f9ae",
+      "1f3dd-fe0f",
+      "1f95a",
+      "1f1f9-1f1e8",
+      "1f3e4",
+      "1f499",
+      "1f3bc"
     ],
     "virtualBlockRef": false,
     "virtualBlockRefExclude": "",
@@ -170,9 +177,10 @@
     "plantUMLServePath": "https://www.plantuml.com/plantuml/svg/~1",
     "fullWidth": false,
     "katexMacros": "{}",
-    "readOnly": false,
+    "readOnly": true,
     "embedBlockBreadcrumb": false,
     "listLogicalOutdent": false,
+    "listItemDotNumberClickFocus": false,
     "floatWindowMode": 0,
     "dynamicLoadBlocks": 128,
     "justify": false,
@@ -180,7 +188,13 @@
     "spellcheck": false,
     "onlySearchForDoc": false,
     "backlinkExpandCount": 8,
-    "backmentionExpandCount": 8
+    "backmentionExpandCount": 8,
+    "markdown": {
+      "inlineSup": false,
+      "inlineSub": false,
+      "inlineTag": false,
+      "inlineMath": false
+    }
   },
   "export": {
     "paragraphBeginningSpace": false,
@@ -279,7 +293,7 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "286px",
+              "size": "301px",
               "type": "left"
             },
             {
@@ -289,31 +303,31 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240219111533-4cf68qp",
+                        "blockId": "20240129100732-9wq57xg",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240219111310-hk4lkm2",
-                        "rootId": "20240219111533-4cf68qp"
+                        "notebookId": "20230811142117-2g3m2ee",
+                        "rootId": "20240129100732-9wq57xg"
                       },
-                      "docIcon": "1f9ca",
+                      "docIcon": "1f688",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "开发项目"
+                      "title": "Go服务框架"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240219104415-83iwpme",
+                        "blockId": "20230918103728-03p4dqy",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20230814084818-hog5ds9",
-                        "rootId": "20240219104415-83iwpme"
+                        "notebookId": "20230811142117-2g3m2ee",
+                        "rootId": "20230918103728-03p4dqy"
                       },
-                      "docIcon": "",
+                      "docIcon": "1f9ca",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "2024-02-19"
+                      "title": "服务框架用户手册(Beta版本)"
                     }
                   ],
                   "height": "",
@@ -381,10 +395,10 @@
             "hotkey": "⌥1",
             "hotkeyLangId": "fileTree",
             "icon": "iconFiles",
-            "show": false,
+            "show": true,
             "size": {
               "height": 0,
-              "width": 396
+              "width": 301
             },
             "title": "文档树",
             "type": "file"
@@ -393,10 +407,10 @@
             "hotkey": "⌥2",
             "hotkeyLangId": "outline",
             "icon": "iconAlignCenter",
-            "show": true,
+            "show": false,
             "size": {
               "height": 0,
-              "width": 286
+              "width": 311
             },
             "title": "大纲",
             "type": "outline"
@@ -450,18 +464,6 @@
             },
             "title": "Excalidraw",
             "type": "siyuan-plugin-excalidrawExcalidrawDock"
-          },
-          {
-            "hotkey": "",
-            "hotkeyLangId": "",
-            "icon": "iconLayout",
-            "show": false,
-            "size": {
-              "height": 0,
-              "width": 411
-            },
-            "title": "思维导图",
-            "type": "markmindmarkmind_dock_tab"
           }
         ]
       ],
@@ -513,7 +515,7 @@
       "pin": false
     }
   },
-  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35e0d11ee1834bb9739012a6c756e85086702b15a0c01d92058bca766e5631e27f13e9f055fc8521326f833f4d9eb291be9c8c57124e29133978cc7e0f8e2cac81692872938c9de060001a8942b28048172600c19e7aad5d3206eb1f7945f16e2e11ec76ed8ea08cc0b79ee231b4b7294f4c2efaa0e2b37c911ac92ee0c2cabd9767c2a6da4fbc78b100db2a7449a176cc6b89d7bc872d743188d6fe0ed48283559e79c11ad176c4e52550c9af2ad7a259dc47d9a9eeed29495ea895774addb1effd47a9eed77886c75e519c98ac2713f0c66efdeca293b1ce303726bbd2e9ec16319f555d78440b7e7b01d300589b88685d845786be0b5b568d1e3dbfaa68dbb9a44f2d6bdb791694d3dc10b554b73ca4d3af79892873c1674cada1ddeadaf0234951a24e377cb1c96a90194c7615367d2e3188a45f644dfc66540fefb2407c9b7cef38cb43fe62237b7649b1c2d047673e58d44c25f6c4aa2f54dc997c70ce54c7cc3bca9814dcc1375f6297900f214759928afa796c2e2bd32ead6b3399b64eeb2386c2f48ec9255cdcb5e196f5a4da06efce8d81c0830f8af6770c94344ca5513280e270bcc8ac2e69b2388ecd208e7d79063398b2d72905ea4a089f1d40a40b7536bea58b24ecd072412d87e0cee2ca2dbe698753e20902f8d3d551a43b95fb98314b1012d119ec593e01de1d8bacc6eddfa217cde956b216c918b07e9a832afd2b9ec8f32f756262ad3b1c50c4970d1b757a1a79706f16cc091c832672f1a3273dedaf6595299fc1fa1dc63531a802c3f069677b3fee7ecf3945724c76cd369fad450290a563f5175f9fe8968207ac42fdd22f2d311f38738e0676e82e3dfeda0da94a6291a7977281367fc416b73bfee7427cbd20abadea1831d15e9503f7242dd8c2357932b96f02736623cec3e52f920e67f7e9ca1c53c218972cb0e5746072353d22a53c97ce0564d6e2fb8b33c50e2b106b185218642163d93da2879aa015f4d2da90a5429bd0c1e65550539017ff680889c973fad23d81ef73fce94ae4465ccd290862d10f23669787cd258c69c272cc3747ce1fd90d71da8ff480787abcc6f1de9459d189cd5e2d426560ecdff84f3e2809f1d0108bc2ce09244ef58fc7cbc2f1bd3a71e3c0bd0f57fc06f85da731565bd94ea464964beb645ea1f6096293449a59f09ad6a41ddaa739a4bbeadaf2005265e0044d32c7ac602dd7dc3ee23dd3fe494bc8806fd9b9cfa848a47793a9a0f9e227eeb6f39edf98b824855972f983e4acc1ac9cd0a92c7d12957738f2ae62a7a7dddf93927111f3686f50f45f3bbdcf8f04e86ece714280fe5f18aa32607fb67a697370d80f972019de7f7b1a00310496d053c32817d907444c396377060660e350bd165fc4264e3b33f7d924d0cd4283358e5c1692c5f0d3a2361cbfb605784aab2dc3585b1fa9b1d84b7857ad8e13e8230b997778d30ef3698a741f38aeb905fbbbc79dcf0a64657b011754217071bb78df0aa5451a035703b20a767d431f683a05de22cc0a83b84f0a10f438dd5e05c6a2579770e4be75797f1a57daac473c9a9b965f4d80971987cb55a2914b43ca652776451fca3618f3d4adbf82b9bb4b9a771ccb352194ebd141b77dcc75b41bd8bad05cd55a8c7e92c650fa2928b60be1f5bfd95ad0ef120412e5e3b3a25fe6cab9a47c4518632b1617ef618575c63fb84aeae8d1557cbe4385c3c0bfecc4c36fd960eff5ee26d1b234bf1f7ce2ac255e67452a43bd8d5bdd61865308cf0444e858633a7b8c9c2f3b3b91b2a1cb7fe7b0ca38f613bbde65f2d",
+  "userData": "d716d5d6812229ac440f08261821941a99c7f172f1da52a210eba3c509d19893b22e6a4574f84ddd967061b29878d8b4379c86b41860ec7c8468a19ccb4c937e5789cdffc796a008e36340783b95561ed575dbf8c44eece643aff2103a5da1c77e9b55eee611704121705a3aaf000261d70b1462033beecf30da21ae913f8d55cd0e9e44c3d74a8a81bf503a9212cb1adcd6a3a70dca480fadf8320f2797ad64f9a4db54dfb76998fe9904b6db01022e62dbb5adf8bb0b6e1b766297b5d4644d27b4dc9e0a226afda68d9215bb501251272df33fb7768b81c716c0838e43c6f5b86e7bdb56a96cba7132fa3ba05fa732b03a90330095b97952152bea9550840bed8fc73bd5336d052f964ca4ac81abb99450d438f23e326f0d7c29d05a1e7810f6851e51acc11d20fb60d5524d4725211aece45054cadc4b9c41f3a1006b4a09c111960dae210680e8b7536444851405fe76c4b0bb0b87ef2948efc2bd8acb459ad364a68c3b08c101f281574301d68dcf8c36f4ddf75be67fe3cdcdd43bf909a3ec81c31216eb35db9db43aa06a19e6e02031b462e4e98f539580ba3d3491e18bac2294cb691ff5f042bad1ae0c9fdab730dc528ad0cbc9e9f8abd7cd0396aece6d5ae41a5ef4ec3c3fe7b2df30ada872612baa608e4e1139cf4e90693bec0d6e421633b9077a76be2a1bea71440f2acd770b851abb1037e1d3c90758130a5f51ff9e19e136ee141124d5841602020327e59a005bca46ed7b641d65f93dae5350e9e3d166acb0d8a462a307687d14b65cd3b812e97fb41600313ddcb421892a9a3091d932391a3d64d933e04002861ba230bcab679a3a393eb822761025b2346781769231da95999e6bad1b64339be73eb3b3d52eeb39dc32686da8c00c6c38b9e20e05499f2627322070f2761f72340045a00026d62edf862bafec01c2ad21997b779fe28101915cb8d4062aef5e63750613e1fb558170a7da08efc90851da9f1b9ac3163db4f2f6daaded5134a0560721aa68b137d59c5cb703365b75bc31c55a6433ad89b3e1f61a4864f6720bcc01b250ce1e2bf108cf5c816a4dbff227e4f4337eb46509a015f42f655c710d00b0681ce674fd85ff153977bb8655f9a2fc59c8da607b7bee4f0b0d7442ee4b5384be805b3bcbfe7b9cfe04fd462737213b9464862577edb5dfb9f1cd1b09a3cebfd27e3fd945eb12754a285a67f181ae5e89d623d01262a247a5f57621642cc77f5c0c27587b19b9e0630eabc07948f55902664a5b94b759fa8b502f0d3b5acdf3c613759f3881603c17038e0c0bf0794493085afb50f1d4c4aa4a7c50b9e500c9e3fa143dd5fa380f1eb31eb5cbcfb22f07ce766204abf5ca09f412ac9fde92c545891b94507056e0ee6c5cbb78ef53ecf837c075e95150d31313ba3b2044ffea8c4e25a403eec7aa040af50b8f9b7291a8253f632bf571b1364e4306340bc99b3ae0747f74e1b87073686038e25eb1ff3ad199cf78b9b7085498dc15d1811b35390cd7393a7be2068e9a8335c1a35ee09cf6209bae0f75f6fe677cd2877f5791bba66c8a57dfb1a674d37fe7bd3a15b21895bf4aa2299e11b58d6558e5426f0a3a669648358cbe89f7b28f4ad420eaff0a9efb2010c0236c521e3317e99a20d3a10a651d6ad64a25037b11aa9731e8498cce3687334d53007f54361577a9997caaec8701da3bbfd4ab47fd446a8dc56209dbe6cd4ae44f252c72fd3e050ec109e4133662659f08dc732fff5ddb6cd50c7dcb05604b3f7b65aa378a445cd58860be98e6562d9a889986d26d85736dcab6c3f1c9a6923c6658fbbc43e574bf1d375f91a707d6b8c49fea2775e3b116759f6b083f6ea10da6c78b1fe3711e62490f07c0c99fdeeb8cff700f4b7df41dddb04765b865e4868905c6697a626a63ad06c4c9261f7c2e3fd02184bf3965e406f7ce80f1e795f27788a4d8978ae28667566e3bc98d66fd58faddadadaee9338ad4fb3e127550a2ce40f851b9d1df65a4c1d906c4e07ec0860f60fddea9d02e1f4c4f5ff66597b7fd3948bf8a9d81e8eb8c8b47841efc19e966ebf0fc1d366365e49b6de04d19548e61dbb2a4730dbcb67e8ba28018082645dc28280c475a4cc2e968082be56a2391ac55ef48c6d5de9bc7fd5f80b0695b1c51dca1ab248b54b9adc1d5e0b22e584d3f7071d99d22b2e50c4f3da4be1baccd97e15e252d3420cd1f356b2957a0c0748b29c6c6d5a7795115389a84820420bf1408d470ce74ca6c02535a5881977aaf24dfdedb71b43716f14fea6554288833035b729ffc40691286e3bebe1931bc41ea068775474c4f0116cba25ab7b1a7bcda8bf82239a0af7856048ef06ec2505ffc83a4f00ba366d5f2c9bc3c07d2a08865e424b0ddf10aedc6ae073a055624316bd2f1455cc7d0faf3a6f147e2ecf8a3b407566f3a85819083bd8700482d468ad25e63da14cf81a7ceddf19d43d1ea626a4674e341bf30beee0f9983ca1bd8f60f2057b90546489abeca536f7fece5f0ae35888a4b208c77467063ae27cc7517573f6a1b5919b66493d19ff21901186842250a23d488fc95324870d5addc3d8460c604306d05e545332e63f1420bc25d57e10032f5761298173b63ffd92cc1315c72807de4b3ff0a4b848d1bc1b2423613c51dc81aa86a8afe1705e269173dc63a0081cedc2f80f3297432bcfb2aa24b7e29302e694998999ab1e81d56f43ed3ff1cfd1267e7df7e385f18adefe3d08c96b1e9d5bff85674f9595d53a330ccfe0526d13cf126321eaf5535547289a646d8153c893b3a7a2450da1e7e0225829bdefcf78eb48da9be6ff9d7876cc05110ed56945cc7a29870006b524977092fde569e045bd295f2157cfbaf8c0c95679dfb0d6b12e8e3fdd1833a3174d91d5c5e7e02f63cad9fcf13861d9fca57a5e60347f99535f52f90d120786d4656ba0415cf21f08e1e790f30a1415d66fd1aa18b0f299b5332123cef34cd5c50870e20351166b731bfa66d4345473582b228c9360832643af6d5c7c91c57693d4a21b86ab44bb4f342ec67c7c143269d0924e3fa4b6cc911a805ad91e5a6eb4ab5324207763dc68d249b35bd6b89d4a84a98291eb804b4d37b87256eedbdd27187a0b471d564e79c69b86c6be5051c4d1b8554f31fb7640f79c00f7e2f297e4bc51d455516d029492e7ceb6fb22f82163fb13a287444247e84d39e923a05ca45c3465329f2b79bc3209876ce2ef3ef1371e609014ec4b67840ed38b3a828805d351a28345f4b977c88bba391bc22a1bb3c5ebf69684e3bf90480fa72e783ce9b1f1e804dd45cf2e88c3bd83809429ed8795518db24b11ea02b47905a",
   "account": {
     "displayTitle": true,
     "displayVIP": true
@@ -521,31 +523,32 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
+    "192.168.137.1",
+    "192.168.137.232",
     "192.168.45.1",
     "192.168.249.1",
-    "172.21.48.1",
+    "172.30.208.1",
+    "169.254.159.0",
     "169.254.110.213",
     "169.254.105.102",
     "169.254.134.65",
-    "169.254.175.87",
-    "169.254.67.123",
     "169.254.132.51",
     "[::1]",
+    "[fe80::3f93:b296:5065:39a1]",
     "[fe80::3821:3181:6e7b:6190]",
     "[fe80::fe5b:f5c9:2e07:3236]",
     "[fe80::8381:6668:20b7:3022]",
-    "[fe80::888b:cc15:289e:4c5f]",
+    "[fe80::1573:e6e9:94cd:3aae]",
     "[fe80::a7d8:1526:8acc:683b]",
     "[fe80::b352:7e0e:76d7:5ca9]",
-    "[fe80::1573:e6e9:94cd:3aae]",
     "[fe80::688:7fbd:94e3:a40b]",
-    "[fe80::bcb4:1007:72e5:a7c2]"
+    "[fe80::ab18:f859:1ea6:cdb]"
   ],
   "accessAuthCode": "",
   "system": {
     "id": "6b1bdd28-007a-4941-9bd4-27c9b9503b69",
     "name": "LAPTOP-3SJPKUOC",
-    "kernelVersion": "2.12.1",
+    "kernelVersion": "3.0.13",
     "os": "windows",
     "osPlatform": "Microsoft Windows 11 Home China",
     "container": "std",
@@ -565,12 +568,16 @@
     "uploadErrLog": false,
     "disableGoogleAnalytics": true,
     "downloadInstallPkg": false,
-    "autoLaunch": false,
+    "autoLaunch2": 0,
     "lockScreenMode": 0
   },
   "keymap": {
     "editor": {
       "general": {
+        "ai": {
+          "custom": "",
+          "default": ""
+        },
         "alignCenter": {
           "custom": "⌥C",
           "default": "⌥C"
@@ -631,6 +638,10 @@
           "custom": "⌘D",
           "default": "⌘D"
         },
+        "exitFocus": {
+          "custom": "",
+          "default": ""
+        },
         "expand": {
           "custom": "⌘↓",
           "default": "⌘↓"
@@ -671,9 +682,17 @@
           "custom": "⌥.",
           "default": "⌥."
         },
+        "jumpToParent": {
+          "custom": "⇧⌘J",
+          "default": "⇧⌘J"
+        },
         "jumpToParentNext": {
           "custom": "⇧⌘N",
           "default": "⇧⌘N"
+        },
+        "jumpToParentPrev": {
+          "custom": "⇧⌘M",
+          "default": "⇧⌘M"
         },
         "moveToDown": {
           "custom": "⇧⌘↓",
@@ -750,6 +769,10 @@
         "spaceRepetition": {
           "custom": "⌥F",
           "default": "⌥F"
+        },
+        "switchReadonly": {
+          "custom": "",
+          "default": ""
         },
         "undo": {
           "custom": "⌘Z",
@@ -934,6 +957,10 @@
       }
     },
     "general": {
+      "addToDatabase": {
+        "custom": "",
+        "default": ""
+      },
       "backlinks": {
         "custom": "⌥7",
         "default": "⌥7"
@@ -1155,7 +1182,42 @@
         "default": "⌥M"
       }
     },
-    "plugin": {}
+    "plugin": {
+      "siyuan-plugin-background-cover": {
+        "openBackgroundLabel": {
+          "custom": "⇧⌘F4",
+          "default": "⇧⌘F4"
+        },
+        "selectPictureManualLabel": {
+          "custom": "⇧⌘F6",
+          "default": "⇧⌘F6"
+        },
+        "selectPictureRandomLabel": {
+          "custom": "⇧⌘F7",
+          "default": "⇧⌘F7"
+        }
+      },
+      "siyuan-plugin-keymap": {
+        "hello world": {
+          "custom": "",
+          "default": ""
+        }
+      },
+      "webview": {
+        "openDesktopWindow": {
+          "custom": "⇧⌘N",
+          "default": "⇧⌘N"
+        },
+        "openMobildWindow": {
+          "custom": "",
+          "default": ""
+        },
+        "openNewTab": {
+          "custom": "⌘T",
+          "default": "⌘T"
+        }
+      }
+    }
   },
   "sync": {
     "cloudName": "main",
@@ -1165,7 +1227,7 @@
     "synced": 0,
     "stat": "",
     "generateConflictDoc": false,
-    "provider": 0,
+    "provider": 2,
     "s3": {
       "endpoint": "",
       "accessKey": "",
@@ -1198,6 +1260,10 @@
     "htmlBlock": true,
     "embedBlock": false,
     "databaseBlock": false,
+    "audioBlock": false,
+    "videoBlock": false,
+    "iframeBlock": false,
+    "widgetBlock": false,
     "limit": 64,
     "caseSensitive": true,
     "name": true,
@@ -1223,6 +1289,7 @@
     "superBlock": true,
     "heading": false,
     "deck": false,
+    "reviewMode": 0,
     "requestRetention": 0.9,
     "maximumInterval": 36500,
     "weights": "0.40, 0.60, 2.40, 5.80, 4.93, 0.94, 0.86, 0.01, 1.49, 0.14, 0.94, 2.18, 0.05, 0.34, 1.26, 0.29, 2.61"
@@ -1234,7 +1301,12 @@
       "apiProxy": "",
       "apiModel": "gpt-3.5-turbo",
       "apiMaxTokens": 0,
-      "apiBaseURL": "https://api.openai.com/v1"
+      "apiTemperature": 1,
+      "apiMaxContexts": 7,
+      "apiBaseURL": "https://api.openai.com/v1",
+      "apiUserAgent": "SiYuan/3.0.13 std/windows",
+      "apiProvider": "OpenAI",
+      "apiVersion": ""
     }
   },
   "bazaar": {
@@ -1242,14 +1314,14 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 915,
-    "cTreeCount": 1000,
-    "blockCount": 37435,
-    "cBlockCount": 40000,
-    "dataSize": 184121015,
-    "cDataSize": 209715200,
-    "assetsSize": 135839246,
-    "cAssetsSize": 209715200
+    "treeCount": 1114,
+    "cTreeCount": 1500,
+    "blockCount": 48280,
+    "cBlockCount": 50000,
+    "dataSize": 424097065,
+    "cDataSize": 629145600,
+    "assetsSize": 369276719,
+    "cAssetsSize": 419430400
   },
   "api": {
     "token": "64bp8j0hn2ixb5mp"
@@ -1264,5 +1336,6 @@
   "snippet": {
     "enabledCSS": true,
     "enabledJS": true
-  }
+  },
+  "state": 0
 }

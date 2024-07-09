@@ -27,31 +27,42 @@
 
             .av__row {
 
+                &:hover {
+                    .av__firstcol {
+                        svg {
+                            opacity: initial;
+                        }
+                    }
+                }
+
                 .av__cell {
                     border-right-color: var(--custom-block-av-cell-color);
 
+                    &[data-wrap=true] {
+                        img.av__cellassetimg {
+                            max-height: none;
+                            max-width: 100%;
+                            margin: 0;
+                        }
+                    }
+
+                    // 标签
                     .b3-chip {
+                        outline: 1px solid currentColor;
+                        margin: 3px;
 
                         // 文档引用按钮
                         &[data-type~=block-ref] {
                             background-color: transparent;
                             padding: 0;
-                            top: 10px;
-                            right: 0;
+                            top: 8px;
                         }
 
                         // 文档更多按钮
                         &[data-type~=block-more] {
                             outline: 1px solid currentColor;
                             padding: 0 0.25em;
-                        }
-                    }
-
-                    .av__celltext {
-
-                        // 标签
-                        .b3-chip {
-                            outline: 1px solid currentColor;
+                            top: 8px;
                         }
                     }
                 }
@@ -78,8 +89,19 @@
                 }
             }
 
-            // 添加新行
-            .av__row--add {}
+            // 功能行
+            .av__row--util {
+                .b3-button {
+
+                    &,
+                    & svg[data-type=set-page-size] {
+                        &:hover {
+                            outline: 1px solid var(--b3-theme-on-surface-light);
+                        }
+                    }
+                }
+
+            }
 
             // 表格尾
             .av__row--footer {

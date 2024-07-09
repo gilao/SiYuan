@@ -1,5 +1,34 @@
 # 更改日志 | CHANGE LOG
 
+## v2.0.1/2024-05-02
+
+- [v2.0.0 ... v2.0.1](https://github.com/Zuoqiu-Yingyi/siyuan-theme-dark-plus/compare/v2.0.0...v2.0.1)
+- 更新列表辅助线功能介绍 | Updated the list guide function introduction.
+- 调整属性视图标签样式 | Adjust the style of the label in the attribute view.
+- 调整文档题头与标题自适应宽度样式 | Adjust the style of the document header and title adaptive width.
+
+## v2.0.0/2024-02-08
+
+- [v1.10.4 ... v2.0.0](https://github.com/Zuoqiu-Yingyi/siyuan-theme-dark-plus/compare/v1.10.4...v2.0.0)
+- 调整行内代码文本颜色 | Adjust the color of inline code text.
+- 调整属性视图控件行内按钮样式 | Adjust the style of the button in the attribute view utils rows.
+- 调整对话框中设置项的分割线样式 | Adjust the style of the separator of the setting item in the dialog.
+- 实现 `window.destroyTheme` 方法以卸载主题 | Implemented the `window.destroyTheme` method to uninstall the theme.
+- 优化脚本加载方案 | Optimize the script loading scheme.
+- 调整属性视图行选择框样式 | Adjust the style of the select box in the attribute view row.
+
+## v1.10.4/2023-12-27
+
+- [v1.10.3 ... v1.10.4](https://github.com/Zuoqiu-Yingyi/siyuan-theme-dark-plus/compare/v1.10.3...v1.10.4)
+- 调整只读菜单项端宽度 | Adjust the width of the read-only menu item.
+- 调整最近的文档对话框样式 | Adjust the style of the recent documents dialog.
+- 调整属性视图样式 | Adjust the style of attribute view.
+- 调整收集箱面板背景颜色 | Adjust the background color of the collection box panel.
+- 调整块引用样式 | Adjust the style of block reference.
+- 调整设置面板中设置项的样式 | Adjust the style of the setting item in the settings panel.
+- 调整属性视图标签样式 | Adjust the style of the label in the attribute view.
+- 新增 WSA URL Scheme 超链接 `wsa://` 图标 | Added the URL Scheme link `wsa://` icon of WSA (Windows Subsystem for Android).
+
 ## v1.10.3/2023-10-31
 
 - [v1.10.2 ... v1.10.3](https://github.com/Zuoqiu-Yingyi/siyuan-theme-dark-plus/compare/v1.10.2...v1.10.3)

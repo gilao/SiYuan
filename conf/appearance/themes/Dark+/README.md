@@ -92,6 +92,8 @@ It is now on the shelves of the [Siyuan Notes Community Bazaar](https://github.c
     - Text Layout Mode
 - **Plugin**: [Typewriter Mode `typewriter`](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter)
   - Typewriter Mode
+  - List guides
+    - The plug-in needs to enable the `Focus Setting` > `Show Current Focus` function
 
 ## FEEDBACK
 
@@ -316,6 +318,7 @@ PS: The table is generated automatically using [All Contributors · GitHub](http
   - <img alt="telegram" src="https://cdn.jsdelivr.net/gh/Zuoqiu-Yingyi/siyuan-theme-dark-plus/icon/telegram.ico" style="height: 1em; width: 1em;" />: `tg:` [TickTick](https://telegram.org/)
   - <img alt="ticktick" src="https://cdn.jsdelivr.net/gh/Zuoqiu-Yingyi/siyuan-theme-dark-plus/icon/ticktick.svg" style="height: 1em; width: 1em;" />: `ticktick:` [TickTick](https://ticktick.com/)
   - <img alt="vscode" src="https://cdn.jsdelivr.net/gh/Zuoqiu-Yingyi/siyuan-theme-dark-plus/icon/vscode.svg" style="height: 1em; width: 1em;" />: `vscode:` [Visual Studio Code](https://code.visualstudio.com/)
+  - <img alt="wsa" src="https://cdn.jsdelivr.net/gh/Zuoqiu-Yingyi/siyuan-theme-dark-plus/icon/wsa.ico" style="height: 1em; width: 1em;" />: `wsa:` [适用于 Android 的 Windows 子系统](https://learn.microsoft.com/zh-cn/windows/android/wsa/)
   - <img alt="zotero" src="https://cdn.jsdelivr.net/gh/Zuoqiu-Yingyi/siyuan-theme-dark-plus/icon/zotero.svg" style="height: 1em; width: 1em;" />: `zotero:` [Zotero](https://www.zotero.org/)
     - <img alt="zotero-PDF" src="https://cdn.jsdelivr.net/gh/Zuoqiu-Yingyi/siyuan-theme-dark-plus/icon/zotero-light.ico" style="height: 1em; width: 1em;" />: `zotero://open-pdf/`
 - Jump from outside the browser to a specified block on the web side using the URL parameter `id=<content block ID>` (at least one tab must already be open)
@@ -395,6 +398,8 @@ PS: The table is generated automatically using [All Contributors · GitHub](http
   - Shortcut keys need to be enabled in the custom profile.
 - Use the shortcut keys <kbd>Shift + Alt + G</kbd> to turn on/off list guides (list, table list, mind map list).
   - Shortcut keys need to be enabled in the custom profile.
+  - It needs to be used with plug-in [Typewriter Mode `typewriter`](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter).
+    - The plug-in needs to enable the `Focus Setting` > `Show Current Focus` function
 - Use the shortcut keys <kbd>Shift + Alt + L</kbd> to turn on/off record the current browsing location.
   - Shortcut keys need to be enabled in the custom profile.
   - Use button <kbd>Left Mouse Button</kbd> double-click a block to record this location when turned on.

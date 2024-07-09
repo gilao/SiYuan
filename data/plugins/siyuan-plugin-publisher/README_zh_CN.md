@@ -2,128 +2,82 @@
 
 # 发布工具
 
-![](./icon.png)
+<img alt="logo" width="160" height="160" src="./icon.png"/>
 
 将思源笔记的文章发布到语雀等平台，`开源`、`免费` 。
 
-如果您对 [增值功能](https://github.com/terwer/siyuan-plugin-publisher/issues/846) 感兴趣，请移步 ➡️ 收费的 [发布工具专业版](https://github.com/terwer/siyuan-plugin-publisher-pro)
-
-> 最近的新版本：🎉 发布工具新版本 `1.18.11` 发布
-
-- `1.18.0` 新增多个特性，全方位优化体验。
-- `1.18.11` 主要做了以下小幅度优化和缺陷修复：
-  - 优化文章未发布时的提示
-  - 修复 CSDN 和知乎公式解析不正常的问题
-- `1.18.10` 主要修复以下缺陷：
-  - 一键预览新增确认
-  - 修复 vuepress 转换错误问题
-- `1.18.9` 主要修复以下缺陷：
-  - 修复添加新标签，然后点击选择标签，新标签消失的问题
-  - 重构 YAML 部分逻辑
-- `1.18.8` 主要有以下特性以及缺陷修复：
-  - 支持常规发布模式下的单个预览和一键预览
-  - 修复非源码模式修改的文章属性无法保存的问题
-  - 控制默认展示方式，如果有适配器，源码模式优先展示 `yaml`
-- `1.18.7` 主要带来以下特性：
-  - 新增菜单配置
-  - 新增文档菜单
-- `1.18.6` 主要修复以下缺陷：
-  - 修复主页末尾有斜杠预览错误的问题
-  - 修复博客园可能出现的预览错误问题
-  - 修复无法通过伺服进行调试的问题
-  - 修复简书发布报错问题
-  - 兼容csdn公式
-  - 兼容知乎公式
-  - 掘金平台摘要控制在50-100
-  - 部分场景适配网页版<sup>beta</sup>
-- `1.18.5` 主要修复以下缺陷：
-  - 修复某些平台 yaml 生成可能发生错误的问题
-  - 使用软链接构建项目，提升效率
-  - 专业版预告
-- `1.18.4` 主要修复以下缺陷：
-  - 修复 yaml 修改未生效问题
-  - 修复未设置标签分类可能报错的问题
-  - 自动保存属性，取消不必要的提示
-- `1.18.3` 主要修复以下缺陷：
-  - 修复自动分类路径可能为空的问题
-  - 修复根目录发布文档可能呢个出现的路径错误问题
-- `1.18.2` 主要修复以下缺陷：
-  - 修复博客园无法上传图片问题
-- `1.18.1` 主要修复以下缺陷：
-  - 自动映射分类时才添加路径为分类
-  - 修复查看最新文章路径错误
-- `1.18.0` 主要有以下重要变更：
-  - 新增 曲线救国，支持 Notion 更新文档
-  - 新增 支持外链转换
-  - 新增 发布配置中的文件规则支持手动设置
-  - 新增 整合菜单，专注核心功能
-  - 新增 支持文档路径自动映射为分类
-  - 新增 平台列表新增 hover 提示，优化列表平台名称展示、新增新平台提示
-  - 新增 强化GitHub平台和Gitlab平台的校验
-  - 修复 兼容 CSDN 错误提示，减少上传提示打扰
-  - 修复 AI 标签无法打开的问题
-  - 修复 html发布的时候会出现有些格式没有转化
-  - 修复 html发布时公式无法显示
-  - 授权方式改为只读，防止引起误解或者误配置
-  - 保存各个平台的标签和分类
-- 咳咳，另外，在 `1.14.0` 版本之后，作者还悄悄开发了导入功能。您可以使用 `设置` -> `发布设置` -> `导入预定义平台` 功能快速导入内置平台 😄
-
 > [猛击这里](https://blog.terwer.space/s/20230810132040-nn4q7vs)，查看最新帮助文档。
 
-**遇到其他问题或者需求建议？请加 QQ 群 `895063267` 讨论。或者查看下面的在线文档：**
+**遇到其他问题或者需求建议？请加 QQ 群 `895063267` 讨论。**
+
+如果您对 [增值功能](https://github.com/terwer/siyuan-plugin-publisher/issues/846) 感兴趣，请移步 ➡️
+收费的 [发布工具专业版](https://github.com/terwer/siyuan-plugin-publisher-pro)
 
 ## 更新历史
 
 请直接查看 [CHANGELOG](./CHANGELOG.md)
 
+## 开发
+
+请参考 [DEVELOPMENT](./DEVELOPMENT.md)
+
 ## 平台列表
 
 排名不分先后
 
-- [x] 语雀
-- [x] Notion
-- [x] Halo
-- [ ] 印象笔记 - TODO
-- [x] Github
-  - [x] Hexo
-  - [x] Hugo
-  - [x] Jekyll
-  - [x] Vuepress
-  - [x] Vuepress2
-  - [x] Vitepress
-  - [ ] Antora - TODO
-  - [ ] Docsify - TODO
-- [x] Gitlab
-  - [x] Gitlabhexo
-  - [x] Gitlabhugo
-  - [x] Gitlabjekyll
-  - [x] Gitlabvuepress
-  - [x] Gitlabvuepress2
-  - [x] Gitlabvitepress
-  - [ ] Gitlabantora - TODO
-  - [ ] Gitlabdocsify - TODO
-- [x] Metaweblog
-- [x] 博客园
-- [x] Typecho
-- [x] WordPress
-- [x] 知乎
-- [x] CSDN
-- [x] 微信公众号
-- [x] 简书
-- [x] 掘金
-- [ ] 吾爱破解 - TODO
-- [ ] 哔哩哔哩专栏 - TODO
-- [ ] 小红书 - TODO
-- [ ] 豆瓣 - TODO
-- [ ] Xlog - TODO
-- [ ] 墨滴 - TODO
-- [ ] Flowus 息流 - TODO
+注意：图片上传可用指的是安装 [PicGo 图床<sup>1.9.0+</sup>](https://github.com/terwer/siyuan-plugin-picgo) 并正确配置的前提下。
+
+|      类型      |      平台       | 状态 | PC 客户端 | PC 图片上传 |         Docker         | Docker 图片上传 | 平台图片上传 | Docker 代理 | PC 端代理 | 备注                                           |
+| :------------: | :-------------: | :--: | :-------: | :---------: | :--------------------: | :-------------: | ------------ | ----------- | --------- | :--------------------------------------------- |
+|      通用      |      语雀       |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 不支持       | 内置代理    | 不需要    | [官网](https://yuque.com)                      |
+|      通用      |     Notion      |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 不支持       | 内置代理    | 不需要    | [官网](https://www.notion.so)                  |
+|      通用      |      Halo       |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://halo.run)                       |
+|      通用      |    印象笔记     | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://www.yinxiang.com)               |
+|      通用      |     Github      |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://github.com)                     |
+| 静态网站生成器 |      Hexo       |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://hexo.io/zh-cn/)                 |
+| 静态网站生成器 |      Hugo       |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gohugo.io/)                     |
+| 静态网站生成器 |     Jekyll      |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://jekyllrb.com/)                  |
+| 静态网站生成器 |    Vuepress     |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://vuepress.vuejs.org/)            |
+| 静态网站生成器 |    Vuepress2    |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://v2.vuepress.vuejs.org/)         |
+| 静态网站生成器 |    Vitepress    |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://vitepress.vuejs.org/)           |
+| 静态网站生成器 |     Antora      | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://antora.org/)                    |
+| 静态网站生成器 |     Docsify     | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://docsify.js.org/)                |
+|    Git 托管    |     Gitlab      |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gitlab.com/)                    |
+|    Git 托管    |   Gitlabhexo    |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gitlab.com/)                    |
+|    Git 托管    |   Gitlabhugo    |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gitlab.com/)                    |
+|    Git 托管    |  Gitlabjekyll   |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gitlab.com/)                    |
+|    Git 托管    | Gitlabvuepress  |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gitlab.com/)                    |
+|    Git 托管    | Gitlabvuepress2 |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gitlab.com/)                    |
+|    Git 托管    | Gitlabvitepress |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 不需要      | 不需要    | [官网](https://gitlab.com/)                    |
+|    Git 托管    |  Gitlabantora   | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://gitlab.com/)                    |
+|    Git 托管    |  Gitlabdocsify  | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://gitlab.com/)                    |
+|      博客      |   Metaweblog    |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 内置代理    | 不需要    | [官网](http://xmlrpc.scripting.com/metaWeblog) |
+|      博客      |     CnBlogs     |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://cnblogs.com)                    |
+|      博客      |     Typecho     |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://typecho.org/)                   |
+|      博客      |      Jvue       |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://github.com/terwer/jvue)         |
+|      博客      |    WordPress    |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://wordpress.org/)                 |
+|      博客      |  WordPress.com  |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 支持         | 自建代理    | 自建代理  | [官网](https://wordpress.com)                  |
+|    社交媒体    |      知乎       |  ✔   | 完全兼容  |      ✔      | PC 验证或者填写 Cookie |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://www.zhihu.com/)                 |
+|    社交媒体    |      CSDN       |  ✔   | 完全兼容  |      ✔      | PC 验证或者填写 Cookie |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://www.csdn.net/)                  |
+|    社交媒体    |   微信公众号    |  ✔   | 完全兼容  |      ✔      |      填写 Cookie       |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://mp.weixin.qq.com/)              |
+|    社交媒体    |      简书       |  ✔   | 完全兼容  |      ✔      | PC 验证或者填写 Cookie |        ✔        | 支持         | 内置代理    | 不需要    | [官网](https://www.jianshu.com/)               |
+|    社交媒体    |      掘金       |  ✔   | 完全兼容  |      ✔      | PC 验证或者填写 Cookie |        ✔        | 不支持       | 内置代理    | 不需要    | [官网](https://juejin.cn/)                     |
+|      社区      |     52破解      | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://www.52pojie.cn/)                |
+|      社区      |    Bilibili     | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://www.bilibili.com/)              |
+|      社区      |     小红书      | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://www.xiaohongshu.com/)           |
+|      社区      |      豆瓣       | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://www.douban.com/)                |
+|      其他      |      Xlog       | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://xlog.cn/)                       |
+|      其他      |     Mdnice      | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://mdnice.com/)                    |
+|      其他      |     Flowus      | TODO |   TODO    |    TODO     |          TODO          |      TODO       | TODO         | TODO        | TODO      | [官网](https://www.flowus.com/)                |
+|      其他      |   telegra.ph    |  ✔   | 完全兼容  |      ✔      |        完全兼容        |        ✔        | 不支持       | 自建代理    | 自建代理  | [官网](https://telegra.ph)                     |
 
 ## 核心特色
 
 - [x] **极速发布**：一次配置，一键发布
-- [x] **图床管理**：集成 PicGO 图床，支持 s3、minio、水印插件，需要在集市安装 [Picgo 插件](https://github.com/terwer/siyuan-plugin-picgo) ，**目前仅支持 PC 客户端**
-- [x] **支持扩展**：基于统一的博客 API 规范，内置 metaweblogAPI 、 WordPress 、Wechatsync 和 Github 支持，并提供了统一的适配器，理论上可支持扩展到任何平台
+- [x] **图床管理**：集成 PicGO 图床，支持
+  s3、minio、水印插件，需要在集市安装 [Picgo 插件](https://github.com/terwer/siyuan-plugin-picgo) ，**目前仅支持 PC 客户端**
+- [x] **支持扩展**：基于统一的博客 API 规范，内置 metaweblogAPI 、 WordPress 、Wechatsync 和 Github
+  支持，并提供了统一的适配器，理论上可支持扩展到任何平台
 - [x] **平台开关**：所有平台均支持启用禁用
 - [x] **动态新增**：支持自定义添加平台
 - [x] **AI 集成**：集成自由聊天和基于当前文档上下文的聊天
@@ -134,7 +88,8 @@
 - [x] **发布视图**：支持多种发布视图，简单模式、详细模式和源码模式
 - [x] **多种部署**：支持思源笔记插件<sup>强烈推荐</sup>、Chrome 浏览器扩展、自部署
 
-本插件承诺，**插件本身的基础功能永久免费** ，第三方平台提供的相关服务的可能需要自己注册账号或者购买服务。如果您想支持开发者，请在这里 [随意打赏](https://github.com/terwer/siyuan-plugin-publisher/blob/main/README_zh_CN.md#捐赠)。
+本插件承诺，**插件本身的基础功能永久免费**
+，第三方平台提供的相关服务的可能需要自己注册账号或者购买服务。如果您想支持开发者，请在这里 [随意打赏](https://github.com/terwer/siyuan-plugin-publisher/blob/main/README_zh_CN.md#捐赠)。
 
 > 🌹 温馨提示：这个插件是原 `思源笔记发布工具` 挂件的插件升级版，功能包含原有挂件提供的所有功能，同时提供了方便的菜单操作入口，并进行了一系列问题修复和体验优化。
 >
@@ -142,25 +97,25 @@
 
 ## 思源笔记兼容情况
 
-本插件完全兼容 `思源笔记PC客户端` ，由于个人精力有限，其他设备不再支持。
+本插件完全兼容 **思源笔记PC客户端、Docker版<sup>1.20.2+</sup>、移动客户端（安卓、iOS）<sup>1.20.2+</sup>** 。
 
 ## 支持的分类体系
 
 - [x] 分类
 
-  - [x] 多选分类
+    - [x] 多选分类
 
 - [x] 知识空间
 
-  - [x] 单选知识空间
-  - [x] 树形单选知识空间
+    - [x] 单选知识空间
+    - [x] 树形单选知识空间
 
 - [x] 标签
 
-  - [x] 多选标签
+    - [x] 多选标签
 
 - [x] 标签别名
-  - [x] 单选标签别名
+    - [x] 单选标签别名
 
 ## 平台适配计划
 
@@ -168,6 +123,44 @@
 ，开发者会考虑列入开发计划中。
 
 平台适配情况请查看请参考 [最新适配情况](https://terwergreen.feishu.cn/share/base/view/shrcnWT2IGIz1r94z9qvqUghDzd)
+
+## 版本预告
+
+### 1.21.5-preview - 截止到 2024 年 Q1
+
+- telegra.ph 支持上传图片
+    - 参考 https://www.npmjs.com/package/telegraph-uploader
+- 解决部分平台在某些场景下重复上传图片的问题
+- 修复微信公众号排版问题
+- #990 修复发布到简书时部分格式显示不正常的问题
+- #989 部分文章发布到 Notion 失败
+- 修复部分场景发布到微信公众号报错的问题
+- #948 #905 halo 平台相关问题修复
+- vuepress2 相关问题
+
+### 1.21.6-preview - 截止到 2024 年 Q1
+
+- 支持 B 站、小红书
+
+### 1.22.0-preview - 截止到 2024 年 Q2
+
+- 支持 Evernote、Antora（包括 GitHub 和 gitlab）
+
+### 1.23.0-preview - 截止到 2024 年 Q2
+
+- 支持 Docsify（包括 GitHub 和 gitlab）、Douban
+
+### 1.24.0-preview - 截止到 2024 年 Q2
+
+- 支持 flowus
+
+### 1.25.0-preview - 截止到 2024 年 Q2
+
+- 支持 Xlog、mdnice、zola
+
+### 1.26.0-preview - 截止到 2024 年 Q3
+
+- #956 和 OceanPress 联动
 
 ## FAQ
 
@@ -207,7 +200,9 @@
   注意：挂件版配置数据导入仅支持 `sy-p-cfg-v0.8.1.json` 。
 
 - Q6：我需要发布的平台，发布工具没有提供怎么办？
-- A6：参考：[平台适配计划](https://github.com/terwer/siyuan-plugin-publisher/blob/main/README_zh_CN.md#平台适配计划 "平台适配计划")
+-
+
+A6：参考：[平台适配计划](https://github.com/terwer/siyuan-plugin-publisher/blob/main/README_zh_CN.md#平台适配计划 "平台适配计划")
 
 ## 捐赠
 
@@ -224,6 +219,10 @@
 <div>
 <img src="https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/donate/alipay.jpg" alt="alipay" style="width:280px;height:375px;" />
 </div>
+
+### 爱发电
+
+https://afdian.net/a/terwer
 
 # 感谢
 
@@ -243,15 +242,27 @@
 
 - 感谢以下热心用户的支持，我会坚持一直持续更新维护下去！
 
-  - 2023-09-04 \*霞 捐赠到 [发布工具]
-  - 2023-08-31 \*成 捐赠到 [发布工具] 感谢提供笔记发布工具，催更
-  - 2023-08-31 \*? 捐赠到 [发布工具] 感谢提供思源笔记发布工具
-  - 2023-08-14 \*? 捐赠到 [发布工具]
-  - 2023-08-10 \*f 捐赠到 [发布工具] 为发布插件点赞
-  - 2023-08-10 \*2 捐赠到 [发布工具] 支持开发思源发布插件
-  - 2023-07-13 \*亮 捐赠到 [文档别名] 有没有可能把功能扩展到 H1？
-  - 2023-07-09 \*z 捐赠到 [在线分享] 在线分享插件好用，感谢
-  - 2023-06-14 \*俊 捐赠到 [文档漫游] 感谢文档漫游这个功能
-  - 2023-01-16 \*站 捐赠到 [导入工具] 终于可以导入 epub 了
-
-    如果您不想展示捐赠信息，可直接发邮件到 youweics@163.com 。
+    - 2024-03-31 *仁 捐赠到 [发布工具]
+    
+    - 2024-03-22 *铭 捐赠到 [发布工具]
+    - 2024-03-05 *ruler 捐赠到 [发布工具]
+    
+    - 2024-03-12 *? 捐赠到 [发布工具]
+    - 2024-03-04 *azar 捐赠到 [发布工具]
+    - 2024-02-28 *昭 捐赠到 [发布工具]
+    - 2024-01-15 自* 捐赠到 [发布工具]
+    - 2024-01-09 自* 捐赠到 [发布工具]
+    - 2023-11-12 S* 捐赠到 [发布工具]
+    - 2023-10-15 *线 捐赠到 [发布工具]
+    - 2023-09-04 \*霞 捐赠到 [发布工具]
+    - 2023-08-31 \*成 捐赠到 [发布工具] 感谢提供笔记发布工具，催更
+    - 2023-08-31 \*? 捐赠到 [发布工具] 感谢提供思源笔记发布工具
+    - 2023-08-14 \*? 捐赠到 [发布工具]
+    - 2023-08-10 \*f 捐赠到 [发布工具] 为发布插件点赞
+    - 2023-08-10 \*2 捐赠到 [发布工具] 支持开发思源发布插件
+    - 2023-07-13 \*亮 捐赠到 [文档别名] 有没有可能把功能扩展到 H1？
+    - 2023-07-09 \*z 捐赠到 [在线分享] 在线分享插件好用，感谢
+    - 2023-06-14 \*俊 捐赠到 [文档漫游] 感谢文档漫游这个功能
+    - 2023-01-16 \*站 捐赠到 [导入工具] 终于可以导入 epub 了
+    
+      如果您不想展示捐赠信息，可直接发邮件到 youweics@163.com 。

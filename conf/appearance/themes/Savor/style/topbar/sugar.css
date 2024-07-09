@@ -173,13 +173,11 @@
 	--S-dockleft-item-active-background: #f4f1eb;
 	--S-dock-item-active-color: #ff533f;
 	--S-dock-item-hover-background: #fff;
-	--S-dock--item--activefocus: #e16259;
-	
-	--S-dock-item-width: 34px;
+
 	/* 侧栏面板 */
 	--S-fn__flex-column-background: #f4f1eb;
 	--S-fn__flex-shrink-background: #f4f1eb;
-	--S-block-logo-color: rgb(247, 246, 243);
+	--S-block-logo-color: rgb(55, 53, 47);
 	--S-block-logo-background-color: #2b2f3e;
 	--S-block-icon-svg-color: rgba(161, 160, 156);
 	--S-block-icon-hover: rgba(55, 53, 47, 0.08);

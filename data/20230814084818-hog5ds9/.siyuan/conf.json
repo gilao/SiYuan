@@ -1,11 +1,11 @@
 {
   "name": "1-工作任务",
   "sort": 0,
-  "icon": "2600",
+  "icon": "1fa90",
   "closed": false,
   "refCreateSavePath": "",
   "docCreateSavePath": "",
   "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
   "dailyNoteTemplatePath": "",
-  "sortMode": 15
+  "sortMode": 1
 }
